@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { useSearchParams } from 'react-router-dom';
 import clsx from 'clsx';
 import DynasticTree from '../viz/DynasticTree';
 import { people, parentChildRels, marriageRels } from '../data/index';
@@ -29,9 +30,11 @@ const HOUSE_TABS: HouseTab[] = [
 
 export default function DynasticTreePage() {
   usePageTitle('Dynastic Tree');
+  const [searchParams] = useSearchParams();
+  const focusParam = searchParams.get('focus');
   const [activeHouseId, setActiveHouseId] = useState<string>('norman');
-  const [jumpKey,       setJumpKey]       = useState(0);
-  const [jumpPersonId,  setJumpPersonId]  = useState<string>('william-i');
+  const [jumpKey,       setJumpKey]       = useState(focusParam ? 1 : 0);
+  const [jumpPersonId,  setJumpPersonId]  = useState<string>(focusParam ?? 'william-i');
 
   function handleHouseClick(tab: HouseTab) {
     setActiveHouseId(tab.id);

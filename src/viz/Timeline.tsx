@@ -8,22 +8,22 @@ interface TimelineProps {
   onSelect: (id: string) => void;
 }
 
-const SVG_W = 2200;
+const SVG_W = 3200;
 const SVG_H = 340;
 const PAD_X = 80;
 const AXIS_Y = 260;
 const DOT_R = 8;
 const STEM_BASE = 60;
 const LANE_H = 52;
-const YEAR_MIN = 1060;
-const YEAR_MAX = 1700;
+const YEAR_MIN = 849;
+const YEAR_MAX = 1710;
 const OVERLAP_PX = 68;
 
 const xScale = d3.scaleLinear()
   .domain([YEAR_MIN, YEAR_MAX])
   .range([PAD_X, SVG_W - PAD_X]);
 
-const AXIS_TICKS = d3.range(1060, 1705, 10);
+const AXIS_TICKS = d3.range(849, 1715, 10);
 
 const TYPE_COLOR: Record<EventType, string> = {
   battle:      '#c01c3c',
@@ -99,7 +99,7 @@ export default function Timeline({ events, selectedId, onSelect }: TimelineProps
         />
 
         {/* Century bands */}
-        {[1100, 1200, 1300, 1400, 1500, 1600].map(c => (
+        {[900, 1000, 1100, 1200, 1300, 1400, 1500, 1600].map(c => (
           <rect
             key={c}
             x={xScale(c)}

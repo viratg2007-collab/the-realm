@@ -267,6 +267,56 @@
     "source_ids": [{ "source_id": "BARLOW-WILLIAM-I" }, { "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }]
   },
   {
+    "id": "the-anarchy-1135",
+    "title": "The Anarchy begins",
+    "type": "political",
+    "themes": ["conflict", "monarchy"],
+    "date": { "value": { "year": 1135, "month": 12, "notes": "Stephen crowned at Westminster, 22 December 1135, within three weeks of Henry I's death." }, "source_ids": [{ "source_id": "DAVIS-KING-STEPHEN" }, { "source_id": "FRYDE-HANDBOOK-DATES" }] },
+    "people_involved": [
+      { "person_id": "stephen", "role": "Seized the throne; crowned King of England", "source_ids": [{ "source_id": "DAVIS-KING-STEPHEN" }] },
+      { "person_id": "empress-matilda", "role": "Designated heir of Henry I; rival claimant", "source_ids": [{ "source_id": "HUSCROFT-RULING-ENGLAND" }] }
+    ],
+    "summary": { "value": "On the death of Henry I on 1 December 1135, his nephew Stephen of Blois raced to England, secured the treasury at Winchester, and was crowned within three weeks — bypassing Henry's designated heir, Empress Matilda. The resulting civil war, known as The Anarchy, plunged England into nearly twenty years of baronial conflict. Neither side achieved decisive victory. The crisis was finally resolved by the Treaty of Wallingford in 1153, which recognised Stephen as king for life and appointed Matilda's son Henry as his heir — inaugurating the Plantagenet dynasty.", "source_ids": [{ "source_id": "DAVIS-KING-STEPHEN" }, { "source_id": "HUSCROFT-RULING-ENGLAND" }] },
+    "source_ids": [{ "source_id": "DAVIS-KING-STEPHEN" }, { "source_id": "HUSCROFT-RULING-ENGLAND" }, { "source_id": "FRYDE-HANDBOOK-DATES" }]
+  },
+  {
+    "id": "murder-thomas-becket-1170",
+    "title": "Murder of Thomas Becket",
+    "type": "political",
+    "themes": ["religion", "monarchy", "conflict"],
+    "date": { "value": { "year": 1170, "month": 12, "day": 29, "notes": "Killed in Canterbury Cathedral, 29 December 1170." }, "source_ids": [{ "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }, { "source_id": "HUSCROFT-RULING-ENGLAND" }] },
+    "place_id": "canterbury",
+    "people_involved": [
+      { "person_id": "henry-ii", "role": "King of England; whose words were interpreted as ordering the murder", "source_ids": [{ "source_id": "HUSCROFT-RULING-ENGLAND" }] }
+    ],
+    "summary": { "value": "Thomas Becket, Archbishop of Canterbury, was murdered in his own cathedral on 29 December 1170 by four knights who took literally Henry II's furious outburst 'Will no one rid me of this turbulent priest?' The killing provoked outrage across Christendom. Pope Alexander III excommunicated the knights and placed England under interdict. Henry II performed public penance at Becket's tomb in 1174 and walked barefoot through the streets of Canterbury to be scourged by the monks. Becket was canonised in 1173. The episode severely damaged Henry's reputation and energised his enemies, contributing to the great revolt of 1173–74 in which his own sons rebelled against him.", "source_ids": [{ "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }, { "source_id": "HUSCROFT-RULING-ENGLAND" }] },
+    "source_ids": [{ "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }, { "source_id": "HUSCROFT-RULING-ENGLAND" }]
+  },
+  {
+    "id": "de-montfort-parliament-1265",
+    "title": "De Montfort's Parliament",
+    "type": "legislation",
+    "themes": ["law", "monarchy"],
+    "date": { "value": { "year": 1265, "month": 1, "notes": "Parliament convened January 1265; the first to include elected knights and burgesses alongside barons and clergy." }, "source_ids": [{ "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }, { "source_id": "HUSCROFT-RULING-ENGLAND" }] },
+    "people_involved": [
+      { "person_id": "henry-iii", "role": "King of England; nominally presiding", "source_ids": [{ "source_id": "HUSCROFT-RULING-ENGLAND" }] }
+    ],
+    "summary": { "value": "In January 1265, Simon de Montfort, Earl of Leicester, convened a parliament in the name of the captive Henry III that for the first time summoned not only magnates and prelates but also two elected knights from each shire and two elected burgesses from each major town. Though Montfort was killed at the Battle of Evesham in August 1265 and his movement crushed, his parliament established a precedent that representation of the commons was part of the political nation. This model was consolidated by Edward I and is conventionally regarded as the origin of the English Parliament.", "source_ids": [{ "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }, { "source_id": "HUSCROFT-RULING-ENGLAND" }] },
+    "source_ids": [{ "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }, { "source_id": "HUSCROFT-RULING-ENGLAND" }]
+  },
+  {
+    "id": "statute-of-wales-1284",
+    "title": "Edward I conquers Wales",
+    "type": "political",
+    "themes": ["conflict", "monarchy"],
+    "date": { "value": { "year": 1284, "notes": "Statute of Rhuddlan (Statute of Wales) issued March 1284 after Edward I's second Welsh war." }, "source_ids": [{ "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }, { "source_id": "HUSCROFT-RULING-ENGLAND" }] },
+    "people_involved": [
+      { "person_id": "edward-i", "role": "King of England; conqueror of Wales", "source_ids": [{ "source_id": "HUSCROFT-RULING-ENGLAND" }] }
+    ],
+    "summary": { "value": "Following the death of Llywelyn ap Gruffudd in battle in 1282 and the suppression of a final Welsh revolt in 1283, Edward I issued the Statute of Wales (Statute of Rhuddlan) in March 1284, incorporating Wales into the English legal system and dividing it into English-style shires. Edward's construction of a ring of massive castles — Harlech, Beaumaris, Caernarfon, and Conwy — permanently secured English dominion. In 1301 Edward presented his infant son Edward (born at Caernarfon) to the Welsh as their prince, establishing the tradition of the heir apparent bearing the title Prince of Wales.", "source_ids": [{ "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }, { "source_id": "HUSCROFT-RULING-ENGLAND" }] },
+    "source_ids": [{ "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }, { "source_id": "HUSCROFT-RULING-ENGLAND" }]
+  },
+  {
     "id": "magna-carta-1215",
     "title": "Magna Carta",
     "type": "legislation",

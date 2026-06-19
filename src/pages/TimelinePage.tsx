@@ -272,7 +272,7 @@ export default function TimelinePage() {
             <h1 className="font-serif text-sm font-bold text-text-base tracking-wide">
               Timeline
               <span className="text-gold mx-2">·</span>
-              <span className="font-body font-normal text-text-muted">878 – 1688</span>
+              <span className="font-body font-normal text-text-muted">871 – 1688</span>
             </h1>
             <span className="font-body text-xs text-text-muted">
               {visibleEvents.length} event{visibleEvents.length !== 1 ? 's' : ''}

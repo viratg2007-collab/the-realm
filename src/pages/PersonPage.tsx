@@ -11,6 +11,7 @@ import {
 import type { SourceRef } from '../types';
 import HouseBadge from '../components/HouseBadge';
 import CitationList from '../components/CitationList';
+import NotFoundPage from './NotFoundPage';
 import { formatDate } from '../validation/schema';
 
 function collectAllSourceIds(refs: SourceRef[]): string[] {
@@ -34,11 +35,7 @@ export default function PersonPage() {
   usePageTitle(person?.name);
 
   if (!person) {
-    return (
-      <div className="bg-void min-h-[calc(100vh-3.5rem)] flex items-center justify-center">
-        <p className="font-body text-text-muted text-lg">Person not found.</p>
-      </div>
-    );
+    return <NotFoundPage />;
   }
 
   const parents = parentsOf(person.id);
@@ -60,6 +57,10 @@ export default function PersonPage() {
     if (person.reign.end_reason) addRefs(person.reign.end_reason.source_ids);
   }
 
+  const bornYear = person.born?.value.year;
+  const diedYear = person.died?.value.year;
+  const ageAtDeath = (bornYear && diedYear) ? diedYear - bornYear : null;
+
   const sexIcon = person.sex === 'M' ? '♂' : person.sex === 'F' ? '♀' : '';
 
   return (
@@ -70,13 +71,21 @@ export default function PersonPage() {
         transition={{ duration: 0.4, ease: 'easeOut' }}
         className="max-w-3xl mx-auto"
       >
-        {/* Back */}
-        <Link
-          to="/people"
-          className="inline-flex items-center gap-1 font-sans text-xs text-text-muted hover:text-gold transition-colors mb-6"
-        >
-          ← All People
-        </Link>
+        {/* Back + tree link */}
+        <div className="flex items-center justify-between mb-6">
+          <Link
+            to="/people"
+            className="inline-flex items-center gap-1 font-sans text-xs text-text-muted hover:text-gold transition-colors"
+          >
+            ← All People
+          </Link>
+          <Link
+            to={`/tree?focus=${person.id}`}
+            className="inline-flex items-center gap-1 font-sans text-xs text-text-muted hover:text-gold transition-colors"
+          >
+            View in Tree →
+          </Link>
+        </div>
 
         {/* Header */}
         <div className="mb-8 border-b border-gold/15 pb-6">
@@ -131,6 +140,21 @@ export default function PersonPage() {
               </span>
               <CitationList refs={person.died.source_ids} />
             </div>
+          )}
+
+          {person.cause_of_death && (
+            <div className="mb-1">
+              <span className="text-sm font-sans text-text-muted">Cause of death: </span>
+              <span className="font-body text-sm text-text-base">{person.cause_of_death.value}</span>
+              <CitationList refs={person.cause_of_death.source_ids} />
+            </div>
+          )}
+
+          {ageAtDeath !== null && (
+            <p className="mb-1">
+              <span className="text-sm font-sans text-text-muted">Age at death: </span>
+              <span className="font-body text-sm text-text-base">{ageAtDeath}</span>
+            </p>
           )}
         </div>
 

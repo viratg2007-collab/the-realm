@@ -568,5 +568,261 @@
       }
     ],
     "source_ids": ["HICKS-WARS-ROSES", "POLLARD-WARS-ROSES", "FRYDE-HANDBOOK-DATES", "GIVEN-WILSON-HENRY-IV", "MCKISACK-14C"]
+  },
+  {
+    "id": "succession-1483",
+    "title": "Richard III and the Princes in the Tower, 1483",
+    "year": {
+      "value": { "year": 1483, "month": 4, "day": 9 },
+      "source_ids": [{ "source_id": "FRYDE-HANDBOOK-DATES" }]
+    },
+    "throne": "The English Crown",
+    "description": {
+      "value": "When Edward IV died unexpectedly on 9 April 1483, he left two young sons — Edward, Prince of Wales (aged twelve) and Richard, Duke of York (aged nine) — and his brother Richard, Duke of Gloucester, as Lord Protector. Within ten weeks Gloucester had declared the princes illegitimate, had them confined in the Tower, and was himself crowned Richard III. The princes were never seen in public again. The crisis turned on two questions: whether Edward IV's marriage to Elizabeth Woodville was valid, and what became of the boys who stood between their uncle and the throne.",
+      "source_ids": [
+        { "source_id": "ROSS-RICHARD-III" },
+        { "source_id": "HORROX-RICHARD-III" },
+        { "source_id": "FRYDE-HANDBOOK-DATES" }
+      ]
+    },
+    "assumptions": [
+      {
+        "id": "woodville-marriage-valid",
+        "label": "Edward IV's marriage to Elizabeth Woodville was valid",
+        "description": "Edward IV's marriage to Elizabeth Woodville in 1464 was a lawful, canonically valid marriage, making their children legitimate heirs to the throne.",
+        "default_value": true
+      },
+      {
+        "id": "titulus-regius-binding",
+        "label": "Titulus Regius was a legitimate parliamentary act",
+        "description": "The 1483 parliamentary petition Titulus Regius, declaring Edward IV's children illegitimate on the grounds of an alleged pre-contract marriage to Eleanor Butler, was a constitutionally valid act that Parliament could lawfully enact.",
+        "default_value": false
+      },
+      {
+        "id": "protector-cannot-seize",
+        "label": "A Lord Protector cannot convert his regency into kingship",
+        "description": "The office of Lord Protector was a temporary guardianship over the young king's person and realm; it carried no right to depose the king it was appointed to protect.",
+        "default_value": true
+      },
+      {
+        "id": "princes-murdered",
+        "label": "The princes were murdered on Richard III's orders",
+        "description": "Edward V and his brother Richard, Duke of York, were killed in the Tower of London in the summer of 1483, on the orders of or with the knowledge of Richard III.",
+        "default_value": false
+      }
+    ],
+    "claimants": [
+      {
+        "person_id": "edward-v",
+        "claim_basis": {
+          "description": {
+            "value": "Edward V was the elder son and designated heir of Edward IV, proclaimed king immediately on his father's death on 9 April 1483. He had the unambiguous dynastic right as the eldest legitimate son of a reigning king. He was escorted to London by his uncle Gloucester and lodged in the Tower — then a royal residence, not a prison — where he awaited his coronation, planned for 22 June. He was never crowned.",
+            "source_ids": [
+              { "source_id": "ROSS-RICHARD-III" },
+              { "source_id": "HORROX-RICHARD-III" }
+            ]
+          },
+          "line_of_descent": "Eldest son of Edward IV and Elizabeth Woodville; grandson of Richard, Duke of York. Direct male-line descent from Edward III through John of Gaunt and then through the Yorkist line.",
+          "contemporary_argument": {
+            "value": "The council, the nobility, and the city of London initially accepted Edward V as king without question. Letters were sent in his name, coins prepared, and his coronation scheduled. Only after Gloucester had arrested and executed the Woodville protectors (June 1483) and the French-sourced story of the Eleanor Butler pre-contract was circulated did political opinion begin to shift.",
+            "source_ids": [
+              { "source_id": "ROSS-RICHARD-III" },
+              { "source_id": "HORROX-RICHARD-III" }
+            ]
+          }
+        },
+        "succeeded": false,
+        "assumption_effects": {
+          "woodville-marriage-valid": "strengthens",
+          "titulus-regius-binding": "weakens",
+          "protector-cannot-seize": "strengthens",
+          "princes-murdered": "weakens"
+        }
+      },
+      {
+        "person_id": "richard-iii",
+        "claim_basis": {
+          "description": {
+            "value": "Richard, Duke of Gloucester, was the youngest surviving brother of Edward IV and Lord Protector for the young Edward V. He built his claim on a petition from Parliament (Titulus Regius, June 1483) that declared Edward IV's marriage to Elizabeth Woodville invalid on the grounds of an alleged pre-contract with Eleanor Butler — thereby bastardising both the princes and their sister. Parliament invited Richard to assume the crown, and he was crowned on 6 July 1483. He also argued that Edward IV's other brother George, Duke of Clarence, had been attainted, disqualifying Clarence's children.",
+            "source_ids": [
+              { "source_id": "ROSS-RICHARD-III" },
+              { "source_id": "HORROX-RICHARD-III" }
+            ]
+          },
+          "line_of_descent": "Third son of Richard, Duke of York; younger brother of Edward IV and George, Duke of Clarence. Legitimate male-line Yorkist descent from Edward III.",
+          "contemporary_argument": {
+            "value": "Richard's party presented Titulus Regius as a parliamentary finding of fact, not a political manipulation — and argued that a king of illegitimate children would have been a constitutional disaster. They also appealed to Richard's proven loyalty and military competence against the chaos of a Woodville-dominated minority. Richard had Hastings, Rivers, Grey, and Vaughan executed without trial to neutralise opposition; the speed of events prevented coordinated resistance.",
+            "source_ids": [
+              { "source_id": "HORROX-RICHARD-III" },
+              { "source_id": "ROSS-RICHARD-III" }
+            ]
+          }
+        },
+        "succeeded": true,
+        "assumption_effects": {
+          "woodville-marriage-valid": "weakens",
+          "titulus-regius-binding": "strengthens",
+          "protector-cannot-seize": "weakens",
+          "princes-murdered": "weakens"
+        }
+      }
+    ],
+    "contested_questions": [
+      {
+        "question": "Did Edward IV have a pre-contract marriage with Eleanor Butler that invalidated his marriage to Elizabeth Woodville?",
+        "positions": [
+          {
+            "position": "The story derives from Robert Stillington, Bishop of Bath and Wells, who claimed to have solemnised the pre-contract. It cannot be entirely dismissed — Edward IV was known to make promises of marriage to women he desired, and the story may contain a kernel of truth. Titulus Regius was a parliamentary enactment, not a mere rumour.",
+            "source_ids": [{ "source_id": "ROSS-RICHARD-III" }]
+          },
+          {
+            "position": "The story is almost certainly a fabrication designed to provide legal cover for an usurpation that had already been decided on military and political grounds. Eleanor Butler had died in 1468; she could not rebut the claim. The evidence consists entirely of Stillington's word, and Stillington had reason to gratify Gloucester. Henry VII had Titulus Regius repealed and all copies destroyed — an unusual step if the document had any genuine merit.",
+            "source_ids": [{ "source_id": "HORROX-RICHARD-III" }]
+          }
+        ]
+      },
+      {
+        "question": "What happened to the princes in the Tower, and was Richard III responsible?",
+        "positions": [
+          {
+            "position": "The most widely accepted view among historians is that the princes were killed in the summer of 1483 on Richard III's orders or with his knowledge. Their disappearance coincided with Richard's need to eliminate the rival claim, and no credible evidence survives that they were alive after 1483.",
+            "source_ids": [{ "source_id": "ROSS-RICHARD-III" }, { "source_id": "HORROX-RICHARD-III" }]
+          },
+          {
+            "position": "No contemporary source directly states that Richard III murdered the princes, and no body was ever produced. Alternative candidates for the killing include the Duke of Buckingham (who briefly controlled the Tower in 1483) and Henry VII himself (who had every motive to eliminate the boys after Bosworth). The mystery remains genuinely unsolved.",
+            "source_ids": [{ "source_id": "ROSS-RICHARD-III" }]
+          }
+        ]
+      }
+    ],
+    "source_ids": ["ROSS-RICHARD-III", "HORROX-RICHARD-III", "FRYDE-HANDBOOK-DATES", "OXFORD-COMPANION-BRITISH-HISTORY"]
+  },
+  {
+    "id": "succession-1553",
+    "title": "Lady Jane Grey versus Mary I, 1553",
+    "year": {
+      "value": { "year": 1553, "month": 7, "day": 6 },
+      "source_ids": [{ "source_id": "FRYDE-HANDBOOK-DATES" }]
+    },
+    "throne": "The English Crown",
+    "description": {
+      "value": "When the fifteen-year-old Edward VI died on 6 July 1553 of tuberculosis, he left a contested succession. His 'Device for the Succession' — drafted in his own hand and revised weeks before his death — set aside his half-sisters Mary and Elizabeth (both declared illegitimate under Henry VIII) and named Lady Jane Grey, granddaughter of Henry VIII's sister Mary, as his heir. Jane was proclaimed queen on 10 July 1553. Within nine days the Council had abandoned her for Mary Tudor, who entered London on 3 August as Mary I. Jane's reign of nine days is the shortest in English history.",
+      "source_ids": [
+        { "source_id": "LOACH-EDWARD-VI" },
+        { "source_id": "LOADES-MARY-TUDOR" },
+        { "source_id": "FRYDE-HANDBOOK-DATES" }
+      ]
+    },
+    "assumptions": [
+      {
+        "id": "device-overrides-statute",
+        "label": "Edward VI's Device could override the 1544 Succession Act",
+        "description": "A reigning monarch, even a minor, can override a statutory succession order through a royal device or letters patent, without a further Act of Parliament.",
+        "default_value": false
+      },
+      {
+        "id": "mary-elizabeth-legitimate",
+        "label": "Mary and Elizabeth were legitimate heirs",
+        "description": "Despite being declared illegitimate under Henry VIII, both Mary and Elizabeth were restored to the succession by the Third Succession Act (1544) and by Henry VIII's will — making them legal heirs ahead of any collateral claimant.",
+        "default_value": true
+      },
+      {
+        "id": "council-proclamation-valid",
+        "label": "The Privy Council's proclamation of Jane Grey created a valid title",
+        "description": "A unanimous proclamation by the Privy Council, backed by letters patent signed by the senior nobility, bishops, and judges, constitutes a sufficient legal basis for kingship even without a parliamentary statute.",
+        "default_value": false
+      },
+      {
+        "id": "blood-right-trumps-will",
+        "label": "Proximity of blood right overrides a king's will",
+        "description": "Mary Tudor's direct royal descent as Henry VIII's daughter gave her an inherent right to the succession that no royal will, device, or council proclamation could lawfully extinguish.",
+        "default_value": true
+      }
+    ],
+    "claimants": [
+      {
+        "person_id": "lady-jane-grey",
+        "claim_basis": {
+          "description": {
+            "value": "Jane Grey was the great-granddaughter of Henry VII through his daughter Mary, Duchess of Suffolk. She was named heir in Edward VI's Device for the Succession, which he drafted and revised in his own hand and which was backed by letters patent signed by the entire Privy Council, the Archbishop of Canterbury, and the senior judiciary (under some duress). She was sixteen years old, highly educated, and a committed Protestant. She was proclaimed queen on 10 July 1553 and took up residence in the Tower. Her support collapsed within days as Mary raised her standard in East Anglia and the country sided overwhelmingly with the Tudor blood line.",
+            "source_ids": [
+              { "source_id": "LOACH-EDWARD-VI" },
+              { "source_id": "LOADES-MARY-TUDOR" }
+            ]
+          },
+          "line_of_descent": "Daughter of Henry Grey, Duke of Suffolk, and Frances Brandon; granddaughter of Mary Tudor, Queen of France (Henry VIII's sister); great-granddaughter of Henry VII and Elizabeth of York.",
+          "contemporary_argument": {
+            "value": "Jane's supporters argued that Edward VI's Device was a valid exercise of royal prerogative, that his letters patent had the force of law, and that Mary and Elizabeth had been formally declared bastards and were therefore constitutionally disqualified. The Protestant establishment feared a Catholic succession and backed Jane as the Protestant alternative.",
+            "source_ids": [
+              { "source_id": "LOACH-EDWARD-VI" },
+              { "source_id": "LOADES-MARY-TUDOR" }
+            ]
+          }
+        },
+        "succeeded": false,
+        "assumption_effects": {
+          "device-overrides-statute": "strengthens",
+          "mary-elizabeth-legitimate": "weakens",
+          "council-proclamation-valid": "strengthens",
+          "blood-right-trumps-will": "weakens"
+        }
+      },
+      {
+        "person_id": "mary-i",
+        "claim_basis": {
+          "description": {
+            "value": "Mary was the elder daughter of Henry VIII by his first wife, Catherine of Aragon. She had been declared illegitimate when Henry annulled the Aragon marriage in 1533, but was restored to the succession — though not to legitimacy — by the Third Succession Act of 1544 and by Henry's will. She was thirty-seven in 1553, a devout Catholic, and had lived through decades of political humiliation. On hearing of Edward's death she fled to Norfolk, where Catholic gentry rallied to her. The country, whatever its religious divisions, refused to support the displacement of Henry VIII's daughter by a collateral claimant, and the Council switched sides within nine days.",
+            "source_ids": [
+              { "source_id": "LOADES-MARY-TUDOR" },
+              { "source_id": "FRYDE-HANDBOOK-DATES" }
+            ]
+          },
+          "line_of_descent": "Elder daughter of Henry VIII and Catherine of Aragon; granddaughter of Ferdinand II of Aragon and Isabella I of Castile (through Catherine) and of Henry VII and Elizabeth of York (through Henry VIII).",
+          "contemporary_argument": {
+            "value": "Mary's proclamations stressed that she was the rightful heir under her father's will and the 1544 Act, that Jane's title rested on nothing more than the letters patent of a dying minor king extracted under pressure by the Duke of Northumberland, and that the people of England had always recognised Henry VIII's daughter as their queen. The popular response — even in Protestant areas — vindicated this argument decisively.",
+            "source_ids": [
+              { "source_id": "LOADES-MARY-TUDOR" },
+              { "source_id": "LOACH-EDWARD-VI" }
+            ]
+          }
+        },
+        "succeeded": true,
+        "assumption_effects": {
+          "device-overrides-statute": "weakens",
+          "mary-elizabeth-legitimate": "strengthens",
+          "council-proclamation-valid": "weakens",
+          "blood-right-trumps-will": "strengthens"
+        }
+      }
+    ],
+    "contested_questions": [
+      {
+        "question": "Was Edward VI's Device for the Succession legally binding, or was it void as contrary to the 1544 Succession Act?",
+        "positions": [
+          {
+            "position": "The letters patent were signed by the judges and the entire council. Chief Justice Edward Montague initially resisted but eventually signed. Some contemporaries argued that royal prerogative, exercised by a king in possession of his senses, could override a statutory succession — particularly where the statute itself had been enacted under a previous royal prerogative.",
+            "source_ids": [{ "source_id": "LOACH-EDWARD-VI" }]
+          },
+          {
+            "position": "The near-universal legal opinion at the time was that the Device was void: only an Act of Parliament could override a previous Act of Parliament, and Edward had not summoned parliament. The judges who signed did so under duress from Northumberland, and several later pleaded compulsion. The rapid collapse of Jane's support reflected the country's intuitive sense that a dying boy-king could not override statute law.",
+            "source_ids": [{ "source_id": "LOADES-MARY-TUDOR" }, { "source_id": "LOACH-EDWARD-VI" }]
+          }
+        ]
+      },
+      {
+        "question": "Was the Northumberland conspiracy the decisive factor, or would Jane Grey's claim have failed regardless?",
+        "positions": [
+          {
+            "position": "The Duke of Northumberland's dominance over the dying king and the council was the engine of Jane's proclamation, and his personal unpopularity fatally compromised her cause. A less self-interested promoter might have held the council together long enough for military suppression of Mary's rising.",
+            "source_ids": [{ "source_id": "LOACH-EDWARD-VI" }]
+          },
+          {
+            "position": "The depth and speed of popular support for Mary — cutting across religious lines and regional interests — suggests that Jane's claim was doomed regardless of Northumberland. No amount of political management could have sustained a collateral claimant against the daughter of Henry VIII once the people had decided the matter.",
+            "source_ids": [{ "source_id": "LOADES-MARY-TUDOR" }]
+          }
+        ]
+      }
+    ],
+    "source_ids": ["LOACH-EDWARD-VI", "LOADES-MARY-TUDOR", "FRYDE-HANDBOOK-DATES", "OXFORD-COMPANION-BRITISH-HISTORY"]
   }
 ]
