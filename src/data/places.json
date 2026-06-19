@@ -610,5 +610,18 @@
       "source_ids": [{ "source_id": "KENYON-STUARTS" }, { "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }]
     },
     "source_ids": [{ "source_id": "KENYON-STUARTS" }]
+  },
+  {
+    "id": "canterbury",
+    "name": "Canterbury Cathedral",
+    "modern_name": "Canterbury, Kent, England",
+    "country": "England",
+    "type": "religious_site",
+    "coordinates": { "lat": 51.2798, "lng": 1.0831 },
+    "summary": {
+      "value": "The seat of the Archbishop of Canterbury and the mother church of the Church of England. Canterbury was the site of the murder of Archbishop Thomas Becket on 29 December 1170, after which it became one of the most important pilgrimage destinations in medieval Europe. Becket was canonised in 1173 and his shrine attracted pilgrims from across Christendom until its destruction by Henry VIII in 1538. Henry II performed public penance at the shrine in 1174. Chaucer's Canterbury Tales (c.1390s) immortalised the pilgrimage route from London.",
+      "source_ids": [{ "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }, { "source_id": "HUSCROFT-RULING-ENGLAND" }]
+    },
+    "source_ids": [{ "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }]
   }
 ]

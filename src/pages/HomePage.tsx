@@ -23,7 +23,7 @@ const cards: NavCard[] = [
     title: 'People',
     to: '/people',
     category: 'Biography',
-    description: '126 monarchs, nobles, and claimants. Every figure fully sourced, with birth, death, house, and the events that defined their reign or downfall.',
+    description: '169 monarchs, nobles, and claimants. Every figure fully sourced, with birth, death, house, and the events that defined their reign or downfall.',
     accent: '#d4a843',
   },
   {
@@ -263,8 +263,8 @@ export default function HomePage() {
         >
           {[
             '169 figures',
-            '32 events',
-            '47 places',
+            '40 events',
+            '48 places',
             '8 royal houses',
             '849 — 1714',
           ].map((stat, i) => (

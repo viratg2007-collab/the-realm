@@ -295,5 +295,9 @@
 {"id": "DAVIS-KING-STEPHEN", "type": "book", "title": "King Stephen, 1135–1154", "author": "Davis, R. H. C.", "publisher": "Longman", "place_of_publication": "London", "year": 1967},
 {"id": "SAUL-RICHARD-II", "type": "book", "title": "Richard II", "author": "Saul, Nigel", "publisher": "Yale University Press", "place_of_publication": "New Haven", "year": 1997},
 {"id": "GIVEN-WILSON-HENRY-IV", "type": "book", "title": "Henry IV", "author": "Given-Wilson, Chris", "publisher": "Yale University Press", "place_of_publication": "New Haven", "year": 2016},
-{"id": "DOUGLAS-WILLIAM-I", "type": "book", "title": "William the Conqueror: The Norman Impact upon England", "author": "Douglas, David C.", "publisher": "Methuen", "place_of_publication": "London", "year": 1964}
+{"id": "DOUGLAS-WILLIAM-I", "type": "book", "title": "William the Conqueror: The Norman Impact upon England", "author": "Douglas, David C.", "publisher": "Methuen", "place_of_publication": "London", "year": 1964},
+{"id": "ROSS-RICHARD-III", "type": "book", "title": "Richard III", "author": "Ross, Charles", "publisher": "Methuen", "place_of_publication": "London", "year": 1981},
+{"id": "HORROX-RICHARD-III", "type": "book", "title": "Richard III: A Study of Service", "author": "Horrox, Rosemary", "publisher": "Cambridge University Press", "place_of_publication": "Cambridge", "year": 1989},
+{"id": "LOACH-EDWARD-VI", "type": "book", "title": "Edward VI", "author": "Loach, Jennifer", "publisher": "Yale University Press", "place_of_publication": "New Haven", "year": 1999},
+{"id": "LOADES-MARY-TUDOR", "type": "book", "title": "Mary Tudor: A Life", "author": "Loades, David", "publisher": "Basil Blackwell", "place_of_publication": "Oxford", "year": 1989}
 ]
