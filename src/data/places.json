@@ -688,5 +688,115 @@
       "source_ids": [{ "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }, { "source_id": "HUSCROFT-RULING-ENGLAND" }]
     },
     "source_ids": [{ "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }]
+  },
+  {
+    "id": "glastonbury-abbey",
+    "name": "Glastonbury Abbey",
+    "modern_name": "Glastonbury, Somerset, England",
+    "country": "England",
+    "type": "abbey",
+    "coordinates": { "lat": 51.1480, "lng": -2.7155 },
+    "summary": { "value": "One of the oldest and wealthiest abbeys in England, Glastonbury claimed to be the burial place of King Arthur and Queen Guinevere — a claim first propagated under Henry II to quell Welsh hopes of Arthur's return. The abbey attracted royal patronage from Alfred the Great onward and was the richest monastery in England at the time of its dissolution by Henry VIII in 1539. Its Arthurian associations made it a powerful instrument of Plantagenet legitimacy.", "source_ids": [{ "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }] },
+    "source_ids": [{ "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }]
+  },
+  {
+    "id": "winchester-cathedral",
+    "name": "Winchester Cathedral",
+    "modern_name": "Winchester, Hampshire, England",
+    "country": "England",
+    "type": "cathedral",
+    "coordinates": { "lat": 51.0599, "lng": -1.3134 },
+    "summary": { "value": "The burial church of the Anglo-Saxon kings of Wessex and England. Alfred the Great was buried here (in the New Minster, later Hyde Abbey), as were his son Edward the Elder, and later Cnut and his son Harthacnut. Winchester was the effective capital of England through the Anglo-Saxon and early Norman periods, and the royal treasury was kept in its castle. William the Conqueror was crowned here as well as at Westminster.", "source_ids": [{ "source_id": "STENTON-ASE" }, { "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }] },
+    "source_ids": [{ "source_id": "STENTON-ASE" }]
+  },
+  {
+    "id": "stirling-castle",
+    "name": "Stirling Castle",
+    "modern_name": "Stirling, Scotland",
+    "country": "Scotland",
+    "type": "castle",
+    "coordinates": { "lat": 56.1241, "lng": -3.9471 },
+    "summary": { "value": "The most strategically important fortress in Scotland, controlling the main route between the Scottish Highlands and Lowlands. It changed hands repeatedly between England and Scotland during the Wars of Independence. The Battle of Bannockburn (1314), which secured Scottish independence under Robert Bruce, was fought within sight of its walls. It later became a principal residence of the Stewart kings of Scotland.", "source_ids": [{ "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }] },
+    "source_ids": [{ "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }]
+  },
+  {
+    "id": "scone",
+    "name": "Scone",
+    "modern_name": "Scone, Perth and Kinross, Scotland",
+    "country": "Scotland",
+    "type": "religious_site",
+    "coordinates": { "lat": 56.4140, "lng": -3.4270 },
+    "summary": { "value": "The ancient coronation site of the Kings of Scotland. All Scottish kings from Kenneth MacAlpin onward were crowned on the Moot Hill at Scone, seated on the Stone of Destiny. Edward I of England removed the Stone to Westminster Abbey in 1296 as a symbol of English supremacy — a gesture deeply resented by Scots for seven centuries. The Stone was returned to Scotland in 1996 and is now kept in Edinburgh Castle.", "source_ids": [{ "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }, { "source_id": "HUSCROFT-RULING-ENGLAND" }] },
+    "source_ids": [{ "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }]
+  },
+  {
+    "id": "dublin-castle",
+    "name": "Dublin Castle",
+    "modern_name": "Dublin, Ireland",
+    "country": "Ireland",
+    "type": "castle",
+    "coordinates": { "lat": 53.3428, "lng": -6.2672 },
+    "summary": { "value": "The administrative centre of English and later British rule in Ireland from its construction by King John in 1204 until Irish independence in 1922. The Lordship of Ireland was claimed by the English crown from Henry II's invasion in 1171, when Irish chiefs submitted to him at Cashel. Dublin Castle hosted the Lord Deputies and Lord Lieutenants who governed Ireland in the crown's name. Its Great Hall witnessed the investitures of viceroys across seven centuries of colonial administration.", "source_ids": [{ "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }] },
+    "source_ids": [{ "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }]
+  },
+  {
+    "id": "fontevraud-abbey",
+    "name": "Fontevraud Abbey",
+    "modern_name": "Fontevraud-l'Abbaye, Maine-et-Loire, France",
+    "country": "France",
+    "type": "abbey",
+    "coordinates": { "lat": 47.1798, "lng": 0.0535 },
+    "summary": { "value": "The royal necropolis of the Plantagenet dynasty. Henry II, Eleanor of Aquitaine, Richard I, and Isabella of Angoulême (wife of King John) are all buried here. Founded in 1101, Fontevraud became the favoured mausoleum of the Angevin kings owing to its location at the heart of the Plantagenet domains in the Loire Valley. Their polychrome effigies — among the finest surviving medieval royal monuments — are still preserved in the abbey church.", "source_ids": [{ "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }, { "source_id": "HUSCROFT-RULING-ENGLAND" }] },
+    "source_ids": [{ "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }]
+  },
+  {
+    "id": "chinon-castle",
+    "name": "Château de Chinon",
+    "modern_name": "Chinon, Indre-et-Loire, France",
+    "country": "France",
+    "type": "castle",
+    "coordinates": { "lat": 47.1661, "lng": 0.2385 },
+    "summary": { "value": "Henry II's principal stronghold in his French domains and the place where he died in humiliation on 6 July 1189, having been defeated by his son Richard in alliance with Philip II of France. When news reached him that his youngest and favourite son John had joined the rebellion, Henry is said to have turned his face to the wall and died. Chinon was also where Joan of Arc met the Dauphin Charles VII in 1429 and persuaded him to let her lead the French army.", "source_ids": [{ "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }, { "source_id": "HUSCROFT-RULING-ENGLAND" }] },
+    "source_ids": [{ "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }]
+  },
+  {
+    "id": "calais",
+    "name": "Calais",
+    "modern_name": "Calais, Pas-de-Calais, France",
+    "country": "France",
+    "type": "town",
+    "coordinates": { "lat": 50.9513, "lng": 1.8587 },
+    "summary": { "value": "Captured by Edward III after an eleven-month siege following the Battle of Crécy in 1347, Calais remained an English possession for over two hundred years — longer than any other French territory — until its loss to the Duke of Guise under Queen Mary I in January 1558. It served as England's main gateway to the Continent, a staple port for the wool trade, and a military bridgehead. Mary I reportedly said that when she died 'Calais' would be found engraved on her heart.", "source_ids": [{ "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }, { "source_id": "MCKISACK-14C" }] },
+    "source_ids": [{ "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }]
+  },
+  {
+    "id": "chateau-gaillard",
+    "name": "Château Gaillard",
+    "modern_name": "Les Andelys, Normandy, France",
+    "country": "France",
+    "type": "castle",
+    "coordinates": { "lat": 49.2416, "lng": 1.4138 },
+    "summary": { "value": "Built by Richard I in a single year (1196–97) at enormous cost to defend Normandy against Philip II of France. Richard considered it impregnable and called it his 'saucy castle'. After Richard's death it fell to Philip II in 1204 after a six-month siege under King John — the loss that triggered the collapse of the Angevin empire in France and John's loss of Normandy. Its ruins on a chalk cliff above the Seine remain one of the most spectacular medieval fortifications in Europe.", "source_ids": [{ "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }, { "source_id": "HUSCROFT-RULING-ENGLAND" }] },
+    "source_ids": [{ "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }]
+  },
+  {
+    "id": "caen-abbaye",
+    "name": "Abbaye-aux-Hommes, Caen",
+    "modern_name": "Caen, Normandy, France",
+    "country": "France",
+    "type": "abbey",
+    "coordinates": { "lat": 49.1837, "lng": -0.3797 },
+    "summary": { "value": "William the Conqueror founded the Abbaye-aux-Hommes (Men's Abbey) at Caen around 1063 as penance for his marriage to Matilda of Flanders, which had been initially forbidden by the Pope. He was buried here in 1087 — though his body was later desecrated during the French Wars of Religion and again during the Revolution. Caen was the effective capital of the Duchy of Normandy and the centre of Norman power before and after the Conquest.", "source_ids": [{ "source_id": "BARLOW-WILLIAM-I" }, { "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }] },
+    "source_ids": [{ "source_id": "BARLOW-WILLIAM-I" }]
+  },
+  {
+    "id": "harfleur",
+    "name": "Harfleur",
+    "modern_name": "Harfleur, Seine-Maritime, France",
+    "country": "France",
+    "type": "other",
+    "coordinates": { "lat": 49.5041, "lng": 0.1995 },
+    "summary": { "value": "The fortified port town at the mouth of the Seine besieged and captured by Henry V in August–September 1415 at the opening of his French campaign. The siege cost Henry a significant portion of his army to dysentery before he even reached Agincourt. Shakespeare's Henry V immortalised the assault: 'Once more unto the breach, dear friends, once more, / Or close the wall up with our English dead.'", "source_ids": [{ "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }, { "source_id": "HUSCROFT-RULING-ENGLAND" }] },
+    "source_ids": [{ "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }]
   }
 ]
