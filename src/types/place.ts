@@ -10,6 +10,7 @@ export type PlaceType =
   | 'town'
   | 'region'
   | 'country'
+  | 'religious_site'
   | 'other';
 
 export type PlaceCountry =

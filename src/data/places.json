@@ -408,7 +408,7 @@
     "name": "Westminster Palace",
     "modern_name": "Palace of Westminster, London, England",
     "country": "England",
-    "type": "birthplace",
+    "type": "palace",
     "coordinates": { "lat": 51.4994, "lng": -0.1277 },
     "summary": {
       "value": "Birthplace of Edward I (17 June 1239) and Edward V (2 November 1470). The Palace of Westminster was the principal royal residence from the Conquest until a fire in 1512 and the principal seat of government thereafter. Edward I — 'Longshanks', conqueror of Wales and hammer of the Scots — was born in the king's camera. Edward V, born here as Prince of Wales, was never crowned; he disappeared in the Tower in 1483.",
@@ -610,6 +610,71 @@
       "source_ids": [{ "source_id": "KENYON-STUARTS" }, { "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }]
     },
     "source_ids": [{ "source_id": "KENYON-STUARTS" }]
+  },
+  {
+    "id": "westminster-abbey",
+    "name": "Westminster Abbey",
+    "modern_name": "Westminster Abbey, London, England",
+    "country": "England",
+    "type": "cathedral",
+    "coordinates": { "lat": 51.4994, "lng": -0.1273 },
+    "summary": {
+      "value": "The coronation church of English and British monarchs since 1066. Every English monarch from William I to Elizabeth II was crowned here, with the exception of Edward V and Edward VIII, who were never crowned. The abbey is also the burial place of many medieval kings including Henry III, Edward I, Edward III, Henry V, and Richard II. It was founded in its present form by Edward the Confessor, who was buried here in 1066.",
+      "source_ids": [{ "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }]
+    },
+    "source_ids": [{ "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }]
+  },
+  {
+    "id": "tower-of-london",
+    "name": "Tower of London",
+    "modern_name": "Tower of London, London, England",
+    "country": "England",
+    "type": "castle",
+    "coordinates": { "lat": 51.5081, "lng": -0.0759 },
+    "summary": {
+      "value": "Founded by William I after the Conquest to overawe London, the Tower served simultaneously as a royal palace, treasury, and prison. It held many prominent prisoners including Richard II before his deposition, and the young Edward V and his brother Richard, Duke of York — the Princes in the Tower — who vanished there in 1483. Anne Boleyn, Catherine Howard, Lady Jane Grey, and Thomas More were among those executed within its precincts.",
+      "source_ids": [{ "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }]
+    },
+    "source_ids": [{ "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }]
+  },
+  {
+    "id": "runnymede",
+    "name": "Runnymede",
+    "modern_name": "Runnymede, Surrey/Berkshire, England",
+    "country": "England",
+    "type": "other",
+    "coordinates": { "lat": 51.4427, "lng": -0.5638 },
+    "summary": {
+      "value": "A meadow on the south bank of the Thames where King John set his seal to Magna Carta on 15 June 1215. The site was chosen as neutral ground between the king at Windsor Castle and the rebel barons encamped at Staines. Magna Carta's provisions were largely aimed at curbing arbitrary royal power and protecting the rights of the church and free men. Though John repudiated the charter almost immediately, it was reissued several times under Henry III and became the cornerstone of English constitutional law.",
+      "source_ids": [{ "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }, { "source_id": "HUSCROFT-RULING-ENGLAND" }]
+    },
+    "source_ids": [{ "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }]
+  },
+  {
+    "id": "bath",
+    "name": "Bath",
+    "modern_name": "Bath, Somerset, England",
+    "country": "England",
+    "type": "town",
+    "coordinates": { "lat": 51.3812, "lng": -2.3590 },
+    "summary": {
+      "value": "An ancient Roman spa city that served as the site of Edgar the Peaceful's landmark coronation on Whit Sunday, 11 May 973. Archbishop Dunstan chose Bath for the ceremony, drawing on the city's Roman prestige and its association with Christian learning. The coronation rite devised here — anointing, investiture, and homage — became the model for all subsequent English and British coronations.",
+      "source_ids": [{ "source_id": "STENTON-ASE" }, { "source_id": "FRYDE-HANDBOOK-DATES" }]
+    },
+    "source_ids": [{ "source_id": "STENTON-ASE" }]
+  },
+  {
+    "id": "corfe-castle",
+    "name": "Corfe Castle",
+    "modern_name": "Corfe Castle, Dorset, England",
+    "country": "England",
+    "type": "castle",
+    "coordinates": { "lat": 50.6398, "lng": -2.0562 },
+    "summary": {
+      "value": "A royal stronghold in Dorset where Edward the Martyr was murdered on 18 March 978, killed while visiting his half-brother Æthelred. The castle subsequently became associated with royal imprisonment and execution — Queen Eleanor of Brittany, claimant to the English throne, was confined here by King John. The castle was slighted by Parliament in 1646 after a famous two-year Royalist defence during the Civil War.",
+      "source_ids": [{ "source_id": "STENTON-ASE" }, { "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }]
+    },
+    "source_ids": [{ "source_id": "STENTON-ASE" }]
   },
   {
     "id": "canterbury",

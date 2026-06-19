@@ -264,7 +264,7 @@ export default function HomePage() {
           {[
             '169 figures',
             '40 events',
-            '48 places',
+            '53 places',
             '8 royal houses',
             '849 — 1714',
           ].map((stat, i) => (

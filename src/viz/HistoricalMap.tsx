@@ -8,17 +8,20 @@ interface HistoricalMapProps {
   events: Event[];
   selectedPlaceId: string | undefined;
   onPlaceSelect: (id: string) => void;
+  visibleTypes: Set<string>;
 }
 
 function placeColor(type: Place['type']): string {
   switch (type) {
-    case 'battle_site': return '#8b1a1a';
-    case 'birthplace':  return '#1a5c6b';
-    case 'castle':      return '#4a3728';
-    case 'cathedral':   return '#1a3a6b';
-    case 'abbey':       return '#2d5a27';
-    case 'palace':      return '#6b4c1a';
-    default:            return '#b8860b';
+    case 'battle_site':    return '#8b1a1a';
+    case 'birthplace':     return '#1a5c6b';
+    case 'castle':         return '#5c3a1e';
+    case 'cathedral':      return '#3d2080';
+    case 'abbey':          return '#2d5a27';
+    case 'palace':         return '#6b4c1a';
+    case 'religious_site': return '#6b2a6b';
+    case 'town':           return '#4a6b3a';
+    default:               return '#7a6b2a';
   }
 }
 
@@ -69,11 +72,11 @@ export default function HistoricalMap({
   events,
   selectedPlaceId,
   onPlaceSelect,
+  visibleTypes,
 }: HistoricalMapProps) {
   const containerRef = useRef<HTMLDivElement>(null);
   const mapRef = useRef<L.Map | null>(null);
-  const markersRef = useRef(new Map<string, L.Marker>());
-  // Keep callback fresh without re-initialising the map
+  const markersRef = useRef(new Map<string, { marker: L.Marker; placeType: string }>());
   const onSelectRef = useRef(onPlaceSelect);
   useEffect(() => { onSelectRef.current = onPlaceSelect; });
 
@@ -117,7 +120,7 @@ export default function HistoricalMap({
 
       marker.on('click', () => onSelectRef.current(place.id));
       marker.addTo(map);
-      markersRef.current.set(place.id, marker);
+      markersRef.current.set(place.id, { marker, placeType: place.type });
     }
 
     mapRef.current = map;
@@ -129,12 +132,27 @@ export default function HistoricalMap({
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
+  // Show/hide markers when filter changes
+  useEffect(() => {
+    const map = mapRef.current;
+    if (!map) return;
+    for (const { marker, placeType } of markersRef.current.values()) {
+      if (visibleTypes.has(placeType)) {
+        if (!map.hasLayer(marker)) marker.addTo(map);
+      } else {
+        marker.remove();
+      }
+    }
+  }, [visibleTypes]);
+
   // Fly to + open popup when selection changes
   useEffect(() => {
     const map = mapRef.current;
     if (!map || !selectedPlaceId) return;
-    const marker = markersRef.current.get(selectedPlaceId);
-    if (!marker) return;
+    const entry = markersRef.current.get(selectedPlaceId);
+    if (!entry) return;
+    const { marker } = entry;
+    if (!map.hasLayer(marker)) marker.addTo(map);
     map.flyTo(marker.getLatLng(), 8, { duration: 1.2 });
     setTimeout(() => marker.openPopup(), 1300);
   }, [selectedPlaceId]);
