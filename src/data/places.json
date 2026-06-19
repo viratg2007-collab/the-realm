@@ -1,0 +1,614 @@
+[
+  {
+    "id": "battle-edington",
+    "name": "Battle of Edington",
+    "modern_name": "Edington, Wiltshire, England",
+    "country": "England",
+    "type": "battle_site",
+    "coordinates": { "lat": 51.2637, "lng": -2.0972 },
+    "summary": {
+      "value": "Fought in May 878, Edington was Alfred the Great's decisive victory over the Danish Great Army under Guthrum. Alfred had spent the winter in hiding at Athelney after a surprise Viking attack destroyed his court. His victory here broke Danish power in Wessex and led directly to the Treaty of Wedmore, by which Guthrum accepted Christian baptism.",
+      "source_ids": [{ "source_id": "KEYNES-LAPIDGE-ALFRED" }, { "source_id": "STENTON-ASE" }]
+    },
+    "source_ids": [{ "source_id": "KEYNES-LAPIDGE-ALFRED" }, { "source_id": "STENTON-ASE" }]
+  },
+  {
+    "id": "battle-brunanburh",
+    "name": "Battle of Brunanburh",
+    "modern_name": "Probably Bromborough, Wirral, England (location disputed)",
+    "country": "England",
+    "type": "battle_site",
+    "coordinates": { "lat": 53.3236, "lng": -2.9838 },
+    "needs_verification": true,
+    "summary": {
+      "value": "Fought in 937, Brunanburh was Æthelstan's greatest victory — a coalition of Scots, Strathclyde Britons, and Norsemen was crushed, confirming English supremacy over the whole island. The Anglo-Saxon Chronicle poem celebrating the battle is one of the finest pieces of Old English heroic verse. The exact location remains disputed; Bromborough (Wirral) is the strongest current candidate.",
+      "source_ids": [{ "source_id": "FOOT-ATHELSTAN" }, { "source_id": "STENTON-ASE" }]
+    },
+    "source_ids": [{ "source_id": "FOOT-ATHELSTAN" }, { "source_id": "STENTON-ASE" }]
+  },
+  {
+    "id": "battle-maldon",
+    "name": "Battle of Maldon",
+    "modern_name": "Maldon, Essex, England",
+    "country": "England",
+    "type": "battle_site",
+    "coordinates": { "lat": 51.7310, "lng": 0.6755 },
+    "summary": {
+      "value": "Fought on 11 August 991, Maldon was a catastrophic English defeat at the hands of a Viking force under Olaf Tryggvason. The ealdorman Byrhtnoth was killed after chivalrously allowing the Vikings to cross a causeway. The battle is commemorated in a celebrated Old English poem and prompted Æthelred II's disastrous policy of paying Danegeld — tribute to buy off Viking attacks.",
+      "source_ids": [{ "source_id": "STENTON-ASE" }, { "source_id": "WHITELOCK-EHD" }]
+    },
+    "source_ids": [{ "source_id": "STENTON-ASE" }, { "source_id": "WHITELOCK-EHD" }]
+  },
+  {
+    "id": "battle-assandun",
+    "name": "Battle of Assandun",
+    "modern_name": "Ashingdon, Essex, England (traditional identification)",
+    "country": "England",
+    "type": "battle_site",
+    "coordinates": { "lat": 51.6265, "lng": 0.6867 },
+    "summary": {
+      "value": "Fought on 18 October 1016, Assandun (Ashingdon) was Cnut's decisive victory over Edmund Ironside. The battle ended the last serious Anglo-Saxon resistance to Danish rule. Edmund fled, and the two rivals divided England — Edmund taking Wessex, Cnut taking Mercia and the Danelaw. Edmund's death weeks later gave Cnut the whole kingdom.",
+      "source_ids": [{ "source_id": "STENTON-ASE" }, { "source_id": "BOLTON-CNUT" }]
+    },
+    "source_ids": [{ "source_id": "STENTON-ASE" }, { "source_id": "BOLTON-CNUT" }]
+  },
+  {
+    "id": "battle-stamford-bridge",
+    "name": "Battle of Stamford Bridge",
+    "modern_name": "Stamford Bridge, East Yorkshire, England",
+    "country": "England",
+    "type": "battle_site",
+    "coordinates": { "lat": 53.9914, "lng": -0.9067 },
+    "summary": {
+      "value": "Fought on 25 September 1066, Stamford Bridge was Harold II's decisive victory over the Norwegian king Harald Hardrada and Harold's own brother Tostig, who had invited the Norwegians to press a rival claim to the English throne. Both Hardrada and Tostig were killed. Three days later Harold learned that William of Normandy had landed in the south, and he marched his exhausted army south to Hastings.",
+      "source_ids": [{ "source_id": "WALKER-HAROLD-II" }, { "source_id": "STENTON-ASE" }]
+    },
+    "source_ids": [{ "source_id": "WALKER-HAROLD-II" }, { "source_id": "STENTON-ASE" }]
+  },
+  {
+    "id": "battle-hastings",
+    "name": "Battle of Hastings",
+    "modern_name": "Battle, East Sussex, England (Battle Abbey marks the site)",
+    "country": "England",
+    "type": "battle_site",
+    "coordinates": { "lat": 50.9109, "lng": 0.4882 },
+    "summary": {
+      "value": "Fought on 14 October 1066, Hastings was the decisive engagement of the Norman Conquest. Harold II was killed — by an arrow to the eye according to tradition, though the sources are not certain — and the English army disintegrated. William I founded Battle Abbey on the site in fulfilment of a pre-battle vow, placing the high altar where Harold fell.",
+      "source_ids": [{ "source_id": "BARLOW-WILLIAM-I" }, { "source_id": "WALKER-HAROLD-II" }, { "source_id": "DOUGLAS-WILLIAM-I" }]
+    },
+    "source_ids": [{ "source_id": "BARLOW-WILLIAM-I" }, { "source_id": "WALKER-HAROLD-II" }]
+  },
+  {
+    "id": "battle-standard",
+    "name": "Battle of the Standard",
+    "modern_name": "Northallerton, North Yorkshire, England",
+    "country": "England",
+    "type": "battle_site",
+    "coordinates": { "lat": 54.3366, "lng": -1.4279 },
+    "summary": {
+      "value": "Fought on 22 August 1138, the Battle of the Standard (named for the English mast mounted on a wagon bearing saints' banners) was a decisive English victory over the Scottish army of David I. The Scots invaded in support of Empress Matilda during the Anarchy. The English forces, largely drawn from northern England, routed the Scottish army and killed much of the nobility.",
+      "source_ids": [{ "source_id": "DAVIS-KING-STEPHEN" }, { "source_id": "HUSCROFT-RULING-ENGLAND" }]
+    },
+    "source_ids": [{ "source_id": "DAVIS-KING-STEPHEN" }]
+  },
+  {
+    "id": "battle-lincoln-1141",
+    "name": "Battle of Lincoln (1141)",
+    "modern_name": "Lincoln, Lincolnshire, England",
+    "country": "England",
+    "type": "battle_site",
+    "coordinates": { "lat": 53.2307, "lng": -0.5370 },
+    "summary": {
+      "value": "Fought on 2 February 1141, Lincoln was the pivotal battle of the Anarchy. Empress Matilda's forces, led by her half-brother Robert of Gloucester, captured King Stephen and imprisoned him in Bristol. Matilda was briefly recognised as 'Lady of the English' but her haughty conduct alienated London, and she was driven out; Stephen was released in exchange for Robert of Gloucester later that year.",
+      "source_ids": [{ "source_id": "DAVIS-KING-STEPHEN" }, { "source_id": "HUSCROFT-RULING-ENGLAND" }]
+    },
+    "source_ids": [{ "source_id": "DAVIS-KING-STEPHEN" }]
+  },
+  {
+    "id": "battle-bannockburn",
+    "name": "Battle of Bannockburn",
+    "modern_name": "Bannockburn, Stirlingshire, Scotland",
+    "country": "Scotland",
+    "type": "battle_site",
+    "coordinates": { "lat": 56.0893, "lng": -3.9187 },
+    "summary": {
+      "value": "Fought on 23–24 June 1314, Bannockburn was the most decisive Scottish victory of the Wars of Independence. Robert Bruce's army destroyed a much larger English force under Edward II that had come to relieve the siege of Stirling Castle. The defeat ended English attempts to subjugate Scotland for a generation and secured Bruce's position as King of Scots.",
+      "source_ids": [{ "source_id": "HUSCROFT-RULING-ENGLAND" }, { "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }]
+    },
+    "source_ids": [{ "source_id": "HUSCROFT-RULING-ENGLAND" }, { "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }]
+  },
+  {
+    "id": "battle-crecy",
+    "name": "Battle of Crécy",
+    "modern_name": "Crécy-en-Ponthieu, Pas-de-Calais, France",
+    "country": "France",
+    "type": "battle_site",
+    "coordinates": { "lat": 50.2611, "lng": 1.8956 },
+    "summary": {
+      "value": "Fought on 26 August 1346, Crécy was the first great English victory of the Hundred Years War. Edward III's archers devastated the French cavalry with the longbow, killing some 1,500 French knights including the King of Bohemia. The Black Prince commanded the English vanguard. The battle demonstrated the superiority of English tactical discipline and the devastating power of massed archery.",
+      "source_ids": [{ "source_id": "MCKISACK-14C" }, { "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }]
+    },
+    "source_ids": [{ "source_id": "MCKISACK-14C" }, { "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }]
+  },
+  {
+    "id": "battle-poitiers",
+    "name": "Battle of Poitiers",
+    "modern_name": "Near Nouaillé-Maupertuis, Vienne, France",
+    "country": "France",
+    "type": "battle_site",
+    "coordinates": { "lat": 46.5330, "lng": 0.3930 },
+    "summary": {
+      "value": "Fought on 19 September 1356, Poitiers was the Black Prince's masterpiece. His English army, heavily outnumbered and in a defensive position near Maupertuis, repulsed repeated French charges and then counter-attacked, capturing King John II of France and his son. The ransom of the French king — 3 million gold crowns under the Treaty of Brétigny (1360) — temporarily enriched the English crown enormously.",
+      "source_ids": [{ "source_id": "MCKISACK-14C" }, { "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }]
+    },
+    "source_ids": [{ "source_id": "MCKISACK-14C" }, { "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }]
+  },
+  {
+    "id": "battle-agincourt",
+    "name": "Battle of Agincourt",
+    "modern_name": "Azincourt, Pas-de-Calais, France",
+    "country": "France",
+    "type": "battle_site",
+    "coordinates": { "lat": 50.4605, "lng": 2.1404 },
+    "summary": {
+      "value": "Fought on 25 October 1415 (St Crispin's Day), Agincourt was Henry V's legendary triumph over a French army perhaps five times larger. The French cavalry was channelled into a narrow front by woodland and bogged down by mud; English archers destroyed the charge. The battle established Henry V's reputation across Europe and led directly to the Treaty of Troyes (1420), which recognised him as heir to the French crown.",
+      "source_ids": [{ "source_id": "HUSCROFT-RULING-ENGLAND" }, { "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }]
+    },
+    "source_ids": [{ "source_id": "HUSCROFT-RULING-ENGLAND" }, { "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }]
+  },
+  {
+    "id": "battle-st-albans",
+    "name": "First Battle of St Albans",
+    "modern_name": "St Albans, Hertfordshire, England",
+    "country": "England",
+    "type": "battle_site",
+    "coordinates": { "lat": 51.7527, "lng": -0.3366 },
+    "summary": {
+      "value": "Fought on 22 May 1455, the First Battle of St Albans opened the Wars of the Roses. The Yorkist forces of Richard, Duke of York ambushed the Lancastrian royal party in the streets of the town. King Henry VI was wounded; his chief ministers — Somerset, Northumberland, and Clifford — were killed. York took control of the king's person and government, though the war was not yet open.",
+      "source_ids": [{ "source_id": "HICKS-WARS-ROSES" }, { "source_id": "POLLARD-WARS-ROSES" }]
+    },
+    "source_ids": [{ "source_id": "HICKS-WARS-ROSES" }, { "source_id": "POLLARD-WARS-ROSES" }]
+  },
+  {
+    "id": "battle-northampton",
+    "name": "Battle of Northampton",
+    "modern_name": "Northampton, Northamptonshire, England",
+    "country": "England",
+    "type": "battle_site",
+    "coordinates": { "lat": 52.2405, "lng": -0.9027 },
+    "summary": {
+      "value": "Fought on 10 July 1460, Northampton resulted in the capture of Henry VI by Yorkist forces under the Earl of Warwick, Edward Earl of March, and the Archbishop of Canterbury. The Lancastrian position was betrayed from within; Henry VI was taken to London and the Yorkists controlled the government. Richard, Duke of York subsequently returned from Ireland and pressed his dynastic claim to the throne.",
+      "source_ids": [{ "source_id": "HICKS-WARS-ROSES" }, { "source_id": "POLLARD-WARS-ROSES" }]
+    },
+    "source_ids": [{ "source_id": "HICKS-WARS-ROSES" }]
+  },
+  {
+    "id": "battle-wakefield",
+    "name": "Battle of Wakefield",
+    "modern_name": "Sandal Magna, West Yorkshire, England",
+    "country": "England",
+    "type": "battle_site",
+    "coordinates": { "lat": 53.6575, "lng": -1.4979 },
+    "summary": {
+      "value": "Fought on 30 December 1460, Wakefield was a catastrophic Yorkist defeat. Richard, Duke of York — who had just been recognised as heir to the throne by the Act of Accord — sallied out from Sandal Castle against a larger Lancastrian force and was killed. His son Edmund, Earl of Rutland was killed fleeing; York's head, crowned with a paper crown, was displayed on the gates of York. His son Edward IV avenged this defeat at Towton.",
+      "source_ids": [{ "source_id": "HICKS-WARS-ROSES" }, { "source_id": "POLLARD-WARS-ROSES" }]
+    },
+    "source_ids": [{ "source_id": "HICKS-WARS-ROSES" }]
+  },
+  {
+    "id": "battle-mortimers-cross",
+    "name": "Battle of Mortimer's Cross",
+    "modern_name": "Near Leominster, Herefordshire, England",
+    "country": "England",
+    "type": "battle_site",
+    "coordinates": { "lat": 52.2479, "lng": -2.8702 },
+    "summary": {
+      "value": "Fought on 2 February 1461, Mortimer's Cross was Edward of March's decisive victory that avenged his father's death at Wakefield. A natural phenomenon — a parhelion (three suns) — appeared before the battle; Edward interpreted it as a divine omen of his future kingship and later adopted the sun in splendour as a personal badge. The victory secured the Marches and cleared the way for Edward's march on London.",
+      "source_ids": [{ "source_id": "HICKS-WARS-ROSES" }, { "source_id": "ROSS-EDWARD-IV" }]
+    },
+    "source_ids": [{ "source_id": "HICKS-WARS-ROSES" }]
+  },
+  {
+    "id": "battle-towton",
+    "name": "Battle of Towton",
+    "modern_name": "Near Tadcaster, North Yorkshire, England",
+    "country": "England",
+    "type": "battle_site",
+    "coordinates": { "lat": 53.8381, "lng": -1.2827 },
+    "summary": {
+      "value": "Fought on 29 March 1461 (Palm Sunday) in a blizzard, Towton was the bloodiest battle ever fought on English soil. Estimates of the dead range from 20,000 to 28,000. Edward IV's Yorkist army, aided by a wind that drove snow into Lancastrian faces, completely destroyed the Lancastrian forces. Henry VI fled to Scotland. Edward was crowned in June and the Yorkist dynasty was established.",
+      "source_ids": [{ "source_id": "HICKS-WARS-ROSES" }, { "source_id": "POLLARD-WARS-ROSES" }]
+    },
+    "source_ids": [{ "source_id": "HICKS-WARS-ROSES" }, { "source_id": "POLLARD-WARS-ROSES" }]
+  },
+  {
+    "id": "battle-barnet",
+    "name": "Battle of Barnet",
+    "modern_name": "Hadley Green, near Barnet, Hertfordshire, England",
+    "country": "England",
+    "type": "battle_site",
+    "coordinates": { "lat": 51.6575, "lng": -0.1836 },
+    "summary": {
+      "value": "Fought in thick fog on 14 April 1471 (Easter Sunday), Barnet ended the Readeption of Henry VI. Edward IV returned from exile in Burgundy and caught Warwick's army before it could fully deploy. Warwick the 'Kingmaker' was killed fleeing the field — a dramatic end to the most powerful magnate in England. Edward had defeated the man who had made him king and then unmade him, before he remade himself.",
+      "source_ids": [{ "source_id": "ROSS-EDWARD-IV" }, { "source_id": "HICKS-WARS-ROSES" }]
+    },
+    "source_ids": [{ "source_id": "ROSS-EDWARD-IV" }]
+  },
+  {
+    "id": "battle-tewkesbury",
+    "name": "Battle of Tewkesbury",
+    "modern_name": "Tewkesbury, Gloucestershire, England",
+    "country": "England",
+    "type": "battle_site",
+    "coordinates": { "lat": 51.9880, "lng": -2.1599 },
+    "summary": {
+      "value": "Fought on 4 May 1471, Tewkesbury ended the Lancastrian cause for a generation. Margaret of Anjou's army was destroyed; Edward of Westminster, Prince of Wales and the last Lancastrian heir of the direct male line, was killed in the battle or immediately after. Henry VI died in the Tower of London days later. Edward IV was now unchallenged king, and the Lancastrian royal line was extinct.",
+      "source_ids": [{ "source_id": "ROSS-EDWARD-IV" }, { "source_id": "HICKS-WARS-ROSES" }]
+    },
+    "source_ids": [{ "source_id": "ROSS-EDWARD-IV" }]
+  },
+  {
+    "id": "battle-bosworth",
+    "name": "Battle of Bosworth Field",
+    "modern_name": "Near Market Bosworth, Leicestershire, England",
+    "country": "England",
+    "type": "battle_site",
+    "coordinates": { "lat": 52.6019, "lng": -1.4018 },
+    "summary": {
+      "value": "Fought on 22 August 1485, Bosworth ended the Plantagenet dynasty. Richard III was deserted by the Stanley family at the critical moment; charging personally at Henry Tudor's position, he was surrounded and killed — the last English king to die in battle. Henry VII founded the Tudor dynasty and married Elizabeth of York to unite the two warring houses.",
+      "source_ids": [{ "source_id": "CHRIMES-HENRY-VII" }, { "source_id": "HICKS-WARS-ROSES" }]
+    },
+    "source_ids": [{ "source_id": "CHRIMES-HENRY-VII" }, { "source_id": "HICKS-WARS-ROSES" }]
+  },
+  {
+    "id": "battle-flodden",
+    "name": "Battle of Flodden",
+    "modern_name": "Flodden Hill, Northumberland, England",
+    "country": "England",
+    "type": "battle_site",
+    "coordinates": { "lat": 55.6214, "lng": -2.1869 },
+    "summary": {
+      "value": "Fought on 9 September 1513, Flodden was a catastrophic Scottish defeat. James IV invaded England in support of France while Henry VIII was campaigning in France; the Earl of Surrey intercepted him in Northumberland. James IV was killed along with an archbishop, two bishops, twelve earls, and much of the Scottish nobility. It remains the largest English victory over the Scots.",
+      "source_ids": [{ "source_id": "GUY-TUDOR-ENGLAND" }, { "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }]
+    },
+    "source_ids": [{ "source_id": "GUY-TUDOR-ENGLAND" }, { "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }]
+  },
+  {
+    "id": "battle-marston-moor",
+    "name": "Battle of Marston Moor",
+    "modern_name": "Long Marston, North Yorkshire, England",
+    "country": "England",
+    "type": "battle_site",
+    "coordinates": { "lat": 53.9850, "lng": -1.2430 },
+    "summary": {
+      "value": "Fought on 2 July 1644, Marston Moor was the largest battle of the English Civil War and a decisive Parliamentarian victory. Prince Rupert's Royalist cavalry was routed by Oliver Cromwell's Ironsides. The battle gave Parliament control of the North of England and effectively ended the war in the north. Cromwell's performance cemented his reputation as the foremost Parliamentary commander.",
+      "source_ids": [{ "source_id": "KENYON-STUARTS" }, { "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }]
+    },
+    "source_ids": [{ "source_id": "KENYON-STUARTS" }, { "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }]
+  },
+  {
+    "id": "battle-naseby",
+    "name": "Battle of Naseby",
+    "modern_name": "Near Naseby, Northamptonshire, England",
+    "country": "England",
+    "type": "battle_site",
+    "coordinates": { "lat": 52.4100, "lng": -1.0320 },
+    "summary": {
+      "value": "Fought on 14 June 1645, Naseby was the decisive battle of the First English Civil War. Charles I's main Royalist field army was destroyed by the New Model Army under Fairfax and Cromwell. The king's captured correspondence revealed his private negotiations with Irish Catholics and foreign powers, gravely damaging his public position. The Royalist cause never recovered.",
+      "source_ids": [{ "source_id": "KENYON-STUARTS" }, { "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }]
+    },
+    "source_ids": [{ "source_id": "KENYON-STUARTS" }]
+  },
+  {
+    "id": "battle-worcester",
+    "name": "Battle of Worcester",
+    "modern_name": "Worcester, Worcestershire, England",
+    "country": "England",
+    "type": "battle_site",
+    "coordinates": { "lat": 52.1920, "lng": -2.2208 },
+    "summary": {
+      "value": "Fought on 3 September 1651, Worcester was Cromwell's 'crowning mercy' — his most complete victory. The young Charles II invaded from Scotland with a Scottish army; Cromwell's forces surrounded and destroyed it in the streets of Worcester. Charles escaped after six weeks in hiding (including a famous episode concealed in an oak tree) and fled to France. The battle ended the Civil Wars.",
+      "source_ids": [{ "source_id": "KENYON-STUARTS" }, { "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }]
+    },
+    "source_ids": [{ "source_id": "KENYON-STUARTS" }]
+  },
+  {
+    "id": "birthplace-wantage",
+    "name": "Wantage",
+    "modern_name": "Wantage, Oxfordshire, England",
+    "country": "England",
+    "type": "birthplace",
+    "coordinates": { "lat": 51.5871, "lng": -1.4234 },
+    "summary": {
+      "value": "Birthplace of Alfred the Great (849), King of Wessex and the only English monarch ever accorded the epithet 'the Great'. Asser's Life of Alfred records his birth at the royal estate of Wantage, then in Berkshire. Alfred subsequently defended Wessex from the Danes, unified southern England, and promoted literacy and learning.",
+      "source_ids": [{ "source_id": "KEYNES-LAPIDGE-ALFRED" }, { "source_id": "ODNB-alfred-great" }]
+    },
+    "source_ids": [{ "source_id": "KEYNES-LAPIDGE-ALFRED" }, { "source_id": "ODNB-alfred-great" }]
+  },
+  {
+    "id": "birthplace-islip",
+    "name": "Islip",
+    "modern_name": "Islip, Oxfordshire, England",
+    "country": "England",
+    "type": "birthplace",
+    "coordinates": { "lat": 51.8258, "lng": -1.2506 },
+    "summary": {
+      "value": "Birthplace of Edward the Confessor (c.1003), the last king of the West Saxon dynasty to rule England before the Norman Conquest. Born at the royal estate of Islip, Edward later showed particular favour to the village and granted it to Westminster Abbey. His reign ended with the succession crisis of 1066.",
+      "source_ids": [{ "source_id": "BARLOW-EDWARD-CONFESSOR" }, { "source_id": "ODNB-edward-confessor" }]
+    },
+    "source_ids": [{ "source_id": "BARLOW-EDWARD-CONFESSOR" }, { "source_id": "ODNB-edward-confessor" }]
+  },
+  {
+    "id": "birthplace-falaise",
+    "name": "Falaise",
+    "modern_name": "Falaise, Calvados, Normandy, France",
+    "country": "France",
+    "type": "birthplace",
+    "coordinates": { "lat": 48.8982, "lng": -0.1996 },
+    "summary": {
+      "value": "Birthplace of William I (c.1028), later William the Conqueror. Born at the ducal castle of Falaise as the illegitimate son of Duke Robert I of Normandy and Herleva, a tanner's daughter, William was known in his lifetime as 'William the Bastard'. He conquered England in 1066 and founded the Norman dynasty.",
+      "source_ids": [{ "source_id": "BARLOW-WILLIAM-I" }, { "source_id": "DOUGLAS-WILLIAM-I" }]
+    },
+    "source_ids": [{ "source_id": "BARLOW-WILLIAM-I" }, { "source_id": "DOUGLAS-WILLIAM-I" }]
+  },
+  {
+    "id": "birthplace-selby",
+    "name": "Selby",
+    "modern_name": "Selby, North Yorkshire, England",
+    "country": "England",
+    "type": "birthplace",
+    "coordinates": { "lat": 53.7820, "lng": -1.0691 },
+    "summary": {
+      "value": "Birthplace of Henry I (1068), youngest son of William the Conqueror, who came to be called 'Beauclerc' for his learning. Henry seized the treasury and crown on William II's death in 1100, imprisoned his elder brother Robert Curthose after Tinchebrai (1106), and ruled England and Normandy for 35 years. He died in 1135 leaving only an illegitimate son and a daughter, Empress Matilda.",
+      "source_ids": [{ "source_id": "HUSCROFT-RULING-ENGLAND" }, { "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }]
+    },
+    "source_ids": [{ "source_id": "HUSCROFT-RULING-ENGLAND" }]
+  },
+  {
+    "id": "birthplace-blois",
+    "name": "Blois",
+    "modern_name": "Blois, Loir-et-Cher, France",
+    "country": "France",
+    "type": "birthplace",
+    "coordinates": { "lat": 47.5868, "lng": 1.3366 },
+    "summary": {
+      "value": "Birthplace of Stephen (c.1092–1096), grandson of William the Conqueror through his mother Adela of Normandy. Stephen seized the English throne on Henry I's death in 1135, triggering the civil war known as the Anarchy against Empress Matilda. He reigned until his death in 1154, when the crown passed to Matilda's son Henry II.",
+      "source_ids": [{ "source_id": "DAVIS-KING-STEPHEN" }, { "source_id": "ODNB-stephen" }]
+    },
+    "source_ids": [{ "source_id": "DAVIS-KING-STEPHEN" }, { "source_id": "ODNB-stephen" }]
+  },
+  {
+    "id": "birthplace-le-mans",
+    "name": "Le Mans",
+    "modern_name": "Le Mans, Sarthe, France",
+    "country": "France",
+    "type": "birthplace",
+    "coordinates": { "lat": 48.0061, "lng": 0.1996 },
+    "summary": {
+      "value": "Birthplace of Henry II (5 March 1133), first Plantagenet king of England. Son of Empress Matilda and Geoffrey of Anjou, Henry inherited an empire stretching from the Scottish border to the Pyrenees. His reign saw the murder of Thomas Becket (1170), the establishment of common law, and the revolt of his own sons — including Richard I and John.",
+      "source_ids": [{ "source_id": "WARREN-HENRY-II" }, { "source_id": "HUSCROFT-RULING-ENGLAND" }]
+    },
+    "source_ids": [{ "source_id": "WARREN-HENRY-II" }]
+  },
+  {
+    "id": "birthplace-oxford-beaumont",
+    "name": "Beaumont Palace",
+    "modern_name": "Site of Beaumont Palace, Oxford (demolished 13th century)",
+    "country": "England",
+    "type": "birthplace",
+    "coordinates": { "lat": 51.7547, "lng": -1.2601 },
+    "summary": {
+      "value": "Birthplace of both Richard I (8 September 1157) and John (24 December 1166). The royal palace of Beaumont, built by Henry I on the north side of Oxford, was a favourite Plantagenet residence. Richard I spent barely six months of his reign in England; John's turbulent rule ended with Magna Carta (1215) and his death during the First Barons' War. The palace was demolished in the 13th century; its site is now occupied by Beaumont Street.",
+      "source_ids": [{ "source_id": "HUSCROFT-RULING-ENGLAND" }, { "source_id": "TURNER-KING-JOHN" }]
+    },
+    "source_ids": [{ "source_id": "HUSCROFT-RULING-ENGLAND" }]
+  },
+  {
+    "id": "westminster-palace",
+    "name": "Westminster Palace",
+    "modern_name": "Palace of Westminster, London, England",
+    "country": "England",
+    "type": "birthplace",
+    "coordinates": { "lat": 51.4994, "lng": -0.1277 },
+    "summary": {
+      "value": "Birthplace of Edward I (17 June 1239) and Edward V (2 November 1470). The Palace of Westminster was the principal royal residence from the Conquest until a fire in 1512 and the principal seat of government thereafter. Edward I — 'Longshanks', conqueror of Wales and hammer of the Scots — was born in the king's camera. Edward V, born here as Prince of Wales, was never crowned; he disappeared in the Tower in 1483.",
+      "source_ids": [{ "source_id": "HUSCROFT-RULING-ENGLAND" }, { "source_id": "ROSS-EDWARD-IV" }]
+    },
+    "source_ids": [{ "source_id": "HUSCROFT-RULING-ENGLAND" }]
+  },
+  {
+    "id": "birthplace-winchester",
+    "name": "Winchester",
+    "modern_name": "Winchester, Hampshire, England",
+    "country": "England",
+    "type": "birthplace",
+    "coordinates": { "lat": 51.0632, "lng": -1.3080 },
+    "summary": {
+      "value": "Birthplace of Henry III (1 October 1207), who succeeded his father John at the age of nine and reigned for 56 years — the longest reign of any medieval English king. Winchester was the ancient capital of Wessex and retained its status as a major royal seat under the early Plantagenets. Henry III's reign saw the building of much of Westminster Abbey and the Provisions of Oxford (1258).",
+      "source_ids": [{ "source_id": "HUSCROFT-RULING-ENGLAND" }, { "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }]
+    },
+    "source_ids": [{ "source_id": "HUSCROFT-RULING-ENGLAND" }]
+  },
+  {
+    "id": "birthplace-caernarfon",
+    "name": "Caernarfon Castle",
+    "modern_name": "Caernarfon Castle, Gwynedd, Wales",
+    "country": "Wales",
+    "type": "birthplace",
+    "coordinates": { "lat": 53.1400, "lng": -4.2793 },
+    "summary": {
+      "value": "Birthplace of Edward II (25 April 1284), the first English Prince of Wales. Born at Caernarfon Castle, which his father Edward I had begun building as a symbol of English conquest, he was presented to the Welsh as a prince who could speak no English — a tradition later embellished into legend. Edward II's reign was marked by favouritism, baronial opposition, and military defeat at Bannockburn (1314); he was deposed and murdered in 1327.",
+      "source_ids": [{ "source_id": "HUSCROFT-RULING-ENGLAND" }, { "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }]
+    },
+    "source_ids": [{ "source_id": "HUSCROFT-RULING-ENGLAND" }]
+  },
+  {
+    "id": "birthplace-windsor",
+    "name": "Windsor Castle",
+    "modern_name": "Windsor Castle, Berkshire, England",
+    "country": "England",
+    "type": "birthplace",
+    "coordinates": { "lat": 51.4839, "lng": -0.6044 },
+    "summary": {
+      "value": "Birthplace of Edward III (13 November 1312) and Henry VI (6 December 1421). Edward III — born 'of Windsor' — made the castle his principal seat and founded the Order of the Garter here c.1348. His 50-year reign saw the victories of Crécy and Poitiers and the catastrophe of the Black Death. Henry VI, also born at Windsor, reigned for 39 years across two periods; his mental incapacity opened the way for the Wars of the Roses.",
+      "source_ids": [{ "source_id": "MCKISACK-14C" }, { "source_id": "HICKS-WARS-ROSES" }]
+    },
+    "source_ids": [{ "source_id": "MCKISACK-14C" }, { "source_id": "HICKS-WARS-ROSES" }]
+  },
+  {
+    "id": "birthplace-bordeaux",
+    "name": "Bordeaux",
+    "modern_name": "Bordeaux, Gironde, France",
+    "country": "France",
+    "type": "birthplace",
+    "coordinates": { "lat": 44.8378, "lng": -0.5792 },
+    "summary": {
+      "value": "Birthplace of Richard II (6 January 1367), son of the Black Prince and born in the English-held duchy of Gascony. Richard succeeded his grandfather Edward III at age ten and ruled until his deposition in 1399. His reign saw the Peasants' Revolt (1381), the murder of his favourite the Duke of Gloucester (1397), and his own overthrow by Henry Bolingbroke (Henry IV) after he attempted to rule as an absolute monarch.",
+      "source_ids": [{ "source_id": "SAUL-RICHARD-II" }, { "source_id": "ODNB-richard-ii" }]
+    },
+    "source_ids": [{ "source_id": "SAUL-RICHARD-II" }, { "source_id": "ODNB-richard-ii" }]
+  },
+  {
+    "id": "birthplace-bolingbroke",
+    "name": "Bolingbroke Castle",
+    "modern_name": "Old Bolingbroke, Lincolnshire, England",
+    "country": "England",
+    "type": "birthplace",
+    "coordinates": { "lat": 53.1517, "lng": -0.0622 },
+    "summary": {
+      "value": "Birthplace of Henry IV (3 April 1367), the first Lancastrian king. Born at the castle of Bolingbroke — the caput of the Duchy of Lancaster — he took his surname from the place of his birth. Henry was exiled by Richard II and returned to seize the throne in 1399, ruling until his death in 1413. The ruined castle remains in Old Bolingbroke village.",
+      "source_ids": [{ "source_id": "GIVEN-WILSON-HENRY-IV" }, { "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }]
+    },
+    "source_ids": [{ "source_id": "GIVEN-WILSON-HENRY-IV" }]
+  },
+  {
+    "id": "birthplace-monmouth",
+    "name": "Monmouth Castle",
+    "modern_name": "Monmouth, Monmouthshire, Wales",
+    "country": "Wales",
+    "type": "birthplace",
+    "coordinates": { "lat": 51.8138, "lng": -2.7196 },
+    "summary": {
+      "value": "Birthplace of Henry V (16 September 1386), the greatest English soldier-king of the medieval period. Born 'Harry of Monmouth' at the castle here, he became Prince of Wales at twelve on his father's usurpation, crushed Owen Glendower's Welsh rebellion, won the throne in 1413, and led the English to the legendary victory at Agincourt (1415). He died aged 35 in 1422, leaving a nine-month-old heir.",
+      "source_ids": [{ "source_id": "HUSCROFT-RULING-ENGLAND" }, { "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }]
+    },
+    "source_ids": [{ "source_id": "HUSCROFT-RULING-ENGLAND" }]
+  },
+  {
+    "id": "birthplace-rouen",
+    "name": "Rouen",
+    "modern_name": "Rouen, Seine-Maritime, Normandy, France",
+    "country": "France",
+    "type": "birthplace",
+    "coordinates": { "lat": 49.4432, "lng": 1.0993 },
+    "summary": {
+      "value": "Birthplace of Edward IV (28 April 1442), the first Yorkist king. Born at Rouen while his father Richard, Duke of York served as Lieutenant of France, Edward won the throne at 18 after the Battle of Towton (1461). His reign saw stability and commercial prosperity after the chaos of the Wars of the Roses. He died suddenly in 1483, and the succession crisis that followed brought his brother Richard III to the throne.",
+      "source_ids": [{ "source_id": "ROSS-EDWARD-IV" }, { "source_id": "HICKS-WARS-ROSES" }]
+    },
+    "source_ids": [{ "source_id": "ROSS-EDWARD-IV" }]
+  },
+  {
+    "id": "birthplace-fotheringhay",
+    "name": "Fotheringhay Castle",
+    "modern_name": "Fotheringhay, Northamptonshire, England",
+    "country": "England",
+    "type": "birthplace",
+    "coordinates": { "lat": 52.5262, "lng": -0.4633 },
+    "summary": {
+      "value": "Birthplace of Richard III (2 October 1452), the last Plantagenet king. Born here to Richard, Duke of York and Cecily Neville, he became king in 1483 by declaring his nephews illegitimate via Titulus Regius. He was killed at Bosworth in 1485 — the last English king to die in battle. The castle is also famous as the execution site of Mary Queen of Scots (1587). Only earthworks survive today.",
+      "source_ids": [{ "source_id": "HICKS-WARS-ROSES" }, { "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }]
+    },
+    "source_ids": [{ "source_id": "HICKS-WARS-ROSES" }]
+  },
+  {
+    "id": "birthplace-pembroke",
+    "name": "Pembroke Castle",
+    "modern_name": "Pembroke Castle, Pembrokeshire, Wales",
+    "country": "Wales",
+    "type": "birthplace",
+    "coordinates": { "lat": 51.6743, "lng": -4.9157 },
+    "summary": {
+      "value": "Birthplace of Henry VII (28 January 1457), founder of the Tudor dynasty. Born at Pembroke Castle to Margaret Beaufort and Edmund Tudor (who died before his birth), Henry spent years in exile in Brittany and France before landing in Wales in 1485 and defeating Richard III at Bosworth. His marriage to Elizabeth of York united the Lancastrian and Yorkist claims and ended the Wars of the Roses.",
+      "source_ids": [{ "source_id": "CHRIMES-HENRY-VII" }, { "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }]
+    },
+    "source_ids": [{ "source_id": "CHRIMES-HENRY-VII" }]
+  },
+  {
+    "id": "birthplace-greenwich",
+    "name": "Greenwich Palace",
+    "modern_name": "Site of Greenwich Palace (Old Royal Naval College), London",
+    "country": "England",
+    "type": "birthplace",
+    "coordinates": { "lat": 51.4831, "lng": -0.0094 },
+    "summary": {
+      "value": "Birthplace of Henry VIII (28 June 1491), Mary I (18 February 1516), and Elizabeth I (7 September 1533). The riverside Palace of Placentia at Greenwich was the favourite residence of the early Tudors. Henry VIII's reign dominated the European stage and encompassed the Reformation; Mary I briefly restored Catholicism; Elizabeth I's long reign (1558–1603) became the defining era of English Renaissance culture.",
+      "source_ids": [{ "source_id": "GUY-TUDOR-ENGLAND" }, { "source_id": "LOADES-TUDOR-MONARCHY" }]
+    },
+    "source_ids": [{ "source_id": "GUY-TUDOR-ENGLAND" }, { "source_id": "LOADES-TUDOR-MONARCHY" }]
+  },
+  {
+    "id": "birthplace-hampton-court",
+    "name": "Hampton Court Palace",
+    "modern_name": "Hampton Court, Richmond upon Thames, England",
+    "country": "England",
+    "type": "birthplace",
+    "coordinates": { "lat": 51.4042, "lng": -0.3373 },
+    "summary": {
+      "value": "Birthplace of Edward VI (12 October 1537), only legitimate son of Henry VIII, born to Jane Seymour who died twelve days later. Edward succeeded at age nine and reigned under regency until his death at fifteen in 1553. His reign saw the acceleration of the Protestant Reformation in England; his attempt to exclude his Catholic half-sisters from the succession by naming Lady Jane Grey as his heir collapsed within days of his death.",
+      "source_ids": [{ "source_id": "GUY-TUDOR-ENGLAND" }, { "source_id": "LOADES-TUDOR-MONARCHY" }]
+    },
+    "source_ids": [{ "source_id": "GUY-TUDOR-ENGLAND" }]
+  },
+  {
+    "id": "birthplace-edinburgh",
+    "name": "Edinburgh Castle",
+    "modern_name": "Edinburgh Castle, Edinburgh, Scotland",
+    "country": "Scotland",
+    "type": "birthplace",
+    "coordinates": { "lat": 55.9486, "lng": -3.1999 },
+    "summary": {
+      "value": "Birthplace of James I of England and VI of Scotland (19 June 1566), son of Mary Queen of Scots. Born in the castle, he became King of Scots at thirteen months on his mother's abdication, and inherited the English throne on Elizabeth I's death in 1603 — the Union of the Crowns. His reign saw the Gunpowder Plot (1605), the Authorised Version of the Bible (1611), and persistent conflict with Parliament over royal prerogative.",
+      "source_ids": [{ "source_id": "KENYON-STUARTS" }, { "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }]
+    },
+    "source_ids": [{ "source_id": "KENYON-STUARTS" }]
+  },
+  {
+    "id": "birthplace-dunfermline",
+    "name": "Dunfermline Palace",
+    "modern_name": "Dunfermline, Fife, Scotland",
+    "country": "Scotland",
+    "type": "birthplace",
+    "coordinates": { "lat": 56.0712, "lng": -3.4609 },
+    "summary": {
+      "value": "Birthplace of Charles I (19 November 1600), the only English king to be tried and executed by his own Parliament. Born at the royal palace of Dunfermline in Fife, he succeeded James I in 1625 and immediately antagonised Parliament by his belief in divine right. The subsequent Civil War led to his trial before a specially constituted high court and execution outside the Banqueting House in London on 30 January 1649.",
+      "source_ids": [{ "source_id": "KENYON-STUARTS" }, { "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }]
+    },
+    "source_ids": [{ "source_id": "KENYON-STUARTS" }]
+  },
+  {
+    "id": "birthplace-st-james",
+    "name": "St James's Palace",
+    "modern_name": "St James's Palace, Westminster, London, England",
+    "country": "England",
+    "type": "birthplace",
+    "coordinates": { "lat": 51.5037, "lng": -0.1386 },
+    "summary": {
+      "value": "Birthplace of Charles II (29 May 1630), James II (14 October 1633), Mary II (30 April 1662), and Anne (6 February 1665). Built by Henry VIII on the site of a lepers' hospital, St James's became the principal royal residence after Whitehall Palace burned in 1698. It remained the formal seat of the English court and gives its name to the Court of St James's, to which foreign ambassadors are still formally accredited.",
+      "source_ids": [{ "source_id": "KENYON-STUARTS" }, { "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }]
+    },
+    "source_ids": [{ "source_id": "KENYON-STUARTS" }]
+  },
+  {
+    "id": "birthplace-the-hague",
+    "name": "The Hague",
+    "modern_name": "The Hague (Den Haag), Netherlands",
+    "country": "Other",
+    "type": "birthplace",
+    "coordinates": { "lat": 52.0800, "lng": 4.3137 },
+    "summary": {
+      "value": "Birthplace of William III (4 November 1650), Prince of Orange and from 1689 co-monarch of England with his wife Mary II. Born at the Binnenhof in The Hague, William was raised as the Dutch Republic's leading figure and stadtholder. Invited by English Protestant lords to prevent the Catholic succession of James II's son, he landed in England in November 1688; James II fled, and Parliament declared the throne vacant. William's reign established constitutional monarchy through the Bill of Rights (1689).",
+      "source_ids": [{ "source_id": "KENYON-STUARTS" }, { "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }]
+    },
+    "source_ids": [{ "source_id": "KENYON-STUARTS" }]
+  }
+]

@@ -1,0 +1,572 @@
+[
+  {
+    "id": "succession-1066",
+    "title": "The Succession Crisis of 1066",
+    "year": {
+      "value": { "year": 1066, "month": 1, "day": 5 },
+      "source_ids": [{ "source_id": "FRYDE-HANDBOOK-DATES" }]
+    },
+    "throne": "The English Crown",
+    "description": {
+      "value": "On 5 January 1066 Edward the Confessor died childless, leaving three powerful men with competing claims to the English throne. Within nine months the dispute had produced the Norman Conquest — the most transformative event in English history. Harold Godwinson was crowned within hours of Edward's death; he was dead by October, and William of Normandy had been crowned by Christmas.",
+      "source_ids": [
+        { "source_id": "BARLOW-WILLIAM-I" },
+        { "source_id": "WALKER-HAROLD-II" },
+        { "source_id": "FRYDE-HANDBOOK-DATES" }
+      ]
+    },
+    "assumptions": [
+      {
+        "id": "deathbed-bequest",
+        "label": "Deathbed bequest binds successors",
+        "description": "A dying king's spoken designation of his successor creates a binding title, overriding prior promises or blood right.",
+        "default_value": true
+      },
+      {
+        "id": "witan-election",
+        "label": "Witan election confers valid title",
+        "description": "Acclamation and election by the Witan — the king's great council of earls, bishops, and thegns — is a necessary and sufficient basis for kingship.",
+        "default_value": true
+      },
+      {
+        "id": "blood-right",
+        "label": "Proximity of blood determines succession",
+        "description": "The nearest legitimate male kinsman of the previous king has the strongest dynastic right, regardless of designation or election.",
+        "default_value": false
+      },
+      {
+        "id": "prior-oath",
+        "label": "A sworn oath is binding even under duress",
+        "description": "An oath sworn on holy relics to support a claimant creates a binding obligation; oath-breaking is a mortal sin that delegitimises the oath-breaker's subsequent claim.",
+        "default_value": false
+      },
+      {
+        "id": "papal-endorsement",
+        "label": "Papal endorsement legitimises conquest",
+        "description": "A papal banner and blessing, granted to a claimant by the Holy See, confers religious and political legitimacy on a military campaign to enforce that claim.",
+        "default_value": false
+      }
+    ],
+    "claimants": [
+      {
+        "person_id": "harold-ii",
+        "claim_basis": {
+          "description": {
+            "value": "Harold Godwinson was the most powerful English magnate, earl of Wessex and de facto ruler of England in the Confessor's later years. He claimed that Edward designated him on his deathbed, and the Witan — assembled for the king's funeral — elected and crowned him within hours of Edward's death on 6 January 1066. Harold had no royal blood, but his supporters argued that election and the king's own choice were sufficient foundation.",
+            "source_ids": [
+              { "source_id": "WALKER-HAROLD-II" },
+              { "source_id": "BARLOW-WILLIAM-I" }
+            ]
+          },
+          "line_of_descent": "No direct royal descent; son of Godwin, Earl of Wessex, whose origins are obscure. Harold's sister Edith was Edward the Confessor's queen, giving the family proximity to the throne without blood right.",
+          "contemporary_argument": {
+            "value": "English sources (the Vita Ædwardi Regis and later the 'D' version of the Anglo-Saxon Chronicle) present Harold's election by the Witan as entirely legitimate: the dying Edward commended the kingdom and his queen to Harold's protection, and the assembled councillors confirmed the choice immediately.",
+            "source_ids": [
+              { "source_id": "WALKER-HAROLD-II" },
+              { "source_id": "WHITELOCK-EHD" }
+            ]
+          }
+        },
+        "succeeded": true,
+        "assumption_effects": {
+          "deathbed-bequest": "strengthens",
+          "witan-election": "strengthens",
+          "blood-right": "weakens",
+          "prior-oath": "weakens",
+          "papal-endorsement": "weakens"
+        }
+      },
+      {
+        "person_id": "william-i",
+        "claim_basis": {
+          "description": {
+            "value": "William, Duke of Normandy claimed that Edward the Confessor — his first cousin once removed — had promised him the English throne during Edward's Norman exile (c.1051) and again via an embassy in 1064. He further claimed that Harold Godwinson had sworn a solemn oath on holy relics to support this claim, and that Pope Alexander II had endorsed his invasion with a papal banner. William also had tenuous blood connection as a great-nephew by marriage of Emma of Normandy, but blood right was not his primary argument.",
+            "source_ids": [
+              { "source_id": "BARLOW-WILLIAM-I" },
+              { "source_id": "DOUGLAS-WILLIAM-I" }
+            ]
+          },
+          "line_of_descent": "Great-nephew of Emma of Normandy (who married both Æthelred II and Cnut); grandson of Richard II, Duke of Normandy. No direct patrilineal descent from any English king.",
+          "contemporary_argument": {
+            "value": "Norman sources — the Carmen de Hastingae Proelio, William of Poitiers, and the Bayeux Tapestry — present the campaign as a just war to punish an oath-breaker and enforce Edward's legitimate promise. Pope Alexander II's grant of a papal banner gave the invasion the character of a holy undertaking.",
+            "source_ids": [
+              { "source_id": "BARLOW-WILLIAM-I" },
+              { "source_id": "DOUGLAS-WILLIAM-I" }
+            ]
+          }
+        },
+        "succeeded": true,
+        "assumption_effects": {
+          "deathbed-bequest": "weakens",
+          "witan-election": "weakens",
+          "blood-right": "weakens",
+          "prior-oath": "strengthens",
+          "papal-endorsement": "strengthens"
+        }
+      },
+      {
+        "person_id": "edgar-aetheling",
+        "claim_basis": {
+          "description": {
+            "value": "Edgar was the sole surviving male of the ancient West Saxon royal house, grandson of Edmund Ironside and great-grandson of Æthelred II. By blood right he was unquestionably the strongest dynastic claimant. He was, however, a boy of around fourteen or fifteen in 1066, with no military following. After Hastings the surviving English magnates proclaimed him king in London, but he submitted to William within weeks, making him the last uncrowned Anglo-Saxon claimant.",
+            "source_ids": [
+              { "source_id": "ODNB-edgar-aetheling" },
+              { "source_id": "STENTON-ASE" }
+            ]
+          },
+          "line_of_descent": "Son of Edward the Exile; grandson of Edmund Ironside; great-grandson of Æthelred II; great-great-grandson of Edgar the Peaceful — direct male-line Cerdician descent.",
+          "contemporary_argument": {
+            "value": "The Abingdon and Worcester versions of the Anglo-Saxon Chronicle record that after Hastings, 'the people of London and the best men of all England agreed unanimously to have Edgar the child as king, as was his right by birth.' His claim rested entirely on blood right and Cerdician legitimacy.",
+            "source_ids": [
+              { "source_id": "WHITELOCK-EHD" },
+              { "source_id": "ODNB-edgar-aetheling" }
+            ]
+          }
+        },
+        "succeeded": false,
+        "assumption_effects": {
+          "blood-right": "strengthens",
+          "witan-election": "strengthens",
+          "deathbed-bequest": "weakens",
+          "prior-oath": "weakens",
+          "papal-endorsement": "weakens"
+        }
+      }
+    ],
+    "contested_questions": [
+      {
+        "question": "Did Edward the Confessor genuinely promise the throne to William of Normandy, or is this a Norman fabrication?",
+        "positions": [
+          {
+            "position": "The promise was genuine. Norman sources are consistent and detailed, and Edward had spent his formative years in Normandy; it is plausible he regarded William as his natural successor. No contemporaneous English source directly denies that an offer was made.",
+            "source_ids": [{ "source_id": "BARLOW-WILLIAM-I" }, { "source_id": "DOUGLAS-WILLIAM-I" }]
+          },
+          {
+            "position": "The promise is a Norman propaganda construct. Even if Edward expressed a preference in 1051, English constitutional practice gave the reigning king no power to bind the Witan's choice of successor; and his later deathbed designation of Harold superseded any earlier offer.",
+            "source_ids": [{ "source_id": "WALKER-HAROLD-II" }, { "source_id": "STENTON-ASE" }]
+          }
+        ]
+      },
+      {
+        "question": "Was Harold's oath to William binding, and did breaking it delegitimise Harold's kingship?",
+        "positions": [
+          {
+            "position": "The oath was publicly sworn on holy relics and was witnessed by Norman magnates. Its violation was regarded by contemporaries as a grave sin; Pope Alexander II's endorsement of William's campaign reflected this view, and the Bayeux Tapestry stages the oath as the moral pivot of the narrative.",
+            "source_ids": [{ "source_id": "BARLOW-WILLIAM-I" }, { "source_id": "DOUGLAS-WILLIAM-I" }]
+          },
+          {
+            "position": "Harold was effectively William's prisoner when he swore. Medieval canon law allowed duress as a ground for nullifying oaths, and English writers gave the oath little weight — the Vita Ædwardi does not mention it. Harold may not have known what relics he was swearing upon, or what consequences William would claim it had.",
+            "source_ids": [{ "source_id": "WALKER-HAROLD-II" }, { "source_id": "WHITELOCK-EHD" }]
+          }
+        ]
+      }
+    ],
+    "source_ids": ["BARLOW-WILLIAM-I", "WALKER-HAROLD-II", "DOUGLAS-WILLIAM-I", "STENTON-ASE", "WHITELOCK-EHD", "FRYDE-HANDBOOK-DATES", "ODNB-edgar-aetheling"]
+  },
+  {
+    "id": "succession-1135",
+    "title": "The Anarchy: Matilda versus Stephen, 1135",
+    "year": {
+      "value": { "year": 1135, "month": 12, "day": 1 },
+      "source_ids": [{ "source_id": "FRYDE-HANDBOOK-DATES" }]
+    },
+    "throne": "The English Crown and Duchy of Normandy",
+    "description": {
+      "value": "When Henry I died on 1 December 1135, he left no legitimate sons — his only surviving legitimate child was Empress Matilda, whom he had made his barons swear to accept as queen on three separate occasions. Within weeks, however, her cousin Stephen of Blois had seized the treasury, been recognised by the Church, and been crowned. The resulting civil war — 'The Anarchy' — lasted until the Treaty of Wallingford in 1153.",
+      "source_ids": [
+        { "source_id": "DAVIS-KING-STEPHEN" },
+        { "source_id": "HUSCROFT-RULING-ENGLAND" },
+        { "source_id": "FRYDE-HANDBOOK-DATES" }
+      ]
+    },
+    "assumptions": [
+      {
+        "id": "female-succession",
+        "label": "A woman may inherit the crown",
+        "description": "A legitimate daughter of the last king may inherit in her own right when no legitimate male heir survives, without forfeiting her claim to her husband or son.",
+        "default_value": false
+      },
+      {
+        "id": "designated-heir",
+        "label": "Formal designation + baronial oath binds succession",
+        "description": "When a reigning king formally designates his successor and extracts sworn oaths from the baronage in support, those oaths are binding and cannot be repudiated on the king's death.",
+        "default_value": true
+      },
+      {
+        "id": "speed-of-seizure",
+        "label": "First mover advantage: coronation creates title",
+        "description": "The first claimant to seize the treasury, receive Church recognition, and be anointed king acquires a title that subsequent challengers must overcome — possession creates a presumption of legitimacy.",
+        "default_value": false
+      },
+      {
+        "id": "male-preference",
+        "label": "Male collateral preferred over female direct heir",
+        "description": "In the absence of a male direct heir, a legitimate male collateral relative (even descended through a woman) has a stronger right than a legitimate female direct heir.",
+        "default_value": false
+      }
+    ],
+    "claimants": [
+      {
+        "person_id": "empress-matilda",
+        "claim_basis": {
+          "description": {
+            "value": "Matilda was the only surviving legitimate child of Henry I, daughter of a king and widow of the Holy Roman Emperor. Henry had made the English barons swear to accept her as queen in 1127, 1131, and 1133 — three separate oath-takings. Her claim rested on designation, direct descent, and the argument that female inheritance was not constitutionally prohibited.",
+            "source_ids": [
+              { "source_id": "HUSCROFT-RULING-ENGLAND" },
+              { "source_id": "DAVIS-KING-STEPHEN" }
+            ]
+          },
+          "line_of_descent": "Daughter of Henry I; granddaughter of William the Conqueror and Matilda of Flanders; great-granddaughter of William I. Direct legitimate female-line descent from the Conqueror.",
+          "contemporary_argument": {
+            "value": "Matilda's supporters (notably Robert of Gloucester, her illegitimate half-brother) argued that the thrice-sworn oaths were solemn and binding, that her sex was irrelevant where direct descent existed, and that Stephen had usurped a throne that lawfully belonged to her and, after 1133, to her son Henry (the future Henry II).",
+            "source_ids": [
+              { "source_id": "DAVIS-KING-STEPHEN" },
+              { "source_id": "HUSCROFT-RULING-ENGLAND" }
+            ]
+          }
+        },
+        "succeeded": false,
+        "assumption_effects": {
+          "female-succession": "strengthens",
+          "designated-heir": "strengthens",
+          "speed-of-seizure": "weakens",
+          "male-preference": "weakens"
+        }
+      },
+      {
+        "person_id": "stephen",
+        "claim_basis": {
+          "description": {
+            "value": "Stephen of Blois was a grandson of William the Conqueror through his mother Adela of Normandy, and a favourite nephew of Henry I. He acted with decisive speed on Henry's death: reaching England before anyone else, he secured the treasury at Winchester and was crowned at Westminster on 22 December 1135 — within three weeks of Henry's death. The Archbishop of Canterbury initially refused to crown him, but the Bishop of Winchester (Stephen's own brother) performed the ceremony.",
+            "source_ids": [
+              { "source_id": "DAVIS-KING-STEPHEN" },
+              { "source_id": "ODNB-stephen" }
+            ]
+          },
+          "line_of_descent": "Son of Stephen, Count of Blois and Adela of Normandy (daughter of William I). Grandson of William the Conqueror through the female line; no male-line royal descent.",
+          "contemporary_argument": {
+            "value": "Stephen's supporters argued that a woman could not bear the burdens of medieval kingship; that Henry I's designation was invalid or had been revoked on his deathbed; that the baronial oaths had been extracted under duress and were therefore not binding; and that Stephen's prompt coronation and anointing by the Church gave him a title that could not be overturned without sacrilege.",
+            "source_ids": [
+              { "source_id": "DAVIS-KING-STEPHEN" },
+              { "source_id": "HUSCROFT-RULING-ENGLAND" }
+            ]
+          }
+        },
+        "succeeded": true,
+        "assumption_effects": {
+          "female-succession": "weakens",
+          "designated-heir": "weakens",
+          "speed-of-seizure": "strengthens",
+          "male-preference": "strengthens"
+        }
+      }
+    ],
+    "contested_questions": [
+      {
+        "question": "Did Henry I on his deathbed revoke his designation of Matilda?",
+        "positions": [
+          {
+            "position": "Some Norman chronicles record a deathbed change of intention — that Henry absolved his barons of their oaths and recommended Stephen. This story, convenient for Stephen's party, has some contemporary attestation.",
+            "source_ids": [{ "source_id": "DAVIS-KING-STEPHEN" }]
+          },
+          {
+            "position": "English sources give no credence to any deathbed revocation. The story served Norman and Blesian interests, was contradicted by witnesses present at Henry's death, and is almost certainly a post-hoc justification for Stephen's usurpation.",
+            "source_ids": [{ "source_id": "HUSCROFT-RULING-ENGLAND" }]
+          }
+        ]
+      },
+      {
+        "question": "Were the oaths sworn to Matilda constitutionally binding after Henry I's death?",
+        "positions": [
+          {
+            "position": "The thrice-sworn oaths were unambiguous and were specifically designed to bind the barons to Matilda's succession. Stephen's repudiation of them was oath-breaking, and his subsequent troubles were widely attributed by contemporaries to divine punishment for this breach of faith.",
+            "source_ids": [{ "source_id": "HUSCROFT-RULING-ENGLAND" }, { "source_id": "DAVIS-KING-STEPHEN" }]
+          },
+          {
+            "position": "Medieval oaths sworn to a living king did not automatically bind the baronage after his death, particularly where the designated successor was female and the practical difficulties of her rule were severe. Many barons who supported Stephen had in good conscience concluded the oaths were voided by changed circumstances.",
+            "source_ids": [{ "source_id": "DAVIS-KING-STEPHEN" }]
+          }
+        ]
+      }
+    ],
+    "source_ids": ["DAVIS-KING-STEPHEN", "HUSCROFT-RULING-ENGLAND", "ODNB-stephen", "FRYDE-HANDBOOK-DATES"]
+  },
+  {
+    "id": "succession-1399",
+    "title": "The Lancastrian Usurpation, 1399",
+    "year": {
+      "value": { "year": 1399, "month": 9, "day": 30 },
+      "source_ids": [{ "source_id": "FRYDE-HANDBOOK-DATES" }]
+    },
+    "throne": "The English Crown",
+    "description": {
+      "value": "In September 1399 Henry Bolingbroke, Duke of Lancaster — returned from exile in defiance of Richard II's sentence of banishment — deposed the anointed king before a parliament assembled in Westminster Hall. Richard's 'voluntary' abdication was read aloud; 33 articles of tyranny were presented; and Henry claimed the throne by a deliberately vague formula invoking 'right of blood', 'God's grace', and parliamentary recognition. The rival Mortimer claim — genealogically stronger — was quietly ignored.",
+      "source_ids": [
+        { "source_id": "SAUL-RICHARD-II" },
+        { "source_id": "GIVEN-WILSON-HENRY-IV" },
+        { "source_id": "MCKISACK-14C" },
+        { "source_id": "FRYDE-HANDBOOK-DATES" }
+      ]
+    },
+    "assumptions": [
+      {
+        "id": "female-line-equality",
+        "label": "Female-line descent carries equal weight",
+        "description": "Descent through a woman from a more senior royal line carries equal dynastic weight to male-line descent from a junior line — the genealogically senior line wins regardless of whether it passes through daughters.",
+        "default_value": false
+      },
+      {
+        "id": "parliamentary-deposition",
+        "label": "Parliament may lawfully depose a king",
+        "description": "A parliament, assembled in the name of the realm, has constitutional authority to depose a reigning king for tyranny or misrule, and to recognise a new claimant — irrespective of strict genealogical right.",
+        "default_value": true
+      },
+      {
+        "id": "forfeiture-extinguishes",
+        "label": "Royal disinheritance extinguishes dynastic rights",
+        "description": "A king's act of forfeiture and disinheritance (as Richard II applied to the Lancaster inheritance in 1399) extinguishes the disinherited party's dynastic rights.",
+        "default_value": false
+      },
+      {
+        "id": "de-facto-legitimacy",
+        "label": "Parliamentary recognition creates working title",
+        "description": "Parliamentary recognition and effective control create a legitimate working title, even without the strongest genealogical claim, provided the settlement holds.",
+        "default_value": true
+      }
+    ],
+    "claimants": [
+      {
+        "person_id": "richard-ii",
+        "claim_basis": {
+          "description": {
+            "value": "Richard II was the reigning anointed king of England, grandson of Edward III through the Black Prince (eldest surviving son). His right was unimpeachable by blood and by the divine sanction of anointing. He had ruled since 1377. Whatever his personal tyrannies, his deposition required the invention of constitutional fictions — a 'voluntary' abdication extracted from a prisoner in the Tower — to avoid the naked reality of usurpation.",
+            "source_ids": [
+              { "source_id": "SAUL-RICHARD-II" },
+              { "source_id": "GIVEN-WILSON-HENRY-IV" }
+            ]
+          },
+          "line_of_descent": "Son of Edward the Black Prince; grandson of Edward III (eldest surviving son). Male-line descent through the most senior surviving branch of the Plantagenet house.",
+          "contemporary_argument": {
+            "value": "Richard and his supporters argued that an anointed king could not be deposed by any earthly power; that his title derived from God, not from parliamentary consent; and that Bolingbroke's return from exile was itself an act of treason. Richard invoked the sacral nature of medieval kingship as an absolute bar to deposition.",
+            "source_ids": [{ "source_id": "SAUL-RICHARD-II" }]
+          }
+        },
+        "succeeded": false,
+        "assumption_effects": {
+          "female-line-equality": "weakens",
+          "parliamentary-deposition": "weakens",
+          "forfeiture-extinguishes": "weakens",
+          "de-facto-legitimacy": "weakens"
+        }
+      },
+      {
+        "person_id": "henry-iv",
+        "claim_basis": {
+          "description": {
+            "value": "Henry Bolingbroke was the son of John of Gaunt, Duke of Lancaster — Edward III's fourth surviving son and third to live to maturity. His genealogical claim was junior to the Mortimer line (descended from Lionel of Antwerp, Edward III's second son). Henry accordingly avoided making a strict blood-right argument; his claim speech invoked 'the right that God of his grace hath sent me, with the help of my kin and of my friends' — a calculated ambiguity that could be read as conquest, blood right, or parliamentary title as occasion demanded.",
+            "source_ids": [
+              { "source_id": "GIVEN-WILSON-HENRY-IV" },
+              { "source_id": "SAUL-RICHARD-II" }
+            ]
+          },
+          "line_of_descent": "Son of John of Gaunt (Edward III's fourth son); grandson of Edward III through the male line, but through a junior son. Lancaster was Edward III's third surviving son; Lionel of Antwerp was second.",
+          "contemporary_argument": {
+            "value": "Henry's claim speech on 30 September 1399 deliberately invoked three overlapping foundations: divine grace, kinship right, and the realm's need for rescue from tyranny. He avoided specifying which of these was primary precisely because each was vulnerable to challenge; the combination was designed to be unanswerable in practice if not in theory.",
+            "source_ids": [
+              { "source_id": "GIVEN-WILSON-HENRY-IV" },
+              { "source_id": "MCKISACK-14C" }
+            ]
+          }
+        },
+        "succeeded": true,
+        "assumption_effects": {
+          "female-line-equality": "weakens",
+          "parliamentary-deposition": "strengthens",
+          "forfeiture-extinguishes": "strengthens",
+          "de-facto-legitimacy": "strengthens"
+        }
+      },
+      {
+        "person_id": "edmund-mortimer-3rd",
+        "claim_basis": {
+          "description": {
+            "value": "Edmund Mortimer, 3rd Earl of March was the great-grandson of Lionel of Antwerp, Duke of Clarence — Edward III's second surviving son, senior to John of Gaunt (the third). The line passed through Lionel's daughter Philippa to the Mortimer earls of March. If female-line descent carried equal weight — as it did in English common law inheritance — Edmund had a genealogically superior claim to both Richard II (male-line from the Black Prince, Edward III's eldest) and Henry Bolingbroke (male-line from Gaunt, the third son). Edmund was a minor in 1399, which made him easily sidelined.",
+            "source_ids": [
+              { "source_id": "GIVEN-WILSON-HENRY-IV" },
+              { "source_id": "HICKS-WARS-ROSES" }
+            ]
+          },
+          "line_of_descent": "Great-grandson of Lionel of Antwerp (Edward III's second surviving son) through his daughter Philippa of Clarence → Roger Mortimer, 4th Earl of March → Edmund Mortimer, 3rd Earl of March. Senior Plantagenet line if female-line transmission is valid.",
+          "contemporary_argument": {
+            "value": "The Mortimer claim was not publicly advanced in 1399 — Edmund was a child under royal wardship and his supporters were in no position to challenge Henry's military control. The claim re-surfaced under Richard, Duke of York in the 1450s and became the constitutional basis of the Yorkist case in the Wars of the Roses.",
+            "source_ids": [
+              { "source_id": "HICKS-WARS-ROSES" },
+              { "source_id": "POLLARD-WARS-ROSES" }
+            ]
+          }
+        },
+        "succeeded": false,
+        "assumption_effects": {
+          "female-line-equality": "strengthens",
+          "parliamentary-deposition": "weakens",
+          "forfeiture-extinguishes": "weakens",
+          "de-facto-legitimacy": "weakens"
+        }
+      }
+    ],
+    "contested_questions": [
+      {
+        "question": "Was Richard II's abdication voluntary?",
+        "positions": [
+          {
+            "position": "Richard was a prisoner in the Tower of London; his 'resignation' was extracted under compulsion. Contemporary observers noted he signed the document without being shown the assembled parliament — it cannot be regarded as a free act, and the fiction of voluntariness was a constitutional necessity Henry could not abandon.",
+            "source_ids": [{ "source_id": "SAUL-RICHARD-II" }, { "source_id": "GIVEN-WILSON-HENRY-IV" }]
+          },
+          {
+            "position": "Richard may have genuinely concluded that resistance was futile and that formal abdication offered a better chance of survival. The Dieulacres Chronicle records him as cheerful at his first meeting with Henry, and some historians argue the resignation, once given, was accepted by Richard as binding.",
+            "source_ids": [{ "source_id": "GIVEN-WILSON-HENRY-IV" }]
+          }
+        ]
+      },
+      {
+        "question": "Did Henry IV's claim rest on blood right, parliamentary title, or conquest?",
+        "positions": [
+          {
+            "position": "Henry's claim speech was a deliberate obfuscation. He could not claim strict blood right (the Mortimer claim was genealogically superior) and could not openly claim conquest (that would invite the same logic to be used against him). Parliamentary title was the most defensible ground, but Parliament was assembled under duress.",
+            "source_ids": [{ "source_id": "SAUL-RICHARD-II" }, { "source_id": "MCKISACK-14C" }]
+          },
+          {
+            "position": "The parliamentary recognition of Henry's title, whatever its basis, created a working constitutional settlement. Three Lancastrian kings and 62 years of rule gave the dynasty a de facto legitimacy that transcended the question of strict genealogical right.",
+            "source_ids": [{ "source_id": "GIVEN-WILSON-HENRY-IV" }, { "source_id": "MCKISACK-14C" }]
+          }
+        ]
+      }
+    ],
+    "source_ids": ["SAUL-RICHARD-II", "GIVEN-WILSON-HENRY-IV", "MCKISACK-14C", "HICKS-WARS-ROSES", "POLLARD-WARS-ROSES", "FRYDE-HANDBOOK-DATES"]
+  },
+  {
+    "id": "succession-1460",
+    "title": "The Act of Accord, 1460: York versus Lancaster",
+    "year": {
+      "value": { "year": 1460, "month": 10 },
+      "source_ids": [{ "source_id": "FRYDE-HANDBOOK-DATES" }]
+    },
+    "throne": "The English Crown",
+    "description": {
+      "value": "By October 1460 Richard, Duke of York — having routed the royal forces at Northampton and taken Henry VI prisoner — entered Parliament and placed his hand on the throne. He expected acclamation; he received silence. The resultant Act of Accord was a constitutional compromise: Henry VI would reign for life, but York and his heirs would succeed him, disinheriting the Lancastrian Prince of Wales. York was killed at Wakefield in December 1460, but his son won the throne as Edward IV in March 1461.",
+      "source_ids": [
+        { "source_id": "HICKS-WARS-ROSES" },
+        { "source_id": "POLLARD-WARS-ROSES" },
+        { "source_id": "FRYDE-HANDBOOK-DATES" }
+      ]
+    },
+    "assumptions": [
+      {
+        "id": "female-line-equality",
+        "label": "Female-line descent carries equal weight",
+        "description": "Descent through a woman from a more senior royal line carries equal dynastic weight to male-line descent from a junior line — the genealogically senior line wins regardless of sex of transmission.",
+        "default_value": false
+      },
+      {
+        "id": "de-facto-possession",
+        "label": "Long possession legitimises title",
+        "description": "A dynasty that has held the throne for two or more generations, with broad acceptance, acquires a legitimacy that cannot be overturned by genealogical argument — possession and anointing create their own right.",
+        "default_value": true
+      },
+      {
+        "id": "parliamentary-title",
+        "label": "Parliament may determine the succession",
+        "description": "Parliament, as the representative body of the realm, has constitutional authority to settle the succession — by Act of Accord, attainder, or statute — overriding both strict blood right and royal will.",
+        "default_value": true
+      },
+      {
+        "id": "male-line-seniority",
+        "label": "Male-line transmission determines seniority",
+        "description": "Among competing royal lines, seniority is determined by the male line of descent from a common ancestor; female-line transmission does not create a superior claim to a junior male-line branch.",
+        "default_value": false
+      }
+    ],
+    "claimants": [
+      {
+        "person_id": "henry-vi",
+        "claim_basis": {
+          "description": {
+            "value": "Henry VI was the reigning king, third of the Lancastrian dynasty that had held the throne since 1399. His descent was through the male line from John of Gaunt, Edward III's fourth surviving son. The Lancastrian position rested on 61 years of continuous rule, three consecrated kings, and parliamentary recognition — and argued that the Yorkist genealogical claim, transmitted through women, was constitutionally inferior to male-line possession.",
+            "source_ids": [
+              { "source_id": "HICKS-WARS-ROSES" },
+              { "source_id": "POLLARD-WARS-ROSES" }
+            ]
+          },
+          "line_of_descent": "Son of Henry V; grandson of Henry IV (John of Gaunt's son); great-grandson of John of Gaunt, Duke of Lancaster (Edward III's fourth son). Male-line Plantagenet descent through a junior branch.",
+          "contemporary_argument": {
+            "value": "Lancastrian writers argued that three generations of anointed kings created their own legitimacy; that female-line genealogical arguments were legally irrelevant to the English crown; and that York's resort to force was treason against an anointed sovereign, whatever the genealogy.",
+            "source_ids": [{ "source_id": "POLLARD-WARS-ROSES" }]
+          }
+        },
+        "succeeded": false,
+        "assumption_effects": {
+          "female-line-equality": "weakens",
+          "de-facto-possession": "strengthens",
+          "parliamentary-title": "weakens",
+          "male-line-seniority": "weakens"
+        }
+      },
+      {
+        "person_id": "richard-duke-of-york",
+        "claim_basis": {
+          "description": {
+            "value": "Richard, Duke of York held a genealogically complex but arguably superior claim: through his mother Anne Mortimer he descended from Lionel of Antwerp, Edward III's second surviving son — senior to Lancaster's John of Gaunt (the fourth). He was also descended in the male line from Edmund of Langley, Edward III's fifth son, as Duke of York. The combination gave him both a genealogically senior claim (via Lionel/Mortimer) and an unimpeachable male-line connection to Edward III. The Act of Accord recognised this by making him heir to Henry VI.",
+            "source_ids": [
+              { "source_id": "HICKS-WARS-ROSES" },
+              { "source_id": "POLLARD-WARS-ROSES" }
+            ]
+          },
+          "line_of_descent": "Through mother Anne Mortimer: descended from Lionel of Antwerp (Edward III's 2nd son) → Philippa of Clarence → Roger Mortimer, 4th Earl → Anne Mortimer → Richard, Duke of York. Through father Richard, Earl of Cambridge: descended from Edmund of Langley (Edward III's 5th son).",
+          "contemporary_argument": {
+            "value": "Yorkist lawyers in 1460 submitted a formal genealogical case to Parliament demonstrating the priority of York's line through Lionel of Antwerp. They argued that English common law of inheritance — which did not discriminate against female transmission — entitled York to rank above Lancaster. Parliament's Act of Accord implicitly accepted this argument by making York, not Lancaster, the future king.",
+            "source_ids": [
+              { "source_id": "HICKS-WARS-ROSES" },
+              { "source_id": "POLLARD-WARS-ROSES" }
+            ]
+          }
+        },
+        "succeeded": false,
+        "assumption_effects": {
+          "female-line-equality": "strengthens",
+          "de-facto-possession": "weakens",
+          "parliamentary-title": "strengthens",
+          "male-line-seniority": "weakens"
+        }
+      }
+    ],
+    "contested_questions": [
+      {
+        "question": "Was the Yorkist genealogical claim legally sound under English law?",
+        "positions": [
+          {
+            "position": "English common law of inheritance did not distinguish between male-line and female-line descent for purposes of seniority; the elder line always took precedence. The Yorkist case through Lionel of Antwerp's descendants was the genealogically stronger claim, and Parliament's Act of Accord implicitly recognised this.",
+            "source_ids": [{ "source_id": "HICKS-WARS-ROSES" }]
+          },
+          {
+            "position": "The principle that female-line descent from a senior branch overrides male-line descent from a junior branch was never settled constitutional law for the English crown. The Lancastrian counter-argument — that three anointed kings create their own legitimacy — had real political and theological force that the genealogical argument could not simply override.",
+            "source_ids": [{ "source_id": "POLLARD-WARS-ROSES" }]
+          }
+        ]
+      },
+      {
+        "question": "Was the Act of Accord a genuine constitutional settlement or a Yorkist imposition?",
+        "positions": [
+          {
+            "position": "The Act of Accord was a workable compromise that Parliament could in good conscience enact: it preserved Henry VI's dignity and reign while settling the succession on the genealogically stronger line. Had York not been killed at Wakefield weeks later, it might have held.",
+            "source_ids": [{ "source_id": "HICKS-WARS-ROSES" }]
+          },
+          {
+            "position": "The Act was imposed by Yorkist military supremacy after the Lancastrian court party had fled north. The Queen Margaret and the Prince of Wales never accepted it; the Lancastrian nobility overwhelmingly rejected it. It represented not a constitutional consensus but a temporary military advantage, and renewed conflict was inevitable.",
+            "source_ids": [{ "source_id": "POLLARD-WARS-ROSES" }]
+          }
+        ]
+      }
+    ],
+    "source_ids": ["HICKS-WARS-ROSES", "POLLARD-WARS-ROSES", "FRYDE-HANDBOOK-DATES", "GIVEN-WILSON-HENRY-IV", "MCKISACK-14C"]
+  }
+]

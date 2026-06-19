@@ -1,0 +1,98 @@
+[
+  {
+    "id": "wessex",
+    "name": "Wessex",
+    "color": "#9B7A1A",
+    "period_start": { "year": 802 },
+    "period_end": { "year": 1066 },
+    "summary": {
+      "value": "The House of Wessex was the royal dynasty of the West Saxons that unified England under Æthelstan in 927. It produced Alfred the Great (r. 871–899), who checked the Danish invasions and promoted literacy and law; Æthelstan (r. 924–939), the first king recognised as ruler of all England; and Edgar the Peaceful (r. 959–975), whose reign was regarded as a highpoint of Anglo-Saxon kingship. The dynasty was interrupted by the Danish kings Cnut, Harold Harefoot, and Harthacnut (1016–1042) before being restored under Edward the Confessor. It ended with the death of Harold II at the Battle of Hastings on 14 October 1066.",
+      "source_ids": [{ "source_id": "STENTON-ASE" }, { "source_id": "FRYDE-HANDBOOK-DATES" }]
+    },
+    "source_ids": [{ "source_id": "STENTON-ASE" }, { "source_id": "FRYDE-HANDBOOK-DATES" }]
+  },
+  {
+    "id": "denmark",
+    "name": "Denmark",
+    "color": "#1B3A6B",
+    "period_start": { "year": 1016 },
+    "period_end": { "year": 1042 },
+    "summary": {
+      "value": "The Danish royal line ruled England from Cnut's conquest in 1016 until the death of Harthacnut in 1042. Cnut's reign was notable for its relative stability: he issued law codes drawing on Anglo-Saxon precedents, patronised the Church, and created a North Sea empire encompassing England, Denmark, and Norway. The line comprised three monarchs — Cnut (r. 1016–1035), Harold Harefoot (r. 1035–1040), and Harthacnut (r. 1040–1042) — and ended when Harthacnut died without a recognised heir, allowing the Wessex line to be restored under Edward the Confessor.",
+      "source_ids": [{ "source_id": "BOLTON-CNUT" }, { "source_id": "STENTON-ASE" }, { "source_id": "FRYDE-HANDBOOK-DATES" }]
+    },
+    "source_ids": [{ "source_id": "BOLTON-CNUT" }, { "source_id": "STENTON-ASE" }, { "source_id": "FRYDE-HANDBOOK-DATES" }]
+  },
+  {
+    "id": "norman",
+    "name": "Norman",
+    "color": "#4a7c59",
+    "period_start": { "year": 1066 },
+    "period_end": { "year": 1154 },
+    "summary": {
+      "value": "The Norman dynasty ruled England from the Conquest of 1066 until the death of King Stephen in 1154. Founded by William I (William the Conqueror), Duke of Normandy, who defeated and killed King Harold II at the Battle of Hastings, the Normans imposed a new French-speaking ruling class upon Anglo-Saxon England, restructured landholding through the feudal system, undertook the Domesday survey (1086), and built an extensive programme of castle and cathedral construction. The dynasty produced four monarchs: William I, William II (Rufus), Henry I (Beauclerc), and Stephen. The death of Stephen without a recognised male heir and the succession of Henry II, grandson of Henry I through his mother the Empress Matilda, marked the transition to the Plantagenet/Angevin dynasty.",
+      "source_ids": [{ "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }, { "source_id": "HUSCROFT-RULING-ENGLAND" }]
+    },
+    "source_ids": [{ "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }, { "source_id": "FRYDE-HANDBOOK-DATES" }]
+  },
+  {
+    "id": "plantagenet",
+    "name": "Plantagenet",
+    "color": "#8B1A1A",
+    "period_start": { "year": 1154 },
+    "period_end": { "year": 1399 },
+    "summary": {
+      "value": "The Plantagenet dynasty ruled England from the accession of Henry II in 1154 until the deposition of Richard II in 1399. The name derives from the planta genista (broom plant) associated with the family's Angevin origins, though the dynasty did not use the name Plantagenet itself until the fifteenth century. Fourteen monarchs reigned under this house. The dynasty presided over the development of common law, Magna Carta (1215), the growth of Parliament, the Hundred Years War, and the Black Death. The later Plantagenets divided into the cadet houses of Lancaster and York, whose rival claims produced the Wars of the Roses.",
+      "source_ids": [{ "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }, { "source_id": "MCKISACK-14C" }]
+    },
+    "source_ids": [{ "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }, { "source_id": "FRYDE-HANDBOOK-DATES" }]
+  },
+  {
+    "id": "lancaster",
+    "name": "Lancaster",
+    "color": "#C41E3A",
+    "period_start": { "year": 1399 },
+    "period_end": { "year": 1471 },
+    "summary": {
+      "value": "The House of Lancaster was a cadet branch of the Plantagenets, descending from John of Gaunt, Duke of Lancaster — the fourth surviving son of Edward III — and his first wife Blanche of Lancaster. The Lancastrian kings Henry IV, Henry V, and Henry VI ruled England from 1399. The line was interrupted by Yorkist victories in 1461 and extinguished with the death of Henry VI in 1471. The red rose was used as a Lancastrian badge, though the Tudor-era symbolism of the 'red rose of Lancaster' was in part retrospective.",
+      "source_ids": [{ "source_id": "HICKS-WARS-ROSES" }, { "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }]
+    },
+    "source_ids": [{ "source_id": "HICKS-WARS-ROSES" }, { "source_id": "FRYDE-HANDBOOK-DATES" }]
+  },
+  {
+    "id": "york",
+    "name": "York",
+    "color": "#E8E8E8",
+    "period_start": { "year": 1461 },
+    "period_end": { "year": 1485 },
+    "summary": {
+      "value": "The House of York was a cadet branch of the Plantagenets. The Yorkist claim to the throne derived from two lines of descent from Edward III: through Lionel of Antwerp, Duke of Clarence (Edward's third son), via the female line through the Mortimers, and through Edmund of Langley, Duke of York (Edward's fourth son), in the male line. The combination of these two lines gave the Yorkist claimants a genealogically senior position to the Lancastrians, who descended solely from John of Gaunt (Edward's fourth son). The Yorkist kings were Edward IV (1461–83), Edward V (1483, uncrowned), and Richard III (1483–85). The dynasty ended at the Battle of Bosworth Field in 1485.",
+      "source_ids": [{ "source_id": "HICKS-WARS-ROSES" }, { "source_id": "ROSS-EDWARD-IV" }]
+    },
+    "source_ids": [{ "source_id": "HICKS-WARS-ROSES" }, { "source_id": "FRYDE-HANDBOOK-DATES" }]
+  },
+  {
+    "id": "tudor",
+    "name": "Tudor",
+    "color": "#1A5C1A",
+    "period_start": { "year": 1485 },
+    "period_end": { "year": 1603 },
+    "summary": {
+      "value": "The Tudor dynasty ruled England from Henry VII's victory at Bosworth Field on 22 August 1485 until Elizabeth I's death on 24 March 1603. Henry VII's claim combined conquest, parliamentary recognition, and a Lancastrian descent through John of Gaunt's legitimised Beaufort line. The Tudors presided over the English Reformation, the break with Rome, and a sustained centralisation of royal authority. Five monarchs reigned: Henry VII, Henry VIII, Edward VI, Mary I, and Elizabeth I.",
+      "source_ids": [{ "source_id": "CHRIMES-HENRY-VII" }, { "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }]
+    },
+    "source_ids": [{ "source_id": "CHRIMES-HENRY-VII" }, { "source_id": "FRYDE-HANDBOOK-DATES" }]
+  },
+  {
+    "id": "stuart",
+    "name": "Stuart",
+    "color": "#5c3d8f",
+    "period_start": { "year": 1603 },
+    "period_end": { "year": 1714 },
+    "summary": {
+      "value": "The House of Stuart ruled England (and from 1707 Great Britain) from the accession of James I in 1603 until the death of Queen Anne in 1714. The dynasty inherited the English throne through the descent of James I from Margaret Tudor, daughter of Henry VII, who had married James IV of Scotland. The Stuart period encompassed the English Civil War, the execution of Charles I (1649), the Interregnum under Oliver Cromwell, the Restoration of Charles II (1660), the Glorious Revolution (1688) which replaced James II with William III and Mary II, and concluded with the Act of Union (1707) uniting England and Scotland as Great Britain. Seven monarchs reigned under this house: James I, Charles I, Charles II, James II, William III (jointly with Mary II), Mary II, and Anne.",
+      "source_ids": [{ "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }, { "source_id": "KENYON-STUARTS" }]
+    },
+    "source_ids": [{ "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }, { "source_id": "FRYDE-HANDBOOK-DATES" }]
+  }
+]

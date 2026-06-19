@@ -1,0 +1,642 @@
+[
+  {
+    "id": "edward-iii-coronation-1327",
+    "title": "Coronation of Edward III",
+    "type": "coronation",
+    "themes": ["monarchy"],
+    "date": {
+      "value": { "year": 1327, "month": 1, "day": 25, "notes": "Crowned at Westminster Abbey." },
+      "source_ids": [{ "source_id": "ODNB-edward-iii" }, { "source_id": "FRYDE-HANDBOOK-DATES" }]
+    },
+    "place_id": "westminster-palace",
+    "people_involved": [
+      {
+        "person_id": "edward-iii",
+        "role": "Crowned King of England",
+        "source_ids": [{ "source_id": "ODNB-edward-iii" }]
+      }
+    ],
+    "summary": {
+      "value": "Edward III was crowned King of England at Westminster Abbey on 25 January 1327, following the forced abdication of his father Edward II. He was fourteen years old at the time of his coronation. The early years of his reign were dominated by the regency of his mother Isabella of France and her favourite Roger Mortimer, whom Edward displaced in a coup in October 1330 and thereafter governed in his own right.",
+      "source_ids": [{ "source_id": "ODNB-edward-iii" }, { "source_id": "FRYDE-HANDBOOK-DATES" }]
+    },
+    "source_ids": [{ "source_id": "ODNB-edward-iii" }, { "source_id": "FRYDE-HANDBOOK-DATES" }]
+  },
+  {
+    "id": "edward-iii-philippa-marriage-1328",
+    "title": "Marriage of Edward III and Philippa",
+    "type": "marriage",
+    "themes": ["monarchy", "diplomacy"],
+    "date": {
+      "value": { "year": 1328, "month": 1, "day": 24, "notes": "Married at York Minster." },
+      "source_ids": [{ "source_id": "ODNB-philippa-hainault" }, { "source_id": "FRYDE-HANDBOOK-DATES" }]
+    },
+    "people_involved": [
+      {
+        "person_id": "edward-iii",
+        "role": "Groom",
+        "source_ids": [{ "source_id": "ODNB-edward-iii" }]
+      },
+      {
+        "person_id": "philippa-of-hainault",
+        "role": "Bride",
+        "source_ids": [{ "source_id": "ODNB-philippa-hainault" }]
+      }
+    ],
+    "summary": {
+      "value": "Edward III married Philippa of Hainault at York Minster on 24 January 1328. The match had been arranged in 1326 as part of Edward's mother Isabella's diplomatic efforts with the Low Countries. Philippa was the daughter of William I, Count of Hainault and Holland. The marriage proved durable and produced twelve children, five of whose descendants became the principal claimants in the dynastic disputes of the fifteenth century.",
+      "source_ids": [{ "source_id": "ODNB-philippa-hainault" }, { "source_id": "FRYDE-HANDBOOK-DATES" }]
+    },
+    "source_ids": [{ "source_id": "ODNB-philippa-hainault" }, { "source_id": "FRYDE-HANDBOOK-DATES" }]
+  },
+  {
+    "id": "hundred-years-war-begins-1337",
+    "title": "Hundred Years War begins",
+    "type": "political",
+    "themes": ["conflict", "diplomacy", "monarchy"],
+    "date": {
+      "value": { "year": 1337, "notes": "Edward III's formal claim to the French throne is conventionally dated to 1337." },
+      "source_ids": [{ "source_id": "MCKISACK-14C" }, { "source_id": "ODNB-edward-iii" }]
+    },
+    "people_involved": [
+      {
+        "person_id": "edward-iii",
+        "role": "Claimant to the French throne; initiator of the war",
+        "source_ids": [{ "source_id": "ODNB-edward-iii" }]
+      }
+    ],
+    "summary": {
+      "value": "The conflict known as the Hundred Years War began in 1337 when Philip VI of France confiscated the duchy of Gascony from Edward III. Edward responded by renewing his claim to the French throne through his mother Isabella, daughter of Philip IV of France. The war, fought intermittently until 1453, shaped English military culture, fiscal institutions, and continental policy for over a century.",
+      "source_ids": [{ "source_id": "MCKISACK-14C" }, { "source_id": "ODNB-edward-iii" }]
+    },
+    "source_ids": [{ "source_id": "MCKISACK-14C" }, { "source_id": "ODNB-edward-iii" }]
+  },
+  {
+    "id": "battle-of-crecy-1346",
+    "title": "Battle of Crécy",
+    "type": "battle",
+    "themes": ["conflict", "monarchy"],
+    "date": {
+      "value": { "year": 1346, "month": 8, "day": 26 },
+      "source_ids": [{ "source_id": "MCKISACK-14C" }, { "source_id": "ODNB-edward-iii" }]
+    },
+    "people_involved": [
+      {
+        "person_id": "edward-iii",
+        "role": "English commander",
+        "source_ids": [{ "source_id": "ODNB-edward-iii" }]
+      }
+    ],
+    "summary": {
+      "value": "The Battle of Crécy, fought on 26 August 1346 in northern France, was a decisive English victory over the French forces of Philip VI. The battle demonstrated the tactical effectiveness of the English longbow against armoured cavalry. Edward III commanded the English army; his son Edward of Woodstock (the Black Prince) commanded the vanguard. The victory opened the way for the siege and capture of Calais (1347).",
+      "source_ids": [{ "source_id": "MCKISACK-14C" }, { "source_id": "ODNB-edward-iii" }]
+    },
+    "source_ids": [{ "source_id": "MCKISACK-14C" }, { "source_id": "ODNB-edward-iii" }]
+  },
+  {
+    "id": "black-death-england-1348",
+    "title": "Black Death reaches England",
+    "type": "other",
+    "themes": ["society"],
+    "date": {
+      "value": { "year": 1348, "notes": "The plague reached the south coast in summer 1348 and spread rapidly northward." },
+      "source_ids": [{ "source_id": "MCKISACK-14C" }]
+    },
+    "date_end": {
+      "value": { "year": 1349 },
+      "source_ids": [{ "source_id": "MCKISACK-14C" }]
+    },
+    "summary": {
+      "value": "The Black Death reached England in the summer of 1348, entering through the southern ports, and spread rapidly through the country over the following year. Estimates of mortality vary widely but modern scholarship broadly accepts that between a third and a half of the English population died in the initial outbreak of 1348–49. The pandemic had profound economic, social, and religious consequences, accelerating the decline of villeinage and transforming the labour market.",
+      "source_ids": [{ "source_id": "MCKISACK-14C" }]
+    },
+    "source_ids": [{ "source_id": "MCKISACK-14C" }]
+  },
+  {
+    "id": "lionel-created-duke-clarence-1362",
+    "title": "Lionel created Duke of Clarence",
+    "type": "political",
+    "themes": ["monarchy"],
+    "date": {
+      "value": { "year": 1362, "month": 11, "day": 13, "notes": "Created by letters patent." },
+      "source_ids": [{ "source_id": "ODNB-lionel-clarence" }, { "source_id": "COMPLETE-PEERAGE-CLARENCE" }]
+    },
+    "people_involved": [
+      {
+        "person_id": "lionel-of-antwerp",
+        "role": "Created Duke of Clarence by Edward III",
+        "source_ids": [{ "source_id": "ODNB-lionel-clarence" }]
+      }
+    ],
+    "summary": {
+      "value": "On 13 November 1362 Edward III created his son Lionel of Antwerp Duke of Clarence by letters patent — the first use of that title in English history. The title was derived from the honour of Clare in Suffolk, which had come to Lionel through his wife Elizabeth de Burgh. Lionel was simultaneously serving as Lieutenant of Ireland, a role he held from 1361 to 1366.",
+      "source_ids": [{ "source_id": "ODNB-lionel-clarence" }, { "source_id": "COMPLETE-PEERAGE-CLARENCE" }]
+    },
+    "source_ids": [{ "source_id": "ODNB-lionel-clarence" }, { "source_id": "COMPLETE-PEERAGE-CLARENCE" }]
+  },
+  {
+    "id": "statute-of-kilkenny-1366",
+    "title": "Statute of Kilkenny",
+    "type": "legislation",
+    "themes": ["society", "law"],
+    "date": {
+      "value": { "year": 1366 },
+      "source_ids": [{ "source_id": "ODNB-lionel-clarence" }, { "source_id": "MCKISACK-14C" }]
+    },
+    "people_involved": [
+      {
+        "person_id": "lionel-of-antwerp",
+        "role": "Lieutenant of Ireland; presided over the Irish Parliament that enacted the statute",
+        "source_ids": [{ "source_id": "ODNB-lionel-clarence" }]
+      }
+    ],
+    "summary": {
+      "value": "The Statute of Kilkenny (1366) was a body of legislation enacted during Lionel of Antwerp's lieutenancy of Ireland. It forbade the Anglo-Irish settler community from adopting Gaelic Irish customs, language, law, or from intermarrying with the Gaelic population. Historians regard the statute as evidence of the anxiety felt by the English administration about the integration of settlers into Gaelic society rather than as an effective piece of governance: its practical enforcement was limited, and the anglicised areas contracted further in the following century.",
+      "source_ids": [{ "source_id": "ODNB-lionel-clarence" }, { "source_id": "MCKISACK-14C" }]
+    },
+    "source_ids": [{ "source_id": "ODNB-lionel-clarence" }, { "source_id": "MCKISACK-14C" }]
+  },
+  {
+    "id": "death-of-lionel-1368",
+    "title": "Death of Lionel of Antwerp",
+    "type": "death",
+    "themes": ["monarchy"],
+    "date": {
+      "value": { "year": 1368, "month": 10, "day": 17, "notes": "Died at Alba, Piedmont." },
+      "source_ids": [{ "source_id": "ODNB-lionel-clarence" }, { "source_id": "COMPLETE-PEERAGE-CLARENCE" }]
+    },
+    "people_involved": [
+      {
+        "person_id": "lionel-of-antwerp",
+        "role": "Deceased",
+        "source_ids": [{ "source_id": "ODNB-lionel-clarence" }]
+      }
+    ],
+    "summary": {
+      "value": "Lionel of Antwerp, Duke of Clarence and third surviving son of Edward III, died on 17 October 1368 at Alba in Piedmont, Italy, several months after his second marriage to Violante Visconti. The cause of death is uncertain. His death without male heirs meant that the Plantagenet descent through Lionel passed to his daughter Philippa, making her marriage to Edmund Mortimer, 3rd Earl of March, the critical genealogical link for the future Yorkist claim.",
+      "source_ids": [{ "source_id": "ODNB-lionel-clarence" }, { "source_id": "COMPLETE-PEERAGE-CLARENCE" }]
+    },
+    "source_ids": [{ "source_id": "ODNB-lionel-clarence" }, { "source_id": "COMPLETE-PEERAGE-CLARENCE" }]
+  },
+  {
+    "id": "death-of-philippa-hainault-1369",
+    "title": "Death of Philippa of Hainault",
+    "type": "death",
+    "themes": ["monarchy"],
+    "date": {
+      "value": { "year": 1369, "month": 8, "day": 15, "notes": "Died at Windsor Castle." },
+      "source_ids": [{ "source_id": "ODNB-philippa-hainault" }, { "source_id": "FRYDE-HANDBOOK-DATES" }]
+    },
+    "people_involved": [
+      {
+        "person_id": "philippa-of-hainault",
+        "role": "Deceased",
+        "source_ids": [{ "source_id": "ODNB-philippa-hainault" }]
+      }
+    ],
+    "summary": {
+      "value": "Philippa of Hainault, Queen Consort of England, died at Windsor Castle on 15 August 1369. She had been queen for over forty years and bore Edward III twelve children. Her death preceded Edward's by eight years; in his final years the king's court was dominated by Alice Perrers, his mistress, a situation which attracted widespread criticism from contemporaries.",
+      "source_ids": [{ "source_id": "ODNB-philippa-hainault" }, { "source_id": "FRYDE-HANDBOOK-DATES" }]
+    },
+    "source_ids": [{ "source_id": "ODNB-philippa-hainault" }, { "source_id": "FRYDE-HANDBOOK-DATES" }]
+  },
+  {
+    "id": "death-of-edward-iii-1377",
+    "title": "Death of Edward III",
+    "type": "death",
+    "themes": ["monarchy"],
+    "date": {
+      "value": { "year": 1377, "month": 6, "day": 21, "notes": "Died at Sheen Palace, Surrey." },
+      "source_ids": [{ "source_id": "ODNB-edward-iii" }, { "source_id": "FRYDE-HANDBOOK-DATES" }]
+    },
+    "people_involved": [
+      {
+        "person_id": "edward-iii",
+        "role": "Deceased",
+        "source_ids": [{ "source_id": "ODNB-edward-iii" }]
+      }
+    ],
+    "summary": {
+      "value": "Edward III died at Sheen Palace, Surrey, on 21 June 1377, in the fiftieth year of his reign. He was succeeded by his grandson Richard II, son of the Black Prince who had predeceased him. Edward's death crystallised the dynastic question that would define the following century: his five sons had left multiple lines of descent whose competing claims to seniority became the basis for the Lancastrian and Yorkist positions in the Wars of the Roses.",
+      "source_ids": [{ "source_id": "ODNB-edward-iii" }, { "source_id": "FRYDE-HANDBOOK-DATES" }]
+    },
+    "source_ids": [{ "source_id": "ODNB-edward-iii" }, { "source_id": "FRYDE-HANDBOOK-DATES" }]
+  },
+  {
+    "id": "battle-of-hastings-1066",
+    "title": "Battle of Hastings",
+    "type": "battle",
+    "themes": ["conflict", "monarchy"],
+    "date": {
+      "value": { "year": 1066, "month": 10, "day": 14 },
+      "source_ids": [{ "source_id": "BARLOW-WILLIAM-I" }, { "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }]
+    },
+    "people_involved": [
+      {
+        "person_id": "william-i",
+        "role": "Norman commander; won the English crown",
+        "source_ids": [{ "source_id": "BARLOW-WILLIAM-I" }]
+      }
+    ],
+    "summary": {
+      "value": "The Battle of Hastings on 14 October 1066 was one of the most consequential military engagements in English history. William, Duke of Normandy, defeated and killed King Harold II, the last Anglo-Saxon king of England, and secured the English throne. The battle lasted approximately nine hours; Harold was killed, traditionally said to be by an arrow to the eye. William's victory inaugurated Norman rule and permanently altered the English language, culture, aristocracy, and Church.",
+      "source_ids": [{ "source_id": "BARLOW-WILLIAM-I" }, { "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }]
+    },
+    "source_ids": [{ "source_id": "BARLOW-WILLIAM-I" }, { "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }]
+  },
+  {
+    "id": "domesday-book-1086",
+    "title": "Domesday Book commissioned",
+    "type": "political",
+    "themes": ["law", "monarchy"],
+    "date": {
+      "value": { "year": 1086 },
+      "source_ids": [{ "source_id": "BARLOW-WILLIAM-I" }, { "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }]
+    },
+    "people_involved": [
+      {
+        "person_id": "william-i",
+        "role": "Commissioned the survey",
+        "source_ids": [{ "source_id": "BARLOW-WILLIAM-I" }]
+      }
+    ],
+    "summary": {
+      "value": "The Domesday Book was a comprehensive survey of England commissioned by William I in 1085 and compiled in 1086, recording the landholding, ownership, and taxable value of virtually every settlement in England south of the Tees. It was the most ambitious administrative undertaking in medieval Europe to that date. The survey served as a definitive record of landholding following the Norman Conquest and was used for centuries as a legal reference. Its name derives from the thoroughness of its coverage, likened by contemporaries to the Last Judgement (Doomsday).",
+      "source_ids": [{ "source_id": "BARLOW-WILLIAM-I" }, { "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }]
+    },
+    "source_ids": [{ "source_id": "BARLOW-WILLIAM-I" }, { "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }]
+  },
+  {
+    "id": "magna-carta-1215",
+    "title": "Magna Carta",
+    "type": "legislation",
+    "themes": ["law", "monarchy"],
+    "date": {
+      "value": { "year": 1215, "month": 6, "day": 15 },
+      "source_ids": [{ "source_id": "HARRIS-MAGNA-CARTA" }, { "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }]
+    },
+    "people_involved": [
+      {
+        "person_id": "john",
+        "role": "Sealed Magna Carta under baronial pressure",
+        "source_ids": [{ "source_id": "HARRIS-MAGNA-CARTA" }]
+      }
+    ],
+    "summary": {
+      "value": "Magna Carta ('the Great Charter') was sealed by King John at Runnymede on 15 June 1215 under pressure from a coalition of rebellious barons. The charter established the principle that the king was subject to the rule of law and could not imprison subjects or seize property without lawful process; its core provisions, particularly clauses 39–40, became the foundation of the common law tradition of due process. Pope Innocent III annulled it within weeks, triggering the First Barons' War, but subsequent reissues (1216, 1217, 1225) gave it permanent legal standing.",
+      "source_ids": [{ "source_id": "HARRIS-MAGNA-CARTA" }, { "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }, { "source_id": "TURNER-KING-JOHN" }]
+    },
+    "source_ids": [{ "source_id": "HARRIS-MAGNA-CARTA" }, { "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }, { "source_id": "TURNER-KING-JOHN" }]
+  },
+  {
+    "id": "battle-of-bannockburn-1314",
+    "title": "Battle of Bannockburn",
+    "type": "battle",
+    "themes": ["conflict", "monarchy"],
+    "date": {
+      "value": { "year": 1314, "month": 6, "day": 23 },
+      "source_ids": [{ "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }, { "source_id": "FRYDE-HANDBOOK-DATES" }]
+    },
+    "people_involved": [
+      {
+        "person_id": "edward-ii",
+        "role": "English commander; suffered decisive defeat",
+        "source_ids": [{ "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }]
+      }
+    ],
+    "summary": {
+      "value": "The Battle of Bannockburn (23–24 June 1314) was the decisive engagement of the First War of Scottish Independence. A Scottish army under Robert Bruce routed the English forces of Edward II, who was attempting to relieve Stirling Castle. The battle secured Scottish independence in practice and led ultimately to the Treaty of Edinburgh-Northampton (1328), by which England recognised Scotland as an independent kingdom.",
+      "source_ids": [{ "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }, { "source_id": "FRYDE-HANDBOOK-DATES" }]
+    },
+    "source_ids": [{ "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }, { "source_id": "FRYDE-HANDBOOK-DATES" }]
+  },
+  {
+    "id": "battle-of-agincourt-1415",
+    "title": "Battle of Agincourt",
+    "type": "battle",
+    "themes": ["conflict", "monarchy"],
+    "date": {
+      "value": { "year": 1415, "month": 10, "day": 25 },
+      "source_ids": [{ "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }, { "source_id": "FRYDE-HANDBOOK-DATES" }]
+    },
+    "people_involved": [
+      {
+        "person_id": "henry-v",
+        "role": "English commander; decisive victory over France",
+        "source_ids": [{ "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }]
+      }
+    ],
+    "summary": {
+      "value": "The Battle of Agincourt on 25 October 1415 (St Crispin's Day) was the most celebrated English military victory of the Hundred Years War. Henry V's army, significantly outnumbered and weakened by disease, annihilated a French force of superior size through the disciplined use of longbowmen. The victory enabled Henry's conquest of Normandy and his recognition as heir to the French throne by the Treaty of Troyes (1420). Immortalised in Shakespeare's Henry V, the battle became a defining element of English national mythology.",
+      "source_ids": [{ "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }, { "source_id": "FRYDE-HANDBOOK-DATES" }]
+    },
+    "source_ids": [{ "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }, { "source_id": "FRYDE-HANDBOOK-DATES" }]
+  },
+  {
+    "id": "wars-of-roses-begin-1455",
+    "title": "First Battle of St Albans",
+    "type": "battle",
+    "themes": ["conflict", "monarchy"],
+    "date": {
+      "value": { "year": 1455, "month": 5, "day": 22 },
+      "source_ids": [{ "source_id": "POLLARD-WARS-ROSES" }, { "source_id": "HICKS-WARS-ROSES" }]
+    },
+    "summary": {
+      "value": "The Wars of the Roses began with the First Battle of St Albans on 22 May 1455, when Yorkist forces under Richard, Duke of York, routed a Lancastrian army and captured King Henry VI. The conflict — a series of intermittent civil wars between the Lancastrian and Yorkist factions, both descended from sons of Edward III — lasted until the Battle of Bosworth Field in 1485. The name 'Wars of the Roses' is a Victorian coinage derived from the heraldic badges of the two factions: the red rose of Lancaster and the white rose of York.",
+      "source_ids": [{ "source_id": "POLLARD-WARS-ROSES" }, { "source_id": "HICKS-WARS-ROSES" }, { "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }]
+    },
+    "source_ids": [{ "source_id": "POLLARD-WARS-ROSES" }, { "source_id": "HICKS-WARS-ROSES" }, { "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }]
+  },
+  {
+    "id": "battle-of-bosworth-1485",
+    "title": "Battle of Bosworth Field",
+    "type": "battle",
+    "themes": ["conflict", "monarchy"],
+    "date": {
+      "value": { "year": 1485, "month": 8, "day": 22 },
+      "source_ids": [{ "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }, { "source_id": "FRYDE-HANDBOOK-DATES" }]
+    },
+    "people_involved": [
+      {
+        "person_id": "richard-iii",
+        "role": "Yorkist king; killed in battle",
+        "source_ids": [{ "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }]
+      },
+      {
+        "person_id": "henry-vii",
+        "role": "Victorious claimant; became King of England",
+        "source_ids": [{ "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }]
+      }
+    ],
+    "summary": {
+      "value": "The Battle of Bosworth Field on 22 August 1485 ended the Wars of the Roses and the Plantagenet era. Richard III was killed in the fighting — the last English king to die in battle — and Henry Tudor's victory established the Tudor dynasty. Richard's crown was reportedly found on the battlefield and placed on Henry's head by Lord Stanley. Henry's subsequent marriage to Elizabeth of York united the Lancastrian and Yorkist claims and symbolically ended the dynastic conflict.",
+      "source_ids": [{ "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }, { "source_id": "FRYDE-HANDBOOK-DATES" }, { "source_id": "POLLARD-WARS-ROSES" }]
+    },
+    "source_ids": [{ "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }, { "source_id": "FRYDE-HANDBOOK-DATES" }, { "source_id": "POLLARD-WARS-ROSES" }]
+  },
+  {
+    "id": "act-of-supremacy-1534",
+    "title": "Act of Supremacy",
+    "type": "legislation",
+    "themes": ["religion", "monarchy", "law"],
+    "date": {
+      "value": { "year": 1534 },
+      "source_ids": [{ "source_id": "GUY-TUDOR-ENGLAND" }, { "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }]
+    },
+    "people_involved": [
+      {
+        "person_id": "henry-viii",
+        "role": "Declared Supreme Head of the Church of England",
+        "source_ids": [{ "source_id": "GUY-TUDOR-ENGLAND" }]
+      }
+    ],
+    "summary": {
+      "value": "The Act of Supremacy of 1534 declared Henry VIII the 'Supreme Head of the Church of England', completing the English Reformation's institutional break from Rome. The act was the culmination of Henry's campaign to annul his marriage to Catherine of Aragon, which Pope Clement VII had refused to grant. The monasteries were dissolved in 1536–40, their wealth transferred to the Crown. The Reformation under Henry was doctrinally conservative — he maintained Catholic theology while rejecting papal authority — but it opened the door to more thoroughgoing Protestant reform under Edward VI.",
+      "source_ids": [{ "source_id": "GUY-TUDOR-ENGLAND" }, { "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }, { "source_id": "LOADES-TUDOR-MONARCHY" }]
+    },
+    "source_ids": [{ "source_id": "GUY-TUDOR-ENGLAND" }, { "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }, { "source_id": "LOADES-TUDOR-MONARCHY" }]
+  },
+  {
+    "id": "spanish-armada-1588",
+    "title": "Defeat of the Spanish Armada",
+    "type": "battle",
+    "themes": ["conflict", "diplomacy", "monarchy"],
+    "date": {
+      "value": { "year": 1588, "month": 7, "day": 29 },
+      "source_ids": [{ "source_id": "GUY-TUDOR-ENGLAND" }, { "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }]
+    },
+    "people_involved": [
+      {
+        "person_id": "elizabeth-i",
+        "role": "Queen of England; rallied forces at Tilbury",
+        "source_ids": [{ "source_id": "GUY-TUDOR-ENGLAND" }]
+      }
+    ],
+    "summary": {
+      "value": "The Spanish Armada, a fleet of 130 ships sent by Philip II of Spain to invade England and restore Catholicism, was defeated in the summer of 1588. The English fleet under Howard and Drake harassed the Armada through the Channel; the decisive engagement came off Gravelines on 8 August, and the remnant of the Spanish fleet was scattered and largely destroyed by storms rounding the British Isles. Elizabeth I's speech to her troops at Tilbury — 'I know I have the body of a weak and feeble woman, but I have the heart and stomach of a king' — became one of the most celebrated passages of English royal rhetoric.",
+      "source_ids": [{ "source_id": "GUY-TUDOR-ENGLAND" }, { "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }]
+    },
+    "source_ids": [{ "source_id": "GUY-TUDOR-ENGLAND" }, { "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }]
+  },
+  {
+    "id": "gunpowder-plot-1605",
+    "title": "Gunpowder Plot",
+    "type": "political",
+    "themes": ["religion", "monarchy", "law"],
+    "date": {
+      "value": { "year": 1605, "month": 11, "day": 5 },
+      "source_ids": [{ "source_id": "KENYON-STUARTS" }, { "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }]
+    },
+    "people_involved": [
+      {
+        "person_id": "james-i",
+        "role": "Target of the plot; Parliament saved",
+        "source_ids": [{ "source_id": "KENYON-STUARTS" }]
+      }
+    ],
+    "summary": {
+      "value": "The Gunpowder Plot of 5 November 1605 was a conspiracy by a group of English Catholics, led by Robert Catesby and including Guy Fawkes, to blow up the Palace of Westminster during the State Opening of Parliament, killing King James I and the assembled Lords and Commons. The plot was discovered when an anonymous letter warned a Catholic peer to stay away; Fawkes was arrested in the cellars beneath Parliament. The failure of the plot intensified anti-Catholic sentiment in England, and its commemoration on Bonfire Night became an annual tradition.",
+      "source_ids": [{ "source_id": "KENYON-STUARTS" }, { "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }]
+    },
+    "source_ids": [{ "source_id": "KENYON-STUARTS" }, { "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }]
+  },
+  {
+    "id": "english-civil-war-1642",
+    "title": "English Civil War",
+    "type": "rebellion",
+    "themes": ["conflict", "monarchy", "law"],
+    "date": {
+      "value": { "year": 1642, "month": 8, "day": 22 },
+      "source_ids": [{ "source_id": "KENYON-STUARTS" }, { "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }]
+    },
+    "date_end": {
+      "value": { "year": 1649, "month": 1, "day": 30 },
+      "source_ids": [{ "source_id": "KENYON-STUARTS" }]
+    },
+    "people_involved": [
+      {
+        "person_id": "charles-i",
+        "role": "Royalist commander and defeated king",
+        "source_ids": [{ "source_id": "KENYON-STUARTS" }]
+      }
+    ],
+    "summary": {
+      "value": "The English Civil War (1642–49) was fought between the forces of King Charles I (Royalists, 'Cavaliers') and those of Parliament ('Roundheads'), primarily over the extent of royal power and religious settlement. Parliament's New Model Army, led by Oliver Cromwell and Thomas Fairfax, defeated the Royalists decisively at Naseby (June 1645). Charles was tried for treason — an unprecedented act — convicted, and executed on 30 January 1649. England was declared a Commonwealth under parliamentary rule, then a Protectorate under Oliver Cromwell from 1653 to 1659.",
+      "source_ids": [{ "source_id": "KENYON-STUARTS" }, { "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }]
+    },
+    "source_ids": [{ "source_id": "KENYON-STUARTS" }, { "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }]
+  },
+  {
+    "id": "glorious-revolution-1688",
+    "title": "Glorious Revolution",
+    "type": "political",
+    "themes": ["monarchy", "religion", "law"],
+    "date": {
+      "value": { "year": 1688, "month": 11, "day": 5 },
+      "source_ids": [{ "source_id": "KENYON-STUARTS" }, { "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }]
+    },
+    "people_involved": [
+      {
+        "person_id": "james-ii",
+        "role": "Deposed king",
+        "source_ids": [{ "source_id": "KENYON-STUARTS" }]
+      },
+      {
+        "person_id": "william-iii",
+        "role": "Invited to invade; became king",
+        "source_ids": [{ "source_id": "KENYON-STUARTS" }]
+      }
+    ],
+    "summary": {
+      "value": "The Glorious Revolution of 1688 replaced the Catholic King James II with the Protestant William III of Orange and Mary II without significant military conflict. William landed at Brixham on 5 November 1688; James's army dissolved and he fled to France in December, which Parliament subsequently construed as abdication. The Bill of Rights (1689) codified parliamentary sovereignty, prohibited a Catholic monarch, and established the constitutional framework that still underpins British governance. The revolution was 'glorious' in Whig mythology for its bloodlessness (in England) and its constitutional settlement.",
+      "source_ids": [{ "source_id": "KENYON-STUARTS" }, { "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }, { "source_id": "FRYDE-HANDBOOK-DATES" }]
+    },
+    "source_ids": [{ "source_id": "KENYON-STUARTS" }, { "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }, { "source_id": "FRYDE-HANDBOOK-DATES" }]
+  },
+  {
+    "id": "alfred-battle-of-edington-878",
+    "title": "Battle of Edington",
+    "type": "battle",
+    "themes": ["conflict", "monarchy"],
+    "date": { "value": { "year": 878, "month": 5, "approximate": true }, "source_ids": [{ "source_id": "KEYNES-LAPIDGE-ALFRED" }, { "source_id": "STENTON-ASE" }] },
+    "people_involved": [{ "person_id": "alfred-the-great", "role": "Commander of the West Saxon forces; victor", "source_ids": [{ "source_id": "KEYNES-LAPIDGE-ALFRED" }] }],
+    "summary": { "value": "Alfred's decisive defeat of the Danish Great Heathen Army under Guthrum at Edington (Wiltshire) in May 878 ended the Danish occupation of Wessex. Guthrum was forced to accept baptism, with Alfred as his godfather, and agreed to withdraw to East Anglia under the subsequent Treaty of Wedmore. The victory was the turning point in Alfred's campaign against the Vikings and secured the survival of the West Saxon kingdom.", "source_ids": [{ "source_id": "KEYNES-LAPIDGE-ALFRED" }, { "source_id": "STENTON-ASE" }] },
+    "source_ids": [{ "source_id": "KEYNES-LAPIDGE-ALFRED" }, { "source_id": "STENTON-ASE" }]
+  },
+  {
+    "id": "treaty-of-wedmore-878",
+    "title": "Treaty of Wedmore",
+    "type": "political",
+    "themes": ["diplomacy", "conflict"],
+    "date": { "value": { "year": 878, "approximate": true }, "source_ids": [{ "source_id": "KEYNES-LAPIDGE-ALFRED" }, { "source_id": "STENTON-ASE" }] },
+    "people_involved": [{ "person_id": "alfred-the-great", "role": "West Saxon king and negotiator", "source_ids": [{ "source_id": "KEYNES-LAPIDGE-ALFRED" }] }],
+    "summary": { "value": "Following the Battle of Edington, Alfred and the Danish king Guthrum agreed terms at Wedmore. Guthrum accepted Christian baptism and withdrew to East Anglia. The treaty, later codified as the Treaty of Alfred and Guthrum, divided England along a boundary running roughly from the Thames estuary to the Dee, separating Alfred's kingdom from the Danelaw. It established a framework of coexistence between the West Saxon kingdom and Danish settlers.", "source_ids": [{ "source_id": "KEYNES-LAPIDGE-ALFRED" }, { "source_id": "STENTON-ASE" }] },
+    "source_ids": [{ "source_id": "KEYNES-LAPIDGE-ALFRED" }, { "source_id": "STENTON-ASE" }]
+  },
+  {
+    "id": "athelstan-unites-england-927",
+    "title": "Æthelstan unites England",
+    "type": "political",
+    "themes": ["monarchy"],
+    "date": { "value": { "year": 927 }, "source_ids": [{ "source_id": "FOOT-ATHELSTAN" }, { "source_id": "FRYDE-HANDBOOK-DATES" }] },
+    "people_involved": [{ "person_id": "athelstan", "role": "First King of all England", "source_ids": [{ "source_id": "FOOT-ATHELSTAN" }] }],
+    "summary": { "value": "In 927 Æthelstan expelled the Norse king Olaf Sihtricson from York and received the submission of the kings of Scotland, Strathclyde, and Wales at Eamont Bridge. This is conventionally taken as the moment England was first united under a single ruler. Æthelstan thereafter styled himself 'king of the whole of Britain' in charters, a claim reflecting his acknowledged overlordship over the other rulers of the island.", "source_ids": [{ "source_id": "FOOT-ATHELSTAN" }, { "source_id": "FRYDE-HANDBOOK-DATES" }] },
+    "source_ids": [{ "source_id": "FOOT-ATHELSTAN" }, { "source_id": "FRYDE-HANDBOOK-DATES" }]
+  },
+  {
+    "id": "battle-of-brunanburh-937",
+    "title": "Battle of Brunanburh",
+    "type": "battle",
+    "themes": ["conflict", "monarchy"],
+    "date": { "value": { "year": 937 }, "source_ids": [{ "source_id": "FOOT-ATHELSTAN" }, { "source_id": "STENTON-ASE" }] },
+    "people_involved": [{ "person_id": "athelstan", "role": "Commander of the English forces; victor", "source_ids": [{ "source_id": "FOOT-ATHELSTAN" }] }],
+    "summary": { "value": "Æthelstan and his brother Edmund defeated a coalition of Norse, Scots, and Strathclyde Welsh forces at Brunanburh in 937. The exact location of the battle remains debated by historians. The victory consolidated English unity and removed the most significant challenge to English hegemony over Britain. It was celebrated in an Old English poem preserved in the Anglo-Saxon Chronicle, one of the finest pieces of Old English poetry to survive.", "source_ids": [{ "source_id": "FOOT-ATHELSTAN" }, { "source_id": "STENTON-ASE" }] },
+    "source_ids": [{ "source_id": "FOOT-ATHELSTAN" }, { "source_id": "STENTON-ASE" }]
+  },
+  {
+    "id": "battle-of-maldon-991",
+    "title": "Battle of Maldon",
+    "type": "battle",
+    "themes": ["conflict"],
+    "date": { "value": { "year": 991, "month": 8 }, "source_ids": [{ "source_id": "ODNB-ethelred-unready" }, { "source_id": "STENTON-ASE" }] },
+    "people_involved": [{ "person_id": "ethelred-the-unready", "role": "King of England at the time of the battle", "source_ids": [{ "source_id": "ODNB-ethelred-unready" }] }],
+    "summary": { "value": "The Battle of Maldon, fought in August 991, resulted in the defeat and death of the English forces under Ealdorman Byrhtnoth by Viking raiders in Essex. The battle is commemorated in the Old English poem The Battle of Maldon, one of the finest surviving pieces of Old English heroic poetry. The defeat led directly to the first payment of Danegeld, establishing a precedent of tribute payment that proved costly to the kingdom.", "source_ids": [{ "source_id": "ODNB-ethelred-unready" }, { "source_id": "STENTON-ASE" }] },
+    "source_ids": [{ "source_id": "ODNB-ethelred-unready" }, { "source_id": "STENTON-ASE" }]
+  },
+  {
+    "id": "first-danegeld-991",
+    "title": "First Danegeld levied",
+    "type": "political",
+    "themes": ["conflict", "society"],
+    "date": { "value": { "year": 991 }, "source_ids": [{ "source_id": "ODNB-ethelred-unready" }, { "source_id": "STENTON-ASE" }] },
+    "people_involved": [{ "person_id": "ethelred-the-unready", "role": "King who authorised the payment", "source_ids": [{ "source_id": "ODNB-ethelred-unready" }] }],
+    "summary": { "value": "Following the Battle of Maldon, Æthelred II agreed to pay the first Danegeld — a tribute of 10,000 pounds of silver to the Danish raiders — on the advice of Archbishop Sigeric of Canterbury. The practice of purchasing peace from Viking raiders, while effective in the short term, proved unsustainable and was repeatedly criticised by contemporaries including the chronicler Æthelweard.", "source_ids": [{ "source_id": "ODNB-ethelred-unready" }, { "source_id": "STENTON-ASE" }] },
+    "source_ids": [{ "source_id": "ODNB-ethelred-unready" }, { "source_id": "STENTON-ASE" }]
+  },
+  {
+    "id": "st-brice-day-massacre-1002",
+    "title": "St Brice's Day Massacre",
+    "type": "political",
+    "themes": ["conflict", "society"],
+    "date": { "value": { "year": 1002, "month": 11, "day": 13 }, "source_ids": [{ "source_id": "ODNB-ethelred-unready" }, { "source_id": "STENTON-ASE" }] },
+    "people_involved": [{ "person_id": "ethelred-the-unready", "role": "King who ordered the killings", "source_ids": [{ "source_id": "ODNB-ethelred-unready" }] }],
+    "summary": { "value": "On 13 November 1002 (the feast of St Brice), King Æthelred II ordered the killing of Danes living in England. The massacre, which is believed to have included Gunhilde, said to be the sister of Sweyn Forkbeard of Denmark, provoked a series of devastating Danish invasions that eventually led to Sweyn's conquest of England in 1013 and Cnut's final conquest in 1016.", "source_ids": [{ "source_id": "ODNB-ethelred-unready" }, { "source_id": "STENTON-ASE" }] },
+    "source_ids": [{ "source_id": "ODNB-ethelred-unready" }, { "source_id": "STENTON-ASE" }]
+  },
+  {
+    "id": "cnut-king-of-england-1016",
+    "title": "Cnut becomes King of England",
+    "type": "political",
+    "themes": ["monarchy", "conflict"],
+    "date": { "value": { "year": 1016, "month": 11 }, "source_ids": [{ "source_id": "BOLTON-CNUT" }, { "source_id": "STENTON-ASE" }] },
+    "people_involved": [{ "person_id": "cnut", "role": "King of England from November 1016", "source_ids": [{ "source_id": "BOLTON-CNUT" }] }],
+    "summary": { "value": "Following the death of Edmund Ironside on 30 November 1016, the witan recognised Cnut as King of all England, ending the contested dual kingship established at Olney. Cnut's reign (1016–1035) was notably stable: he issued law codes building on Anglo-Saxon precedents, patronised English monasteries, made a pilgrimage to Rome in 1027, and sought to integrate himself into the existing administrative structure of the kingdom.", "source_ids": [{ "source_id": "BOLTON-CNUT" }, { "source_id": "STENTON-ASE" }] },
+    "source_ids": [{ "source_id": "BOLTON-CNUT" }, { "source_id": "STENTON-ASE" }]
+  },
+  {
+    "id": "battle-of-stamford-bridge-1066",
+    "title": "Battle of Stamford Bridge",
+    "type": "battle",
+    "themes": ["conflict", "monarchy"],
+    "date": { "value": { "year": 1066, "month": 9, "day": 25 }, "source_ids": [{ "source_id": "WALKER-HAROLD-II" }, { "source_id": "STENTON-ASE" }] },
+    "people_involved": [{ "person_id": "harold-ii", "role": "King of England; commander of the English forces; victor", "source_ids": [{ "source_id": "WALKER-HAROLD-II" }] }],
+    "summary": { "value": "On 25 September 1066, Harold II defeated and killed the Norwegian king Harald Hardrada and his own brother Tostig at Stamford Bridge, Yorkshire. The victory eliminated the Scandinavian claim to England but exhausted Harold's army. Receiving news three days later of William of Normandy's landing at Pevensey on 28 September, Harold marched south immediately, denying himself time to rest and reinforce his forces before the engagement at Hastings.", "source_ids": [{ "source_id": "WALKER-HAROLD-II" }, { "source_id": "STENTON-ASE" }] },
+    "source_ids": [{ "source_id": "WALKER-HAROLD-II" }, { "source_id": "STENTON-ASE" }]
+  },
+  {
+    "id": "alfred-accedes-871",
+    "title": "Alfred becomes King of Wessex",
+    "type": "coronation",
+    "themes": ["monarchy"],
+    "date": { "value": { "year": 871, "notes": "Acceded to the throne of Wessex after the death of his brother Æthelred I, probably in April 871." }, "source_ids": [{ "source_id": "KEYNES-LAPIDGE-ALFRED" }, { "source_id": "STENTON-ASE" }] },
+    "people_involved": [{ "person_id": "alfred-the-great", "role": "New King of Wessex", "source_ids": [{ "source_id": "KEYNES-LAPIDGE-ALFRED" }] }],
+    "summary": { "value": "Alfred succeeded his brother Æthelred I as King of Wessex in 871, a year of almost continuous warfare against Danish armies. He inherited a kingdom under severe military pressure and a treasury depleted by tribute payments. Over the following decades Alfred transformed Wessex into a state capable of resisting and eventually turning back the Great Heathen Army, laying the administrative and cultural foundations of the English kingdom.", "source_ids": [{ "source_id": "KEYNES-LAPIDGE-ALFRED" }, { "source_id": "STENTON-ASE" }] },
+    "source_ids": [{ "source_id": "KEYNES-LAPIDGE-ALFRED" }, { "source_id": "STENTON-ASE" }]
+  },
+  {
+    "id": "death-of-alfred-899",
+    "title": "Death of Alfred the Great",
+    "type": "political",
+    "themes": ["monarchy"],
+    "date": { "value": { "year": 899, "month": 10, "day": 26, "notes": "Died 26 October 899; buried at Winchester." }, "source_ids": [{ "source_id": "KEYNES-LAPIDGE-ALFRED" }, { "source_id": "FRYDE-HANDBOOK-DATES" }] },
+    "people_involved": [{ "person_id": "alfred-the-great", "role": "King of Wessex; died", "source_ids": [{ "source_id": "KEYNES-LAPIDGE-ALFRED" }] }],
+    "summary": { "value": "Alfred died on 26 October 899 and was buried at Winchester. He had reigned for twenty-eight years, during which he repelled the Danish occupation of Wessex, reorganised the defence of his kingdom through the burh system, and sponsored a systematic programme of translation of Latin learning into Old English. He was succeeded by his son Edward the Elder. No other English ruler has been styled 'the Great' by later tradition.", "source_ids": [{ "source_id": "KEYNES-LAPIDGE-ALFRED" }, { "source_id": "FRYDE-HANDBOOK-DATES" }] },
+    "source_ids": [{ "source_id": "KEYNES-LAPIDGE-ALFRED" }, { "source_id": "FRYDE-HANDBOOK-DATES" }]
+  },
+  {
+    "id": "edgar-coronation-bath-973",
+    "title": "Edgar crowned at Bath",
+    "type": "coronation",
+    "themes": ["monarchy", "church"],
+    "date": { "value": { "year": 973, "month": 5, "day": 11, "notes": "Crowned at Bath on Whit Sunday, 11 May 973." }, "source_ids": [{ "source_id": "STENTON-ASE" }, { "source_id": "FRYDE-HANDBOOK-DATES" }] },
+    "people_involved": [{ "person_id": "edgar-the-peaceful", "role": "King of England; consecrated", "source_ids": [{ "source_id": "STENTON-ASE" }] }],
+    "summary": { "value": "Edgar, who had already ruled England for over a decade, was formally consecrated king at Bath on Whit Sunday 973 in a ceremony devised by Archbishop Dunstan. The rite, held deliberately at the age of thirty following the canonical model for priestly ordination, set out the obligations of Christian kingship and established the coronation ordo still used in modified form at English and British coronations today. Weeks later, at Chester, Edgar received the submission of six or eight sub-kings who rowed him on the River Dee.", "source_ids": [{ "source_id": "STENTON-ASE" }, { "source_id": "FRYDE-HANDBOOK-DATES" }] },
+    "source_ids": [{ "source_id": "STENTON-ASE" }, { "source_id": "FRYDE-HANDBOOK-DATES" }]
+  },
+  {
+    "id": "murder-edward-martyr-978",
+    "title": "Murder of Edward the Martyr",
+    "type": "political",
+    "themes": ["monarchy", "conflict"],
+    "date": { "value": { "year": 978, "month": 3, "day": 18, "notes": "Killed at Corfe Castle, Dorset, 18 March 978." }, "source_ids": [{ "source_id": "STENTON-ASE" }, { "source_id": "ODNB-ethelred-unready" }] },
+    "people_involved": [
+      { "person_id": "edward-the-martyr", "role": "King of England; murdered", "source_ids": [{ "source_id": "STENTON-ASE" }] },
+      { "person_id": "ethelred-the-unready", "role": "Half-brother; successor", "source_ids": [{ "source_id": "ODNB-ethelred-unready" }] }
+    ],
+    "summary": { "value": "Edward the Martyr was killed at Corfe Castle on 18 March 978 while visiting his half-brother Æthelred. The identity of his murderers was never established, but members of the nobility supporting Æthelred's succession were widely suspected. Edward was buried at Wareham without royal ceremony, later translated to Shaftesbury Abbey, where he became the focus of a cult. His death brought his twelve-year-old half-brother Æthelred to the throne, beginning a troubled reign during which Danish raids intensified.", "source_ids": [{ "source_id": "STENTON-ASE" }, { "source_id": "ODNB-ethelred-unready" }] },
+    "source_ids": [{ "source_id": "STENTON-ASE" }, { "source_id": "ODNB-ethelred-unready" }]
+  },
+  {
+    "id": "sweyn-conquers-england-1013",
+    "title": "Sweyn Forkbeard seizes England",
+    "type": "political",
+    "themes": ["conflict", "monarchy"],
+    "date": { "value": { "year": 1013, "notes": "Sweyn accepted as king by most of England by late 1013; Æthelred II fled to Normandy." }, "source_ids": [{ "source_id": "BOLTON-CNUT" }, { "source_id": "STENTON-ASE" }] },
+    "people_involved": [
+      { "person_id": "sweyn-forkbeard", "role": "Conqueror; King of England", "source_ids": [{ "source_id": "BOLTON-CNUT" }] },
+      { "person_id": "ethelred-the-unready", "role": "Deposed king; fled to Normandy", "source_ids": [{ "source_id": "ODNB-ethelred-unready" }] }
+    ],
+    "summary": { "value": "In 1013 Sweyn Forkbeard, King of Denmark, launched a full-scale invasion of England and was accepted as king across much of the country. Æthelred II fled to Normandy, the first English king to be driven from his throne since the Viking settlements of the ninth century. Sweyn's triumph was short-lived: he died on 3 February 1014, whereupon the witan recalled Æthelred. It nonetheless demonstrated the fragility of the late Anglo-Saxon kingdom and presaged the conquest completed by Sweyn's son Cnut two years later.", "source_ids": [{ "source_id": "BOLTON-CNUT" }, { "source_id": "STENTON-ASE" }] },
+    "source_ids": [{ "source_id": "BOLTON-CNUT" }, { "source_id": "STENTON-ASE" }]
+  }
+]

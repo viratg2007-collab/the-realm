@@ -1,0 +1,186 @@
+[
+  {
+    "id": "conflict-1066",
+    "title": "The Norman Conquest",
+    "year_start": 1066,
+    "why_fought": "Edward the Confessor died childless on 5 January 1066, leaving two men convinced the throne was theirs. Harold claimed Edward's deathbed designation and the Witan's election. William claimed a prior promise made in 1051, and that Harold had sworn a solemn oath on holy relics to support his claim — making Harold a perjurer and usurper in Norman eyes.",
+    "note": "Neither Harold nor William had strong royal blood. The strongest dynastic claimant by descent was Edgar Ætheling (great-grandson of Æthelred II), who was briefly proclaimed king by the London Witan after Hastings but submitted to William without a military challenge.",
+    "defender": {
+      "person_id": "harold-ii",
+      "role": "Elected King (crowned 6 Jan 1066)",
+      "claim_summary": "Chosen by the Witan and reportedly designated by Edward on his deathbed. England's most powerful earl, with the military and administrative capacity to defend the kingdom — Harold argued that elected kingship and the late king's spoken wish were sufficient title.",
+      "genealogical_right": "weaker"
+    },
+    "challenger": {
+      "person_id": "william-i",
+      "role": "Duke of Normandy",
+      "claim_summary": "Claimed Edward had promised him the crown circa 1051, and that Harold's sworn oath to uphold that promise — taken on holy relics during his captivity in Normandy — made Harold's kingship an act of perjury. Pope Alexander II endorsed the invasion with a papal banner, lending it the character of a just war.",
+      "genealogical_right": "disputed"
+    },
+    "outcome": "challenger_prevailed",
+    "outcome_description": "William defeated and killed Harold at Hastings on 14 October 1066 and was crowned on Christmas Day. The Norman Conquest reshaped English law, language, and aristocracy for centuries.",
+    "succession_claim_id": "succession-1066",
+    "source_ids": ["BARLOW-WILLIAM-I", "WALKER-HAROLD-II", "DOUGLAS-WILLIAM-I", "STENTON-ASE"]
+  },
+  {
+    "id": "conflict-1135",
+    "title": "The Anarchy",
+    "year_start": 1135,
+    "year_end": 1153,
+    "why_fought": "Henry I left no surviving legitimate sons. He had made his barons swear three times to accept his daughter Empress Matilda as queen. Yet within weeks of his death, her cousin Stephen of Blois seized the treasury, was crowned, and claimed the throne. The resulting civil war — 'The Anarchy' — devastated England for eighteen years.",
+    "note": "Stephen's legitimacy rested almost entirely on speed: he acted before Matilda could. Most contemporaries acknowledged that Matilda had the stronger formal claim — the dispute turned on whether a woman could rule England, not on whose blood right was superior.",
+    "defender": {
+      "person_id": "stephen",
+      "role": "Self-crowned King (crowned 22 Dec 1135)",
+      "claim_summary": "Grandson of William I through his mother Adela of Normandy. Seized the treasury and crown within weeks of Henry I's death, arguing the oaths to Matilda were void, that a woman could not bear the burden of kingship, and that his coronation by the Church gave him an anointed title Matilda must overcome.",
+      "genealogical_right": "weaker"
+    },
+    "challenger": {
+      "person_id": "empress-matilda",
+      "role": "Henry I's designated heir",
+      "claim_summary": "Only surviving legitimate child of Henry I, and the candidate Henry had made the English baronage swear to accept on three separate occasions. Her claim was direct and formally designated — Stephen's seizure of the throne was a straightforward breach of sworn faith by those who had pledged to her.",
+      "genealogical_right": "stronger"
+    },
+    "outcome": "compromise",
+    "outcome_description": "The Treaty of Wallingford (1153) ended the war: Stephen would reign for life, but Matilda's son Henry (the future Henry II) would succeed him, ending the Blesian line and founding the Plantagenet dynasty.",
+    "succession_claim_id": "succession-1135",
+    "source_ids": ["DAVIS-KING-STEPHEN", "HUSCROFT-RULING-ENGLAND", "ODNB-stephen"]
+  },
+  {
+    "id": "conflict-1399",
+    "title": "The Lancastrian Usurpation",
+    "year_start": 1399,
+    "why_fought": "Richard II exiled Henry Bolingbroke and then, on his father John of Gaunt's death, seized the entire Lancaster inheritance — property Henry stood to inherit. Henry returned from exile ostensibly to reclaim his estates. He arrived with a small force; Richard's support collapsed; and what began as a property dispute became the deposition of an anointed king.",
+    "note": "Neither Richard nor Henry had the strongest genealogical claim by strict descent. Edmund Mortimer, 3rd Earl of March — descended from Lionel of Antwerp (Edward III's second son) through the female line — outranked both. Henry's usurpation deliberately bypassed the Mortimer claim, planting a dynastic time-bomb that would ignite the Wars of the Roses fifty years later.",
+    "defender": {
+      "person_id": "richard-ii",
+      "role": "Reigning King (r. 1377–1399)",
+      "claim_summary": "Son of the Black Prince and grandson of Edward III through the most senior surviving male line. Richard's right was unimpeachable by blood and by divine sanction of anointing — his deposition required the constitutional fiction of a 'voluntary' abdication extracted from a prisoner in the Tower.",
+      "genealogical_right": "stronger"
+    },
+    "challenger": {
+      "person_id": "henry-iv",
+      "role": "Duke of Lancaster / returned exile",
+      "claim_summary": "Son of John of Gaunt (Edward III's fourth son), Henry had a junior genealogical claim to the throne. He justified his usurpation through an artfully vague formula invoking 'right of blood', 'God's grace', and parliamentary recognition — avoiding the question of the Mortimer counter-claim entirely.",
+      "genealogical_right": "weaker"
+    },
+    "outcome": "challenger_prevailed",
+    "outcome_description": "Richard was deposed by Parliament on 30 September 1399 and died in captivity — probably starved — in February 1400. Henry reigned as Henry IV until 1413.",
+    "succession_claim_id": "succession-1399",
+    "source_ids": ["SAUL-RICHARD-II", "GIVEN-WILSON-HENRY-IV", "MCKISACK-14C"]
+  },
+  {
+    "id": "conflict-1461",
+    "title": "The Wars of the Roses — First Phase",
+    "year_start": 1455,
+    "year_end": 1461,
+    "why_fought": "The Yorkist claim rested on a genealogical argument: Richard, Duke of York was descended from Lionel of Antwerp (Edward III's second surviving son) through his mother Anne Mortimer — a senior line to Lancaster's John of Gaunt (third son). Lancaster had held the throne for 62 years, but Henry VI's mental collapses and military failures from 1453 gave York the political opening to press his claim. York was killed at Wakefield in December 1460; his son Edward finished the war, crushing the Lancastrians at Towton in March 1461.",
+    "note": "The central legal question — whether female-line descent from a senior brother outranks male-line descent from a junior brother — was never definitively settled in English constitutional law. The Yorkist lawyers submitted a genealogical case to Parliament in 1460 (the Act of Accord) which Parliament implicitly accepted, but the Lancastrian party never recognised it.",
+    "defender": {
+      "person_id": "henry-vi",
+      "role": "Reigning King (r. 1422–1461)",
+      "claim_summary": "Third Lancastrian king, ruling since infancy. His dynasty had held the throne for 62 years through three generations of anointed kings. Lancaster descended from John of Gaunt, Edward III's fourth son — a junior line to Lionel of Antwerp, but in the male line and with unbroken possession.",
+      "genealogical_right": "disputed"
+    },
+    "challenger": {
+      "person_id": "edward-iv",
+      "role": "Duke of York (son of Richard, Duke of York)",
+      "claim_summary": "Through his grandmother Anne Mortimer, descended from Lionel of Antwerp — Edward III's second surviving son — making the Yorkist line genealogically senior to Lancaster if female-line transmission is accepted as equal to male. Edward crushed the Lancastrian forces at Towton (29 March 1461) and was crowned as Edward IV.",
+      "genealogical_right": "disputed"
+    },
+    "outcome": "challenger_prevailed",
+    "outcome_description": "Edward IV won a decisive victory at Towton — the bloodiest battle ever fought on English soil — and was crowned king. Henry VI fled to Scotland and later France. The Wars of the Roses would continue intermittently until 1485.",
+    "succession_claim_id": "succession-1460",
+    "source_ids": ["HICKS-WARS-ROSES", "POLLARD-WARS-ROSES", "ROSS-EDWARD-IV"]
+  },
+  {
+    "id": "conflict-1470",
+    "title": "The Readeption of Henry VI",
+    "year_start": 1470,
+    "year_end": 1471,
+    "why_fought": "Richard Neville, Earl of Warwick — the 'Kingmaker' who had made Edward IV king — quarrelled with Edward over foreign policy and the Woodville family's influence. Warwick defected to France, allied with the exiled Lancastrians, and returned to England. Edward fled to Burgundy. Henry VI was restored to the throne after nine years in captivity.",
+    "note": "Henry VI was restored not because his claim had improved but because Warwick needed a figurehead. Edward IV's claim was undiminished; he returned from Burgundy after six months, defeated and killed Warwick at Barnet, and killed or captured the remaining Lancastrian leadership at Tewkesbury. Henry VI died in the Tower days later.",
+    "defender": {
+      "person_id": "henry-vi",
+      "role": "Restored King (Oct 1470 – Apr 1471)",
+      "claim_summary": "Henry was restored to the throne by Warwick's military intervention after nine years of Yorkist rule. His genealogical claim was unchanged — the Lancastrian male-line through John of Gaunt — but his restoration depended entirely on Warwick's power, not on any renewed legal argument.",
+      "genealogical_right": "disputed"
+    },
+    "challenger": {
+      "person_id": "edward-iv",
+      "role": "Exiled King (claimant from Burgundy)",
+      "claim_summary": "Edward's claim to the throne had not changed since 1461. He returned from exile in March 1471, defeated Warwick at Barnet, and destroyed the last Lancastrian field army at Tewkesbury. His military success restored him to a throne he had never formally surrendered.",
+      "genealogical_right": "disputed"
+    },
+    "outcome": "challenger_prevailed",
+    "outcome_description": "Edward IV crushed the Lancastrian revival at Barnet (14 April 1471) and Tewkesbury (4 May 1471). Henry VI died in the Tower of London on 21 May 1471 — almost certainly murdered. Edward IV ruled unchallenged until his sudden death in 1483.",
+    "source_ids": ["ROSS-EDWARD-IV", "HICKS-WARS-ROSES", "POLLARD-WARS-ROSES"]
+  },
+  {
+    "id": "conflict-1483",
+    "title": "Richard III's Usurpation",
+    "year_start": 1483,
+    "why_fought": "Edward IV died unexpectedly on 9 April 1483, leaving a twelve-year-old heir and a deeply factionalised court. Richard of Gloucester — the late king's brother and Lord Protector — arrested the Woodville faction, declared his nephews illegitimate via Titulus Regius (claiming Edward IV's marriage was invalid due to a pre-contract with Eleanor Butler), and seized the throne. The young Edward V and his brother Richard were lodged in the Tower and never seen in public again.",
+    "note": "Whether the Titulus Regius pre-contract argument was genuine or a post-hoc fabrication remains one of the most debated questions in English medieval history. Richard III ordered Parliament to repeal Titulus Regius in 1484; Henry VII had all copies destroyed in 1485 — then reversed himself when one survived.",
+    "defender": {
+      "person_id": "edward-v",
+      "role": "Uncrowned King (Apr–Jun 1483)",
+      "claim_summary": "Legitimate son of Edward IV and Elizabeth Woodville. Edward had an unimpeachable claim as the eldest surviving son of the previous king — unless his parents' marriage was invalid, which was precisely what Richard III's Titulus Regius alleged.",
+      "genealogical_right": "stronger"
+    },
+    "challenger": {
+      "person_id": "richard-iii",
+      "role": "Lord Protector / usurper",
+      "claim_summary": "Younger brother of Edward IV and the most militarily capable Plantagenet alive. Richard's claim rested entirely on the Titulus Regius allegation that Edward IV's children were illegitimate — making him, as next legitimate male Plantagenet, the rightful heir. The legal argument was novel, rushed, and widely regarded as pretextual.",
+      "genealogical_right": "weaker"
+    },
+    "outcome": "challenger_prevailed",
+    "outcome_description": "Richard was crowned on 6 July 1483. Edward V and his brother disappeared in the Tower — almost certainly murdered, though the perpetrator and exact date remain unproven. Richard III ruled for two years before falling at Bosworth.",
+    "source_ids": ["ROSS-EDWARD-IV", "HICKS-WARS-ROSES", "OXFORD-COMPANION-BRITISH-HISTORY"]
+  },
+  {
+    "id": "conflict-1485",
+    "title": "The Battle of Bosworth",
+    "year_start": 1485,
+    "why_fought": "Henry Tudor's claim to the throne was, by strict genealogy, tenuous: he descended from John of Gaunt through the legitimated Beaufort line, and Parliament had explicitly excluded the Beauforts from the succession in 1407. His real argument was conquest and Yorkist exhaustion. With French and Scottish support and the defection of key English lords (including the Stanley family on the battlefield itself), he defeated Richard III and ended the Plantagenet dynasty.",
+    "note": "Henry VII immediately married Elizabeth of York — Edward IV's eldest daughter and genealogically superior heir to the Yorkist claim — precisely because his own blood right was so weak. The Tudor claim thereafter rested on the union of the two houses, not on Henry's own descent.",
+    "defender": {
+      "person_id": "richard-iii",
+      "role": "Reigning King (r. 1483–1485)",
+      "claim_summary": "Legitimate male-line Plantagenet, younger brother of Edward IV, crowned by parliamentary authority (however dubious). Richard's right was stronger than Henry's by strict genealogy — but his reign was tainted by the disappearance of his nephews and the alienation of much of the Yorkist establishment.",
+      "genealogical_right": "stronger"
+    },
+    "challenger": {
+      "person_id": "henry-vii",
+      "role": "Earl of Richmond / Lancastrian claimant",
+      "claim_summary": "Great-great-grandson of John of Gaunt through the Beaufort line, which Parliament had excluded from the succession in 1407. Henry's claim was principally a claim of conquest, legitimised after the fact by his marriage to Elizabeth of York and parliamentary recognition. He never attempted to rest his title on strict genealogical right.",
+      "genealogical_right": "weaker"
+    },
+    "outcome": "challenger_prevailed",
+    "outcome_description": "Richard III was killed at Bosworth on 22 August 1485 — the last English king to die in battle. Henry VII's 24-year reign ended the Wars of the Roses and founded the Tudor dynasty.",
+    "source_ids": ["CHRIMES-HENRY-VII", "HICKS-WARS-ROSES", "POLLARD-WARS-ROSES", "FRYDE-HANDBOOK-DATES"]
+  },
+  {
+    "id": "conflict-1688",
+    "title": "The Glorious Revolution",
+    "year_start": 1688,
+    "year_end": 1689,
+    "why_fought": "James II's open Catholicism, his suspension of the penal laws by royal prerogative, and above all the birth of a Catholic male heir in June 1688 — threatening a permanent Catholic succession — prompted seven leading Protestant lords to invite William of Orange to invade. James's army melted away; he fled to France in December 1688. Parliament declared he had abdicated.",
+    "note": "Mary II (James's Protestant daughter by his first wife) had a stronger personal claim than her husband William III, who only had claim through his mother Mary Princess Royal (daughter of Charles I). Parliament settled the crown on both jointly, with William holding executive power. The constitutional settlement — the Bill of Rights 1689 — permanently limited the prerogative powers that James had overreached.",
+    "defender": {
+      "person_id": "james-ii",
+      "role": "Reigning King (r. 1685–1688)",
+      "claim_summary": "Legitimate male-line Stuart, younger brother of Charles II. James's hereditary right was unimpeachable — he was the lawful king. The case against him was not genealogical but constitutional: he had violated the law by suspending statutes through prerogative and attempted to pack a compliant Parliament.",
+      "genealogical_right": "stronger"
+    },
+    "challenger": {
+      "person_id": "william-iii",
+      "role": "Prince of Orange / invited Protestant champion",
+      "claim_summary": "Son of Mary Princess Royal (Charles I's eldest daughter) and stadtholder of the Dutch Republic. William's personal claim was weaker than James's or even Mary II's — he came not primarily as a dynastic claimant but as a military guardian of English liberties at the invitation of Protestant magnates.",
+      "genealogical_right": "weaker"
+    },
+    "outcome": "challenger_prevailed",
+    "outcome_description": "James fled to France in December 1688; Parliament declared he had 'abdicated'. William and Mary were crowned jointly on 11 April 1689. The Bill of Rights established parliamentary supremacy over the crown.",
+    "source_ids": ["KENYON-STUARTS", "OXFORD-COMPANION-BRITISH-HISTORY", "FRYDE-HANDBOOK-DATES"]
+  }
+]

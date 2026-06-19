@@ -1,0 +1,564 @@
+[
+  {
+    "id": "rel-edwardiii-philippahainault-marriage",
+    "type": "marriage",
+    "from_person_id": "edward-iii",
+    "to_person_id": "philippa-of-hainault",
+    "married": {
+      "value": { "year": 1328, "month": 1, "day": 24, "notes": "Married at York Minster." },
+      "source_ids": [{ "source_id": "ODNB-philippa-hainault" }, { "source_id": "FRYDE-HANDBOOK-DATES" }]
+    },
+    "marriage_ended": {
+      "value": { "year": 1369, "month": 8, "day": 15 },
+      "source_ids": [{ "source_id": "ODNB-philippa-hainault" }]
+    },
+    "marriage_end_reason": {
+      "value": "death_of_spouse",
+      "source_ids": [{ "source_id": "ODNB-philippa-hainault" }]
+    },
+    "source_ids": [{ "source_id": "ODNB-philippa-hainault" }, { "source_id": "FRYDE-HANDBOOK-DATES" }]
+  },
+  {
+    "id": "rel-edwardiii-lionel-parent",
+    "type": "parent_child",
+    "from_person_id": "edward-iii",
+    "to_person_id": "lionel-of-antwerp",
+    "legitimacy": "legitimate",
+    "line": "male",
+    "source_ids": [{ "source_id": "ODNB-lionel-clarence" }, { "source_id": "ODNB-edward-iii" }]
+  },
+  {
+    "id": "rel-philippahainault-lionel-parent",
+    "type": "parent_child",
+    "from_person_id": "philippa-of-hainault",
+    "to_person_id": "lionel-of-antwerp",
+    "legitimacy": "legitimate",
+    "line": "female",
+    "source_ids": [{ "source_id": "ODNB-lionel-clarence" }, { "source_id": "ODNB-philippa-hainault" }]
+  },
+  {
+    "id": "rel-lionel-elizabethdeburgh-marriage",
+    "type": "marriage",
+    "from_person_id": "lionel-of-antwerp",
+    "to_person_id": "elizabeth-de-burgh",
+    "married": {
+      "value": {
+        "year": 1342,
+        "month": 9,
+        "approximate": true,
+        "notes": "A proxy betrothal was arranged in 1341; the formal marriage took place c. September 1342 at the Tower of London. Both parties were children."
+      },
+      "source_ids": [{ "source_id": "ODNB-lionel-clarence" }, { "source_id": "COMPLETE-PEERAGE-CLARENCE" }]
+    },
+    "marriage_ended": {
+      "value": { "year": 1363, "month": 12, "day": 5 },
+      "source_ids": [{ "source_id": "ODNB-elizabeth-burgh" }]
+    },
+    "marriage_end_reason": {
+      "value": "death_of_spouse",
+      "source_ids": [{ "source_id": "ODNB-elizabeth-burgh" }]
+    },
+    "source_ids": [{ "source_id": "ODNB-lionel-clarence" }, { "source_id": "COMPLETE-PEERAGE-CLARENCE" }]
+  },
+  {
+    "id": "rel-lionel-philippaclarence-parent",
+    "type": "parent_child",
+    "from_person_id": "lionel-of-antwerp",
+    "to_person_id": "philippa-of-clarence",
+    "legitimacy": "legitimate",
+    "line": "male",
+    "source_ids": [{ "source_id": "ODNB-lionel-clarence" }, { "source_id": "COMPLETE-PEERAGE-CLARENCE" }]
+  },
+  {
+    "id": "rel-elizabethdeburgh-philippaclarence-parent",
+    "type": "parent_child",
+    "from_person_id": "elizabeth-de-burgh",
+    "to_person_id": "philippa-of-clarence",
+    "legitimacy": "legitimate",
+    "line": "female",
+    "source_ids": [{ "source_id": "ODNB-lionel-clarence" }, { "source_id": "COMPLETE-PEERAGE-CLARENCE" }]
+  },
+  {
+    "id": "rel-william-i-william-ii-parent",
+    "type": "parent_child",
+    "from_person_id": "william-i",
+    "to_person_id": "william-ii",
+    "legitimacy": "legitimate",
+    "line": "male",
+    "source_ids": [{ "source_id": "WEIR-BRITAIN-ROYAL-FAMILIES" }, { "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }]
+  },
+  {
+    "id": "rel-william-i-henry-i-parent",
+    "type": "parent_child",
+    "from_person_id": "william-i",
+    "to_person_id": "henry-i",
+    "legitimacy": "legitimate",
+    "line": "male",
+    "source_ids": [{ "source_id": "WEIR-BRITAIN-ROYAL-FAMILIES" }, { "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }]
+  },
+  {
+    "id": "rel-henry-ii-richard-i-parent",
+    "type": "parent_child",
+    "from_person_id": "henry-ii",
+    "to_person_id": "richard-i",
+    "legitimacy": "legitimate",
+    "line": "male",
+    "source_ids": [{ "source_id": "WEIR-BRITAIN-ROYAL-FAMILIES" }, { "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }]
+  },
+  {
+    "id": "rel-henry-ii-john-parent",
+    "type": "parent_child",
+    "from_person_id": "henry-ii",
+    "to_person_id": "john",
+    "legitimacy": "legitimate",
+    "line": "male",
+    "source_ids": [{ "source_id": "WEIR-BRITAIN-ROYAL-FAMILIES" }, { "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }]
+  },
+  {
+    "id": "rel-john-henry-iii-parent",
+    "type": "parent_child",
+    "from_person_id": "john",
+    "to_person_id": "henry-iii",
+    "legitimacy": "legitimate",
+    "line": "male",
+    "source_ids": [{ "source_id": "WEIR-BRITAIN-ROYAL-FAMILIES" }, { "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }]
+  },
+  {
+    "id": "rel-henry-iii-edward-i-parent",
+    "type": "parent_child",
+    "from_person_id": "henry-iii",
+    "to_person_id": "edward-i",
+    "legitimacy": "legitimate",
+    "line": "male",
+    "source_ids": [{ "source_id": "WEIR-BRITAIN-ROYAL-FAMILIES" }, { "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }]
+  },
+  {
+    "id": "rel-edward-i-edward-ii-parent",
+    "type": "parent_child",
+    "from_person_id": "edward-i",
+    "to_person_id": "edward-ii",
+    "legitimacy": "legitimate",
+    "line": "male",
+    "source_ids": [{ "source_id": "WEIR-BRITAIN-ROYAL-FAMILIES" }, { "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }]
+  },
+  {
+    "id": "rel-edward-ii-edward-iii-parent",
+    "type": "parent_child",
+    "from_person_id": "edward-ii",
+    "to_person_id": "edward-iii",
+    "legitimacy": "legitimate",
+    "line": "male",
+    "source_ids": [{ "source_id": "WEIR-BRITAIN-ROYAL-FAMILIES" }, { "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }]
+  },
+  {
+    "id": "rel-henry-iv-henry-v-parent",
+    "type": "parent_child",
+    "from_person_id": "henry-iv",
+    "to_person_id": "henry-v",
+    "legitimacy": "legitimate",
+    "line": "male",
+    "source_ids": [{ "source_id": "WEIR-BRITAIN-ROYAL-FAMILIES" }, { "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }]
+  },
+  {
+    "id": "rel-henry-v-henry-vi-parent",
+    "type": "parent_child",
+    "from_person_id": "henry-v",
+    "to_person_id": "henry-vi",
+    "legitimacy": "legitimate",
+    "line": "male",
+    "source_ids": [{ "source_id": "WEIR-BRITAIN-ROYAL-FAMILIES" }, { "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }]
+  },
+  {
+    "id": "rel-edward-iv-edward-v-parent",
+    "type": "parent_child",
+    "from_person_id": "edward-iv",
+    "to_person_id": "edward-v",
+    "legitimacy": "legitimate",
+    "line": "male",
+    "source_ids": [{ "source_id": "WEIR-BRITAIN-ROYAL-FAMILIES" }, { "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }]
+  },
+  {
+    "id": "rel-henry-vii-henry-viii-parent",
+    "type": "parent_child",
+    "from_person_id": "henry-vii",
+    "to_person_id": "henry-viii",
+    "legitimacy": "legitimate",
+    "line": "male",
+    "source_ids": [{ "source_id": "WEIR-BRITAIN-ROYAL-FAMILIES" }, { "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }]
+  },
+  {
+    "id": "rel-henry-viii-edward-vi-parent",
+    "type": "parent_child",
+    "from_person_id": "henry-viii",
+    "to_person_id": "edward-vi",
+    "legitimacy": "legitimate",
+    "line": "male",
+    "source_ids": [{ "source_id": "WEIR-BRITAIN-ROYAL-FAMILIES" }, { "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }]
+  },
+  {
+    "id": "rel-henry-viii-mary-i-parent",
+    "type": "parent_child",
+    "from_person_id": "henry-viii",
+    "to_person_id": "mary-i",
+    "legitimacy": "legitimate",
+    "line": "male",
+    "source_ids": [{ "source_id": "WEIR-BRITAIN-ROYAL-FAMILIES" }, { "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }]
+  },
+  {
+    "id": "rel-henry-viii-elizabeth-i-parent",
+    "type": "parent_child",
+    "from_person_id": "henry-viii",
+    "to_person_id": "elizabeth-i",
+    "legitimacy": "legitimate",
+    "line": "male",
+    "source_ids": [{ "source_id": "WEIR-BRITAIN-ROYAL-FAMILIES" }, { "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }]
+  },
+  {
+    "id": "rel-james-i-charles-i-parent",
+    "type": "parent_child",
+    "from_person_id": "james-i",
+    "to_person_id": "charles-i",
+    "legitimacy": "legitimate",
+    "line": "male",
+    "source_ids": [{ "source_id": "WEIR-BRITAIN-ROYAL-FAMILIES" }, { "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }]
+  },
+  {
+    "id": "rel-charles-i-charles-ii-parent",
+    "type": "parent_child",
+    "from_person_id": "charles-i",
+    "to_person_id": "charles-ii",
+    "legitimacy": "legitimate",
+    "line": "male",
+    "source_ids": [{ "source_id": "WEIR-BRITAIN-ROYAL-FAMILIES" }, { "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }]
+  },
+  {
+    "id": "rel-charles-i-james-ii-parent",
+    "type": "parent_child",
+    "from_person_id": "charles-i",
+    "to_person_id": "james-ii",
+    "legitimacy": "legitimate",
+    "line": "male",
+    "source_ids": [{ "source_id": "WEIR-BRITAIN-ROYAL-FAMILIES" }, { "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }]
+  },
+  {
+    "id": "rel-james-ii-mary-ii-parent",
+    "type": "parent_child",
+    "from_person_id": "james-ii",
+    "to_person_id": "mary-ii",
+    "legitimacy": "legitimate",
+    "line": "male",
+    "source_ids": [{ "source_id": "WEIR-BRITAIN-ROYAL-FAMILIES" }, { "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }]
+  },
+  {
+    "id": "rel-james-ii-anne-parent",
+    "type": "parent_child",
+    "from_person_id": "james-ii",
+    "to_person_id": "anne",
+    "legitimacy": "legitimate",
+    "line": "male",
+    "source_ids": [{ "source_id": "WEIR-BRITAIN-ROYAL-FAMILIES" }, { "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }]
+  },
+  {
+    "id": "rel-william-iii-mary-ii-marriage",
+    "type": "marriage",
+    "from_person_id": "william-iii",
+    "to_person_id": "mary-ii",
+    "married": {
+      "value": { "year": 1677, "month": 11, "day": 4 },
+      "source_ids": [{ "source_id": "WEIR-BRITAIN-ROYAL-FAMILIES" }, { "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }]
+    },
+    "marriage_ended": {
+      "value": { "year": 1694, "month": 12, "day": 28 },
+      "source_ids": [{ "source_id": "FRYDE-HANDBOOK-DATES" }]
+    },
+    "marriage_end_reason": {
+      "value": "death_of_spouse",
+      "source_ids": [{ "source_id": "FRYDE-HANDBOOK-DATES" }]
+    },
+    "source_ids": [{ "source_id": "WEIR-BRITAIN-ROYAL-FAMILIES" }, { "source_id": "OXFORD-COMPANION-BRITISH-HISTORY" }]
+  },
+  {"id": "rel-edwardiii-blackprince-parent", "type": "parent_child", "from_person_id": "edward-iii", "to_person_id": "edward-black-prince", "legitimacy": "legitimate", "line": "male", "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+  {"id": "rel-philippahainault-blackprince-parent", "type": "parent_child", "from_person_id": "philippa-of-hainault", "to_person_id": "edward-black-prince", "legitimacy": "legitimate", "line": "female", "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+  {"id": "rel-edwardiii-johngaunt-parent", "type": "parent_child", "from_person_id": "edward-iii", "to_person_id": "john-of-gaunt", "legitimacy": "legitimate", "line": "male", "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+  {"id": "rel-philippahainault-johngaunt-parent", "type": "parent_child", "from_person_id": "philippa-of-hainault", "to_person_id": "john-of-gaunt", "legitimacy": "legitimate", "line": "female", "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+  {"id": "rel-edwardiii-edmundlangley-parent", "type": "parent_child", "from_person_id": "edward-iii", "to_person_id": "edmund-of-langley", "legitimacy": "legitimate", "line": "male", "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+  {"id": "rel-philippahainault-edmundlangley-parent", "type": "parent_child", "from_person_id": "philippa-of-hainault", "to_person_id": "edmund-of-langley", "legitimacy": "legitimate", "line": "female", "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+  {"id": "rel-blackprince-richardii-parent", "type": "parent_child", "from_person_id": "edward-black-prince", "to_person_id": "richard-ii", "legitimacy": "legitimate", "line": "male", "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+  {"id": "rel-joanofkent-richardii-parent", "type": "parent_child", "from_person_id": "joan-of-kent", "to_person_id": "richard-ii", "legitimacy": "legitimate", "line": "female", "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+  {"id": "rel-blackprince-joanofkent-marriage", "type": "marriage", "from_person_id": "edward-black-prince", "to_person_id": "joan-of-kent", "married": {"value": {"year": 1361}, "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]}, "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+  {"id": "rel-johngaunt-blanche-marriage", "type": "marriage", "from_person_id": "john-of-gaunt", "to_person_id": "blanche-of-lancaster", "married": {"value": {"year": 1359}, "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]}, "marriage_ended": {"value": {"year": 1368}, "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]}, "marriage_end_reason": {"value": "death_of_spouse", "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]}, "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+  {"id": "rel-johngaunt-katherine-marriage", "type": "marriage", "from_person_id": "john-of-gaunt", "to_person_id": "katherine-swynford", "married": {"value": {"year": 1396}, "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]}, "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+  {"id": "rel-johngaunt-henryiv-parent", "type": "parent_child", "from_person_id": "john-of-gaunt", "to_person_id": "henry-iv", "legitimacy": "legitimate", "line": "male", "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+  {"id": "rel-blanche-henryiv-parent", "type": "parent_child", "from_person_id": "blanche-of-lancaster", "to_person_id": "henry-iv", "legitimacy": "legitimate", "line": "female", "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+  {"id": "rel-johngaunt-beaufortearl-parent", "type": "parent_child", "from_person_id": "john-of-gaunt", "to_person_id": "john-beaufort-earl-somerset", "legitimacy": "legitimated", "line": "male", "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+  {"id": "rel-katherine-beaufortearl-parent", "type": "parent_child", "from_person_id": "katherine-swynford", "to_person_id": "john-beaufort-earl-somerset", "legitimacy": "legitimated", "line": "female", "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+  {"id": "rel-beaufortearl-beaufortduke-parent", "type": "parent_child", "from_person_id": "john-beaufort-earl-somerset", "to_person_id": "john-beaufort-duke-somerset", "legitimacy": "legitimate", "line": "male", "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+  {"id": "rel-beaufortduke-margaret-parent", "type": "parent_child", "from_person_id": "john-beaufort-duke-somerset", "to_person_id": "margaret-beaufort", "legitimacy": "legitimate", "line": "male", "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+  {"id": "rel-margaret-edmundtudor-marriage", "type": "marriage", "from_person_id": "edmund-tudor", "to_person_id": "margaret-beaufort", "married": {"value": {"year": 1455}, "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]}, "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+  {"id": "rel-margaret-henryvii-parent", "type": "parent_child", "from_person_id": "margaret-beaufort", "to_person_id": "henry-vii", "legitimacy": "legitimate", "line": "female", "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}, {"source_id": "CHRIMES-HENRY-VII"}]},
+  {"id": "rel-edmundtudor-henryvii-parent", "type": "parent_child", "from_person_id": "edmund-tudor", "to_person_id": "henry-vii", "legitimacy": "legitimate", "line": "male", "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}, {"source_id": "CHRIMES-HENRY-VII"}]},
+  {"id": "rel-edmundlangley-richardconisburgh-parent", "type": "parent_child", "from_person_id": "edmund-of-langley", "to_person_id": "richard-of-conisburgh", "legitimacy": "legitimate", "line": "male", "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+  {"id": "rel-philippaclarence-rogermortimer-parent", "type": "parent_child", "from_person_id": "philippa-of-clarence", "to_person_id": "roger-mortimer-4th-earl", "legitimacy": "legitimate", "line": "female", "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+  {"id": "rel-rogermortimer-annemortimer-parent", "type": "parent_child", "from_person_id": "roger-mortimer-4th-earl", "to_person_id": "anne-mortimer", "legitimacy": "legitimate", "line": "male", "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+  {"id": "rel-richardconisburgh-annemortimer-marriage", "type": "marriage", "from_person_id": "richard-of-conisburgh", "to_person_id": "anne-mortimer", "married": {"value": {"year": 1408, "approximate": true}, "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]}, "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+  {"id": "rel-richardconisburgh-richardyork-parent", "type": "parent_child", "from_person_id": "richard-of-conisburgh", "to_person_id": "richard-duke-of-york", "legitimacy": "legitimate", "line": "male", "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+  {"id": "rel-annemortimer-richardyork-parent", "type": "parent_child", "from_person_id": "anne-mortimer", "to_person_id": "richard-duke-of-york", "legitimacy": "legitimate", "line": "female", "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+  {"id": "rel-richardyork-edwardiv-parent", "type": "parent_child", "from_person_id": "richard-duke-of-york", "to_person_id": "edward-iv", "legitimacy": "legitimate", "line": "male", "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+  {"id": "rel-richardyork-richardiii-parent", "type": "parent_child", "from_person_id": "richard-duke-of-york", "to_person_id": "richard-iii", "legitimacy": "legitimate", "line": "male", "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+  {"id": "rel-edwardiv-elizabethofyork-parent", "type": "parent_child", "from_person_id": "edward-iv", "to_person_id": "elizabeth-of-york", "legitimacy": "legitimate", "line": "male", "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+  {"id": "rel-henryvii-elizabethofyork-marriage", "type": "marriage", "from_person_id": "henry-vii", "to_person_id": "elizabeth-of-york", "married": {"value": {"year": 1486, "month": 1, "day": 18}, "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}, {"source_id": "CHRIMES-HENRY-VII"}]}, "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+  {"id": "rel-elizabethofyork-henryviii-parent", "type": "parent_child", "from_person_id": "elizabeth-of-york", "to_person_id": "henry-viii", "legitimacy": "legitimate", "line": "female", "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+  {"id": "rel-elizabethofyork-margarettudor-parent", "type": "parent_child", "from_person_id": "elizabeth-of-york", "to_person_id": "margaret-tudor", "legitimacy": "legitimate", "line": "female", "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+  {"id": "rel-henryvii-margarettudor-parent", "type": "parent_child", "from_person_id": "henry-vii", "to_person_id": "margaret-tudor", "legitimacy": "legitimate", "line": "male", "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+  {"id": "rel-margarettudor-jamesiv-marriage", "type": "marriage", "from_person_id": "james-iv-of-scotland", "to_person_id": "margaret-tudor", "married": {"value": {"year": 1503, "month": 8, "day": 8}, "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]}, "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+  {"id": "rel-jamesiv-jamesv-parent", "type": "parent_child", "from_person_id": "james-iv-of-scotland", "to_person_id": "james-v-of-scotland", "legitimacy": "legitimate", "line": "male", "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+  {"id": "rel-margarettudor-jamesv-parent", "type": "parent_child", "from_person_id": "margaret-tudor", "to_person_id": "james-v-of-scotland", "legitimacy": "legitimate", "line": "female", "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+  {"id": "rel-jamesv-maryqos-parent", "type": "parent_child", "from_person_id": "james-v-of-scotland", "to_person_id": "mary-queen-of-scots", "legitimacy": "legitimate", "line": "male", "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+  {"id": "rel-maryqos-jamesi-parent", "type": "parent_child", "from_person_id": "mary-queen-of-scots", "to_person_id": "james-i", "legitimacy": "legitimate", "line": "female", "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+  {"id": "rel-henry-i-empress-matilda-parent", "type": "parent_child", "from_person_id": "henry-i", "to_person_id": "empress-matilda", "legitimacy": "legitimate", "line": "male", "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+  {"id": "rel-empress-matilda-henry-ii-parent", "type": "parent_child", "from_person_id": "empress-matilda", "to_person_id": "henry-ii", "legitimacy": "legitimate", "line": "female", "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+  {"id": "rel-william-i-adela-parent", "type": "parent_child", "from_person_id": "william-i", "to_person_id": "adela-of-normandy", "legitimacy": "legitimate", "line": "male", "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+  {"id": "rel-adela-stephen-parent", "type": "parent_child", "from_person_id": "adela-of-normandy", "to_person_id": "stephen", "legitimacy": "legitimate", "line": "female", "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+  {"id": "rel-edwardiv-elizabethwoodville-marriage", "type": "marriage", "from_person_id": "edward-iv", "to_person_id": "elizabeth-woodville", "married": {"value": {"year": 1464, "month": 5, "day": 1}, "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]}, "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+  {"id": "rel-elizabethwoodville-edwardv-parent", "type": "parent_child", "from_person_id": "elizabeth-woodville", "to_person_id": "edward-v", "legitimacy": "legitimate", "line": "female", "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+  {"id": "rel-elizabethwoodville-elizabethofyork-parent", "type": "parent_child", "from_person_id": "elizabeth-woodville", "to_person_id": "elizabeth-of-york", "legitimacy": "legitimate", "line": "female", "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+  {"id": "rel-henryv-cathvalois-marriage", "type": "marriage", "from_person_id": "henry-v", "to_person_id": "catherine-of-valois", "married": {"value": {"year": 1420, "month": 6, "day": 2}, "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]}, "marriage_ended": {"value": {"year": 1422}, "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]}, "marriage_end_reason": {"value": "death_of_spouse", "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]}, "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+  {"id": "rel-cathvalois-henryvi-parent", "type": "parent_child", "from_person_id": "catherine-of-valois", "to_person_id": "henry-vi", "legitimacy": "legitimate", "line": "female", "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+  {"id": "rel-cathvalois-edmundtudor-parent", "type": "parent_child", "from_person_id": "catherine-of-valois", "to_person_id": "edmund-tudor", "legitimacy": "legitimate", "line": "female", "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}, {"source_id": "CHRIMES-HENRY-VII"}]},
+  {"id": "rel-henryvi-marganjou-marriage", "type": "marriage", "from_person_id": "henry-vi", "to_person_id": "margaret-of-anjou", "married": {"value": {"year": 1445, "month": 4, "day": 23}, "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]}, "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+  {"id": "rel-henryviii-catharagon-marriage", "type": "marriage", "from_person_id": "henry-viii", "to_person_id": "catherine-of-aragon", "married": {"value": {"year": 1509, "month": 6, "day": 11}, "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]}, "marriage_ended": {"value": {"year": 1533}, "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]}, "marriage_end_reason": {"value": "annulment", "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]}, "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+  {"id": "rel-catharagon-maryi-parent", "type": "parent_child", "from_person_id": "catherine-of-aragon", "to_person_id": "mary-i", "legitimacy": "legitimate", "line": "female", "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+  {"id": "rel-henryviii-anneboleyn-marriage", "type": "marriage", "from_person_id": "henry-viii", "to_person_id": "anne-boleyn", "married": {"value": {"year": 1533, "month": 1, "day": 25}, "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]}, "marriage_ended": {"value": {"year": 1536, "month": 5, "day": 19}, "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]}, "marriage_end_reason": {"value": "annulment", "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]}, "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+  {"id": "rel-anneboleyn-elizabethi-parent", "type": "parent_child", "from_person_id": "anne-boleyn", "to_person_id": "elizabeth-i", "legitimacy": "legitimate", "line": "female", "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+  {"id": "rel-henryviii-janeseymour-marriage", "type": "marriage", "from_person_id": "henry-viii", "to_person_id": "jane-seymour", "married": {"value": {"year": 1536, "month": 5, "day": 30}, "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]}, "marriage_ended": {"value": {"year": 1537, "month": 10, "day": 24}, "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]}, "marriage_end_reason": {"value": "death_of_spouse", "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]}, "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+  {"id": "rel-janeseymour-edwardvi-parent", "type": "parent_child", "from_person_id": "jane-seymour", "to_person_id": "edward-vi", "legitimacy": "legitimate", "line": "female", "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+  {"id": "rel-jamesi-annedenmark-marriage", "type": "marriage", "from_person_id": "james-i", "to_person_id": "anne-of-denmark", "married": {"value": {"year": 1589, "month": 11, "day": 23}, "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]}, "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+  {"id": "rel-annedenmark-charlesi-parent", "type": "parent_child", "from_person_id": "anne-of-denmark", "to_person_id": "charles-i", "legitimacy": "legitimate", "line": "female", "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+  {"id": "rel-charlesi-henrietta-marriage", "type": "marriage", "from_person_id": "charles-i", "to_person_id": "henrietta-maria", "married": {"value": {"year": 1625, "month": 5, "day": 13}, "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]}, "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+  {"id": "rel-henrietta-charlesii-parent", "type": "parent_child", "from_person_id": "henrietta-maria", "to_person_id": "charles-ii", "legitimacy": "legitimate", "line": "female", "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+  {"id": "rel-henrietta-jamesii-parent", "type": "parent_child", "from_person_id": "henrietta-maria", "to_person_id": "james-ii", "legitimacy": "legitimate", "line": "female", "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+  {"id": "rel-jamesii-annehyde-marriage", "type": "marriage", "from_person_id": "james-ii", "to_person_id": "anne-hyde", "married": {"value": {"year": 1660, "month": 9, "day": 3}, "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]}, "marriage_ended": {"value": {"year": 1671}, "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]}, "marriage_end_reason": {"value": "death_of_spouse", "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]}, "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+  {"id": "rel-annehyde-maryii-parent", "type": "parent_child", "from_person_id": "anne-hyde", "to_person_id": "mary-ii", "legitimacy": "legitimate", "line": "female", "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+  {"id": "rel-annehyde-anne-parent", "type": "parent_child", "from_person_id": "anne-hyde", "to_person_id": "anne", "legitimacy": "legitimate", "line": "female", "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+  {"id": "rel-williami-matildaflanders-marriage", "type": "marriage", "from_person_id": "william-i", "to_person_id": "matilda-of-flanders", "married": {"value": {"year": 1051, "approximate": true}, "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]}, "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+  {"id": "rel-matildaflanders-williamii-parent", "type": "parent_child", "from_person_id": "matilda-of-flanders", "to_person_id": "william-ii", "legitimacy": "legitimate", "line": "female", "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+  {"id": "rel-matildaflanders-henryi-parent", "type": "parent_child", "from_person_id": "matilda-of-flanders", "to_person_id": "henry-i", "legitimacy": "legitimate", "line": "female", "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+  {"id": "rel-matildaflanders-adela-parent", "type": "parent_child", "from_person_id": "matilda-of-flanders", "to_person_id": "adela-of-normandy", "legitimacy": "legitimate", "line": "female", "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+  {"id": "rel-henryi-matildascotland-marriage", "type": "marriage", "from_person_id": "henry-i", "to_person_id": "matilda-of-scotland", "married": {"value": {"year": 1100, "month": 11, "day": 11}, "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]}, "marriage_ended": {"value": {"year": 1118}, "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]}, "marriage_end_reason": {"value": "death_of_spouse", "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]}, "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+  {"id": "rel-matildascotland-empressmatilda-parent", "type": "parent_child", "from_person_id": "matilda-of-scotland", "to_person_id": "empress-matilda", "legitimacy": "legitimate", "line": "female", "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+  {"id": "rel-henryii-eleanor-marriage", "type": "marriage", "from_person_id": "henry-ii", "to_person_id": "eleanor-of-aquitaine", "married": {"value": {"year": 1152, "month": 5, "day": 18}, "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]}, "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+  {"id": "rel-eleanor-richardi-parent", "type": "parent_child", "from_person_id": "eleanor-of-aquitaine", "to_person_id": "richard-i", "legitimacy": "legitimate", "line": "female", "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+  {"id": "rel-eleanor-john-parent", "type": "parent_child", "from_person_id": "eleanor-of-aquitaine", "to_person_id": "john", "legitimacy": "legitimate", "line": "female", "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+  {"id": "rel-john-isabella-marriage", "type": "marriage", "from_person_id": "john", "to_person_id": "isabella-of-angouleme", "married": {"value": {"year": 1200, "month": 8, "day": 24}, "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]}, "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+  {"id": "rel-isabella-angouleme-henryiii-parent", "type": "parent_child", "from_person_id": "isabella-of-angouleme", "to_person_id": "henry-iii", "legitimacy": "legitimate", "line": "female", "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+  {"id": "rel-henryiii-eleanorprovence-marriage", "type": "marriage", "from_person_id": "henry-iii", "to_person_id": "eleanor-of-provence", "married": {"value": {"year": 1236, "month": 1, "day": 14}, "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]}, "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+  {"id": "rel-eleanorprovence-edwardi-parent", "type": "parent_child", "from_person_id": "eleanor-of-provence", "to_person_id": "edward-i", "legitimacy": "legitimate", "line": "female", "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+  {"id": "rel-edwardi-eleanorcastile-marriage", "type": "marriage", "from_person_id": "edward-i", "to_person_id": "eleanor-of-castile", "married": {"value": {"year": 1254, "month": 11, "day": 1}, "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]}, "marriage_ended": {"value": {"year": 1290}, "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]}, "marriage_end_reason": {"value": "death_of_spouse", "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]}, "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+  {"id": "rel-eleanorcastile-edwardii-parent", "type": "parent_child", "from_person_id": "eleanor-of-castile", "to_person_id": "edward-ii", "legitimacy": "legitimate", "line": "female", "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+  {"id": "rel-edwardii-isabellafrance-marriage", "type": "marriage", "from_person_id": "edward-ii", "to_person_id": "isabella-of-france", "married": {"value": {"year": 1308, "month": 1, "day": 25}, "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]}, "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+  {"id": "rel-isabellafrance-edwardiii-parent", "type": "parent_child", "from_person_id": "isabella-of-france", "to_person_id": "edward-iii", "legitimacy": "legitimate", "line": "female", "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+  {"id": "rel-henryiv-marydebohun-marriage", "type": "marriage", "from_person_id": "henry-iv", "to_person_id": "mary-de-bohun", "married": {"value": {"year": 1381}, "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]}, "marriage_ended": {"value": {"year": 1394}, "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]}, "marriage_end_reason": {"value": "death_of_spouse", "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]}, "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+  {"id": "rel-marydebohun-henryv-parent", "type": "parent_child", "from_person_id": "mary-de-bohun", "to_person_id": "henry-v", "legitimacy": "legitimate", "line": "female", "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+  {"id": "rel-richardiii-anneneville-marriage", "type": "marriage", "from_person_id": "richard-iii", "to_person_id": "anne-neville", "married": {"value": {"year": 1472, "month": 7, "day": 12}, "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]}, "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+  {"id": "rel-jamesii-marymodena-marriage", "type": "marriage", "from_person_id": "james-ii", "to_person_id": "mary-of-modena", "married": {"value": {"year": 1673, "month": 11, "day": 21}, "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]}, "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+  {"id": "rel-jamesii-jamesfrancisstubard-parent", "type": "parent_child", "from_person_id": "james-ii", "to_person_id": "james-francis-edward-stuart", "legitimacy": "legitimate", "line": "male", "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+  {"id": "rel-marymodena-jamesfrancis-parent", "type": "parent_child", "from_person_id": "mary-of-modena", "to_person_id": "james-francis-edward-stuart", "legitimacy": "legitimate", "line": "female", "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+  {"id": "rel-anne-georgedenmark-marriage", "type": "marriage", "from_person_id": "anne", "to_person_id": "george-of-denmark", "married": {"value": {"year": 1683, "month": 7, "day": 28}, "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]}, "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+
+  {"id": "rel-williami-robertcurthose-parent", "type": "parent_child", "from_person_id": "william-i", "to_person_id": "robert-curthose", "legitimacy": "legitimate", "line": "male", "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+  {"id": "rel-matildaflanders-robertcurthose-parent", "type": "parent_child", "from_person_id": "matilda-of-flanders", "to_person_id": "robert-curthose", "legitimacy": "legitimate", "line": "female", "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+  {"id": "rel-robertcurthose-williamclito-parent", "type": "parent_child", "from_person_id": "robert-curthose", "to_person_id": "william-clito", "legitimacy": "legitimate", "line": "male", "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+
+  {"id": "rel-henryii-geoffreybrit-parent", "type": "parent_child", "from_person_id": "henry-ii", "to_person_id": "geoffrey-of-brittany", "legitimacy": "legitimate", "line": "male", "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+  {"id": "rel-eleanor-geoffreybrit-parent", "type": "parent_child", "from_person_id": "eleanor-of-aquitaine", "to_person_id": "geoffrey-of-brittany", "legitimacy": "legitimate", "line": "female", "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+  {"id": "rel-geoffreybrit-constance-marriage", "type": "marriage", "from_person_id": "geoffrey-of-brittany", "to_person_id": "constance-of-brittany", "married": {"value": {"year": 1181}, "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]}, "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+  {"id": "rel-geoffreybrit-arthurbrit-parent", "type": "parent_child", "from_person_id": "geoffrey-of-brittany", "to_person_id": "arthur-of-brittany", "legitimacy": "legitimate", "line": "male", "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+  {"id": "rel-constancebrit-arthurbrit-parent", "type": "parent_child", "from_person_id": "constance-of-brittany", "to_person_id": "arthur-of-brittany", "legitimacy": "legitimate", "line": "female", "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+
+  {"id": "rel-edwardiii-thomaswoodstock-parent", "type": "parent_child", "from_person_id": "edward-iii", "to_person_id": "thomas-of-woodstock", "legitimacy": "legitimate", "line": "male", "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+  {"id": "rel-philippahainault-thomaswoodstock-parent", "type": "parent_child", "from_person_id": "philippa-of-hainault", "to_person_id": "thomas-of-woodstock", "legitimacy": "legitimate", "line": "female", "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+
+  {"id": "rel-philippaclarence-edmundmortimer3rd-marriage", "type": "marriage", "from_person_id": "philippa-of-clarence", "to_person_id": "edmund-mortimer-3rd", "married": {"value": {"year": 1368}, "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]}, "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+  {"id": "rel-edmundmortimer3rd-rogermortimer4th-parent", "type": "parent_child", "from_person_id": "edmund-mortimer-3rd", "to_person_id": "roger-mortimer-4th-earl", "legitimacy": "legitimate", "line": "male", "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+
+  {"id": "rel-edwardi-margueritedefrance-marriage", "type": "marriage", "from_person_id": "edward-i", "to_person_id": "marguerite-of-france", "married": {"value": {"year": 1299, "month": 9, "day": 10}, "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]}, "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+  {"id": "rel-edwardi-edmundwoodstock-parent", "type": "parent_child", "from_person_id": "edward-i", "to_person_id": "edmund-of-woodstock", "legitimacy": "legitimate", "line": "male", "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+  {"id": "rel-marguerite-edmundwoodstock-parent", "type": "parent_child", "from_person_id": "marguerite-of-france", "to_person_id": "edmund-of-woodstock", "legitimacy": "legitimate", "line": "female", "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+  {"id": "rel-edmundwoodstock-joanofkent-parent", "type": "parent_child", "from_person_id": "edmund-of-woodstock", "to_person_id": "joan-of-kent", "legitimacy": "legitimate", "line": "male", "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+
+  {"id": "rel-richardyork-cecileneville-marriage", "type": "marriage", "from_person_id": "richard-duke-of-york", "to_person_id": "cecily-neville", "married": {"value": {"year": 1429, "approximate": true}, "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]}, "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+  {"id": "rel-cecileneville-edwardiv-parent", "type": "parent_child", "from_person_id": "cecily-neville", "to_person_id": "edward-iv", "legitimacy": "legitimate", "line": "female", "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+  {"id": "rel-cecileneville-richardiii-parent", "type": "parent_child", "from_person_id": "cecily-neville", "to_person_id": "richard-iii", "legitimacy": "legitimate", "line": "female", "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+
+  {"id": "rel-jamesv-maryofguise-marriage", "type": "marriage", "from_person_id": "james-v-of-scotland", "to_person_id": "mary-of-guise", "married": {"value": {"year": 1538, "month": 5, "day": 18}, "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]}, "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+  {"id": "rel-maryofguise-maryqos-parent", "type": "parent_child", "from_person_id": "mary-of-guise", "to_person_id": "mary-queen-of-scots", "legitimacy": "legitimate", "line": "female", "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+
+  {"id": "rel-margarettudor-archibald-marriage", "type": "marriage", "from_person_id": "margaret-tudor", "to_person_id": "archibald-douglas", "married": {"value": {"year": 1514, "month": 8, "day": 6}, "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]}, "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+  {"id": "rel-archibald-margaretdouglas-parent", "type": "parent_child", "from_person_id": "archibald-douglas", "to_person_id": "margaret-douglas", "legitimacy": "legitimate", "line": "male", "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+  {"id": "rel-margarettudor-margaretdouglas-parent", "type": "parent_child", "from_person_id": "margaret-tudor", "to_person_id": "margaret-douglas", "legitimacy": "legitimate", "line": "female", "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+
+  {"id": "rel-margaretdouglas-matthewstewart-marriage", "type": "marriage", "from_person_id": "margaret-douglas", "to_person_id": "matthew-stewart", "married": {"value": {"year": 1544, "month": 7, "day": 6}, "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]}, "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+  {"id": "rel-matthewstewart-henrydarnley-parent", "type": "parent_child", "from_person_id": "matthew-stewart", "to_person_id": "henry-stuart-darnley", "legitimacy": "legitimate", "line": "male", "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+  {"id": "rel-margaretdouglas-henrydarnley-parent", "type": "parent_child", "from_person_id": "margaret-douglas", "to_person_id": "henry-stuart-darnley", "legitimacy": "legitimate", "line": "female", "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+
+  {"id": "rel-maryqos-henrydarnley-marriage", "type": "marriage", "from_person_id": "mary-queen-of-scots", "to_person_id": "henry-stuart-darnley", "married": {"value": {"year": 1565, "month": 7, "day": 29}, "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]}, "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+  {"id": "rel-henrydarnley-jamesi-parent", "type": "parent_child", "from_person_id": "henry-stuart-darnley", "to_person_id": "james-i", "legitimacy": "legitimate", "line": "male", "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+
+  {"id": "rel-richardi-berengaria-marriage", "type": "marriage", "from_person_id": "richard-i", "to_person_id": "berengaria-of-navarre", "married": {"value": {"year": 1191, "month": 5, "day": 12}, "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]}, "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+
+  {"id": "rel-empressmatilda-geoffreyanjou-marriage", "type": "marriage", "from_person_id": "empress-matilda", "to_person_id": "geoffrey-of-anjou", "married": {"value": {"year": 1128, "month": 6, "day": 17}, "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]}, "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+  {"id": "rel-geoffreyanjou-henryii-parent", "type": "parent_child", "from_person_id": "geoffrey-of-anjou", "to_person_id": "henry-ii", "legitimacy": "legitimate", "line": "male", "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+
+  {"id": "rel-edmundwoodstock-margaretwake-marriage", "type": "marriage", "from_person_id": "edmund-of-woodstock", "to_person_id": "margaret-wake", "married": {"value": {"year": 1325, "approximate": true}, "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]}, "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+  {"id": "rel-margaretwake-joanofkent-parent", "type": "parent_child", "from_person_id": "margaret-wake", "to_person_id": "joan-of-kent", "legitimacy": "legitimate", "line": "female", "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+
+  {"id": "rel-alfred-ealhswith-marriage", "type": "marriage", "from_person_id": "alfred-the-great", "to_person_id": "ealhswith", "married": {"value": {"year": 868, "approximate": true}, "source_ids": [{"source_id": "STENTON-ASE"}]}, "source_ids": [{"source_id": "STENTON-ASE"}]},
+  {"id": "rel-alfred-edwardtheelderM-parent", "type": "parent_child", "from_person_id": "alfred-the-great", "to_person_id": "edward-the-elder", "legitimacy": "legitimate", "line": "male", "source_ids": [{"source_id": "STENTON-ASE"}]},
+  {"id": "rel-ealhswith-edwardtheelderF-parent", "type": "parent_child", "from_person_id": "ealhswith", "to_person_id": "edward-the-elder", "legitimacy": "legitimate", "line": "female", "source_ids": [{"source_id": "STENTON-ASE"}]},
+
+  {"id": "rel-edwardtheelder-ecgwynn-marriage", "type": "marriage", "from_person_id": "edward-the-elder", "to_person_id": "ecgwynn", "married": {"value": {"year": 893, "approximate": true}, "source_ids": [{"source_id": "ODNB-edward-elder"}]}, "source_ids": [{"source_id": "ODNB-edward-elder"}]},
+  {"id": "rel-edwardtheelder-aelflad-marriage", "type": "marriage", "from_person_id": "edward-the-elder", "to_person_id": "aelflad-edward", "married": {"value": {"year": 901, "approximate": true}, "source_ids": [{"source_id": "ODNB-edward-elder"}]}, "source_ids": [{"source_id": "ODNB-edward-elder"}]},
+  {"id": "rel-edwardtheelder-eadgifu-marriage", "type": "marriage", "from_person_id": "edward-the-elder", "to_person_id": "eadgifu-of-kent", "married": {"value": {"year": 919, "approximate": true}, "source_ids": [{"source_id": "ODNB-edward-elder"}]}, "source_ids": [{"source_id": "ODNB-edward-elder"}]},
+
+  {"id": "rel-ecgwynn-athelstanM-parent", "type": "parent_child", "from_person_id": "ecgwynn", "to_person_id": "athelstan", "legitimacy": "legitimate", "line": "female", "source_ids": [{"source_id": "FOOT-ATHELSTAN"}]},
+  {"id": "rel-edwardtheelder-athelstanM-parent", "type": "parent_child", "from_person_id": "edward-the-elder", "to_person_id": "athelstan", "legitimacy": "legitimate", "line": "male", "source_ids": [{"source_id": "FOOT-ATHELSTAN"}]},
+
+  {"id": "rel-aelflad-edmundiM-parent", "type": "parent_child", "from_person_id": "aelflad-edward", "to_person_id": "edmund-i", "legitimacy": "legitimate", "line": "female", "source_ids": [{"source_id": "STENTON-ASE"}]},
+  {"id": "rel-edwardtheelder-edmundiM-parent", "type": "parent_child", "from_person_id": "edward-the-elder", "to_person_id": "edmund-i", "legitimacy": "legitimate", "line": "male", "source_ids": [{"source_id": "STENTON-ASE"}]},
+  {"id": "rel-eadgifu-eadredM-parent", "type": "parent_child", "from_person_id": "eadgifu-of-kent", "to_person_id": "eadred", "legitimacy": "legitimate", "line": "female", "source_ids": [{"source_id": "STENTON-ASE"}]},
+  {"id": "rel-edwardtheelder-eadredM-parent", "type": "parent_child", "from_person_id": "edward-the-elder", "to_person_id": "eadred", "legitimacy": "legitimate", "line": "male", "source_ids": [{"source_id": "STENTON-ASE"}]},
+
+  {"id": "rel-edmundi-aelfgifu-marriage", "type": "marriage", "from_person_id": "edmund-i", "to_person_id": "aelfgifu-of-shaftesbury", "married": {"value": {"year": 939, "approximate": true}, "source_ids": [{"source_id": "ODNB-edmund-i"}]}, "source_ids": [{"source_id": "ODNB-edmund-i"}]},
+  {"id": "rel-edmundi-aethelflad-marriage", "type": "marriage", "from_person_id": "edmund-i", "to_person_id": "aethelflad-of-damerham", "married": {"value": {"year": 944, "approximate": true}, "source_ids": [{"source_id": "ODNB-edmund-i"}]}, "source_ids": [{"source_id": "ODNB-edmund-i"}]},
+  {"id": "rel-aelfgifu-eadwigM-parent", "type": "parent_child", "from_person_id": "aelfgifu-of-shaftesbury", "to_person_id": "eadwig", "legitimacy": "legitimate", "line": "female", "source_ids": [{"source_id": "STENTON-ASE"}]},
+  {"id": "rel-edmundi-eadwigM-parent", "type": "parent_child", "from_person_id": "edmund-i", "to_person_id": "eadwig", "legitimacy": "legitimate", "line": "male", "source_ids": [{"source_id": "STENTON-ASE"}]},
+  {"id": "rel-aelfgifu-edgarM-parent", "type": "parent_child", "from_person_id": "aelfgifu-of-shaftesbury", "to_person_id": "edgar-the-peaceful", "legitimacy": "legitimate", "line": "female", "source_ids": [{"source_id": "STENTON-ASE"}]},
+  {"id": "rel-edmundi-edgarM-parent", "type": "parent_child", "from_person_id": "edmund-i", "to_person_id": "edgar-the-peaceful", "legitimacy": "legitimate", "line": "male", "source_ids": [{"source_id": "STENTON-ASE"}]},
+
+  {"id": "rel-edgar-aethelflad-marriage", "type": "marriage", "from_person_id": "edgar-the-peaceful", "to_person_id": "aethelflad-eneda", "married": {"value": {"year": 960, "approximate": true}, "source_ids": [{"source_id": "ODNB-edgar-peaceful"}]}, "source_ids": [{"source_id": "ODNB-edgar-peaceful"}]},
+  {"id": "rel-edgar-aelfthrythr-marriage", "type": "marriage", "from_person_id": "edgar-the-peaceful", "to_person_id": "aelfthrythr", "married": {"value": {"year": 964}, "source_ids": [{"source_id": "STENTON-ASE"}]}, "source_ids": [{"source_id": "STENTON-ASE"}]},
+  {"id": "rel-aethelflad-edwardmartyrM-parent", "type": "parent_child", "from_person_id": "aethelflad-eneda", "to_person_id": "edward-the-martyr", "legitimacy": "legitimate", "line": "female", "source_ids": [{"source_id": "STENTON-ASE"}]},
+  {"id": "rel-edgar-edwardmartyrM-parent", "type": "parent_child", "from_person_id": "edgar-the-peaceful", "to_person_id": "edward-the-martyr", "legitimacy": "legitimate", "line": "male", "source_ids": [{"source_id": "STENTON-ASE"}]},
+  {"id": "rel-aelfthrythr-ethelredM-parent", "type": "parent_child", "from_person_id": "aelfthrythr", "to_person_id": "ethelred-the-unready", "legitimacy": "legitimate", "line": "female", "source_ids": [{"source_id": "STENTON-ASE"}]},
+  {"id": "rel-edgar-ethelredM-parent", "type": "parent_child", "from_person_id": "edgar-the-peaceful", "to_person_id": "ethelred-the-unready", "legitimacy": "legitimate", "line": "male", "source_ids": [{"source_id": "STENTON-ASE"}]},
+
+  {"id": "rel-ethelred-aelfgifuyork-marriage", "type": "marriage", "from_person_id": "ethelred-the-unready", "to_person_id": "aelfgifu-of-york", "married": {"value": {"year": 985, "approximate": true}, "source_ids": [{"source_id": "ODNB-ethelred-unready"}]}, "source_ids": [{"source_id": "ODNB-ethelred-unready"}]},
+  {"id": "rel-ethelred-emma-marriage", "type": "marriage", "from_person_id": "ethelred-the-unready", "to_person_id": "emma-of-normandy", "married": {"value": {"year": 1002, "month": 4}, "source_ids": [{"source_id": "STENTON-ASE"}]}, "source_ids": [{"source_id": "STENTON-ASE"}]},
+  {"id": "rel-aelfgifuyork-edmundironsideM-parent", "type": "parent_child", "from_person_id": "aelfgifu-of-york", "to_person_id": "edmund-ironside", "legitimacy": "legitimate", "line": "female", "source_ids": [{"source_id": "STENTON-ASE"}]},
+  {"id": "rel-ethelred-edmundironsideM-parent", "type": "parent_child", "from_person_id": "ethelred-the-unready", "to_person_id": "edmund-ironside", "legitimacy": "legitimate", "line": "male", "source_ids": [{"source_id": "STENTON-ASE"}]},
+  {"id": "rel-emma-edwardconfessorM-parent", "type": "parent_child", "from_person_id": "emma-of-normandy", "to_person_id": "edward-the-confessor", "legitimacy": "legitimate", "line": "female", "source_ids": [{"source_id": "STENTON-ASE"}]},
+  {"id": "rel-ethelred-edwardconfessorM-parent", "type": "parent_child", "from_person_id": "ethelred-the-unready", "to_person_id": "edward-the-confessor", "legitimacy": "legitimate", "line": "male", "source_ids": [{"source_id": "STENTON-ASE"}]},
+
+  {"id": "rel-edmundironside-ealdgyth-marriage", "type": "marriage", "from_person_id": "edmund-ironside", "to_person_id": "ealdgyth-ironside", "married": {"value": {"year": 1015, "approximate": true}, "source_ids": [{"source_id": "ODNB-edmund-ironside"}]}, "source_ids": [{"source_id": "ODNB-edmund-ironside"}]},
+  {"id": "rel-ealdgyth-edwardexileM-parent", "type": "parent_child", "from_person_id": "ealdgyth-ironside", "to_person_id": "edward-the-exile", "legitimacy": "legitimate", "line": "female", "source_ids": [{"source_id": "STENTON-ASE"}]},
+  {"id": "rel-edmundironside-edwardexileM-parent", "type": "parent_child", "from_person_id": "edmund-ironside", "to_person_id": "edward-the-exile", "legitimacy": "legitimate", "line": "male", "source_ids": [{"source_id": "STENTON-ASE"}]},
+
+  {"id": "rel-cnut-aelfgifunorthampton-marriage", "type": "marriage", "from_person_id": "cnut", "to_person_id": "aelfgifu-of-northampton", "married": {"value": {"year": 1013, "approximate": true}, "source_ids": [{"source_id": "BOLTON-CNUT"}]}, "source_ids": [{"source_id": "BOLTON-CNUT"}]},
+  {"id": "rel-cnut-emma-marriage", "type": "marriage", "from_person_id": "cnut", "to_person_id": "emma-of-normandy", "married": {"value": {"year": 1017, "month": 7}, "source_ids": [{"source_id": "BOLTON-CNUT"}]}, "source_ids": [{"source_id": "BOLTON-CNUT"}]},
+  {"id": "rel-aelfgifunorthampton-haroldharefootM-parent", "type": "parent_child", "from_person_id": "aelfgifu-of-northampton", "to_person_id": "harold-harefoot", "legitimacy": "legitimate", "line": "female", "source_ids": [{"source_id": "BOLTON-CNUT"}]},
+  {"id": "rel-cnut-haroldharefootM-parent", "type": "parent_child", "from_person_id": "cnut", "to_person_id": "harold-harefoot", "legitimacy": "legitimate", "line": "male", "source_ids": [{"source_id": "BOLTON-CNUT"}]},
+  {"id": "rel-emma-harthacnutM-parent", "type": "parent_child", "from_person_id": "emma-of-normandy", "to_person_id": "harthacnut", "legitimacy": "legitimate", "line": "female", "source_ids": [{"source_id": "BOLTON-CNUT"}]},
+  {"id": "rel-cnut-harthacnutM-parent", "type": "parent_child", "from_person_id": "cnut", "to_person_id": "harthacnut", "legitimacy": "legitimate", "line": "male", "source_ids": [{"source_id": "BOLTON-CNUT"}]},
+
+  {"id": "rel-edwardconfessor-edithdewessex-marriage", "type": "marriage", "from_person_id": "edward-the-confessor", "to_person_id": "edith-of-wessex", "married": {"value": {"year": 1045, "month": 1, "day": 23}, "source_ids": [{"source_id": "BARLOW-EDWARD-CONFESSOR"}]}, "source_ids": [{"source_id": "BARLOW-EDWARD-CONFESSOR"}]},
+
+  {"id": "rel-godwin-edithofwessexF-parent", "type": "parent_child", "from_person_id": "godwin-earl-wessex", "to_person_id": "edith-of-wessex", "legitimacy": "legitimate", "line": "male", "source_ids": [{"source_id": "STENTON-ASE"}]},
+  {"id": "rel-godwin-haroldiiM-parent", "type": "parent_child", "from_person_id": "godwin-earl-wessex", "to_person_id": "harold-ii", "legitimacy": "legitimate", "line": "male", "source_ids": [{"source_id": "WALKER-HAROLD-II"}]},
+
+  {"id": "rel-edwardexile-margaretofwessexF-parent", "type": "parent_child", "from_person_id": "edward-the-exile", "to_person_id": "margaret-of-wessex", "legitimacy": "legitimate", "line": "male", "source_ids": [{"source_id": "STENTON-ASE"}]},
+  {"id": "rel-edward-exile-edgar-aetheling-parent", "type": "parent_child", "from_person_id": "edward-the-exile", "to_person_id": "edgar-aetheling", "legitimacy": "legitimate", "line": "male", "source_ids": [{"source_id": "ODNB-edgar-aetheling"}]},
+
+  {"id": "rel-richard-i-gunnor-marriage", "type": "marriage", "from_person_id": "richard-i-of-normandy", "to_person_id": "gunnor-of-normandy", "source_ids": [{"source_id": "DOUGLAS-WILLIAM-I"}]},
+  {"id": "rel-richard-i-normandy-richard-ii-parent", "type": "parent_child", "from_person_id": "richard-i-of-normandy", "to_person_id": "richard-ii-of-normandy", "legitimacy": "legitimate", "line": "male", "source_ids": [{"source_id": "DOUGLAS-WILLIAM-I"}]},
+  {"id": "rel-gunnor-richard-ii-parent", "type": "parent_child", "from_person_id": "gunnor-of-normandy", "to_person_id": "richard-ii-of-normandy", "legitimacy": "legitimate", "line": "female", "source_ids": [{"source_id": "DOUGLAS-WILLIAM-I"}]},
+  {"id": "rel-richard-i-normandy-emma-parent", "type": "parent_child", "from_person_id": "richard-i-of-normandy", "to_person_id": "emma-of-normandy", "legitimacy": "legitimate", "line": "male", "source_ids": [{"source_id": "DOUGLAS-WILLIAM-I"}]},
+  {"id": "rel-gunnor-emma-parent", "type": "parent_child", "from_person_id": "gunnor-of-normandy", "to_person_id": "emma-of-normandy", "legitimacy": "legitimate", "line": "female", "source_ids": [{"source_id": "DOUGLAS-WILLIAM-I"}]},
+  {"id": "rel-richard-ii-normandy-robert-i-parent", "type": "parent_child", "from_person_id": "richard-ii-of-normandy", "to_person_id": "robert-i-of-normandy", "legitimacy": "legitimate", "line": "male", "source_ids": [{"source_id": "DOUGLAS-WILLIAM-I"}]},
+  {"id": "rel-robert-i-normandy-william-i-parent", "type": "parent_child", "from_person_id": "robert-i-of-normandy", "to_person_id": "william-i", "legitimacy": "illegitimate", "line": "male", "source_ids": [{"source_id": "DOUGLAS-WILLIAM-I"}]},
+
+  {"id": "rel-aethelwulf-osburh-marriage", "type": "marriage", "from_person_id": "aethelwulf", "to_person_id": "osburh", "source_ids": [{"source_id": "STENTON-ASE"}]},
+  {"id": "rel-aethelwulf-judith-marriage", "type": "marriage", "from_person_id": "aethelwulf", "to_person_id": "judith-of-france", "married": {"value": {"year": 856}, "source_ids": [{"source_id": "STENTON-ASE"}]}, "source_ids": [{"source_id": "STENTON-ASE"}]},
+  {"id": "rel-aethelwulf-aethelbald-parent", "type": "parent_child", "from_person_id": "aethelwulf", "to_person_id": "aethelbald", "legitimacy": "legitimate", "line": "male", "source_ids": [{"source_id": "STENTON-ASE"}]},
+  {"id": "rel-osburh-aethelbald-parent", "type": "parent_child", "from_person_id": "osburh", "to_person_id": "aethelbald", "legitimacy": "legitimate", "line": "female", "source_ids": [{"source_id": "STENTON-ASE"}]},
+  {"id": "rel-aethelwulf-aethelberht-parent", "type": "parent_child", "from_person_id": "aethelwulf", "to_person_id": "aethelberht-of-wessex", "legitimacy": "legitimate", "line": "male", "source_ids": [{"source_id": "STENTON-ASE"}]},
+  {"id": "rel-osburh-aethelberht-parent", "type": "parent_child", "from_person_id": "osburh", "to_person_id": "aethelberht-of-wessex", "legitimacy": "legitimate", "line": "female", "source_ids": [{"source_id": "STENTON-ASE"}]},
+  {"id": "rel-aethelwulf-aethelred-parent", "type": "parent_child", "from_person_id": "aethelwulf", "to_person_id": "aethelred-i-of-wessex", "legitimacy": "legitimate", "line": "male", "source_ids": [{"source_id": "STENTON-ASE"}]},
+  {"id": "rel-osburh-aethelred-parent", "type": "parent_child", "from_person_id": "osburh", "to_person_id": "aethelred-i-of-wessex", "legitimacy": "legitimate", "line": "female", "source_ids": [{"source_id": "STENTON-ASE"}]},
+  {"id": "rel-aethelwulf-alfred-parent", "type": "parent_child", "from_person_id": "aethelwulf", "to_person_id": "alfred-the-great", "legitimacy": "legitimate", "line": "male", "source_ids": [{"source_id": "STENTON-ASE"}]},
+  {"id": "rel-osburh-alfred-parent", "type": "parent_child", "from_person_id": "osburh", "to_person_id": "alfred-the-great", "legitimacy": "legitimate", "line": "female", "source_ids": [{"source_id": "STENTON-ASE"}]},
+
+  {"id": "rel-sweyn-cnut-parent", "type": "parent_child", "from_person_id": "sweyn-forkbeard", "to_person_id": "cnut", "legitimacy": "legitimate", "line": "male", "source_ids": [{"source_id": "BOLTON-CNUT"}]},
+
+  {"id": "rel-henryi-adeliza-marriage", "type": "marriage", "from_person_id": "henry-i", "to_person_id": "adeliza-of-louvain", "married": {"value": {"year": 1121}, "source_ids": [{"source_id": "HUSCROFT-RULING-ENGLAND"}]}, "source_ids": [{"source_id": "HUSCROFT-RULING-ENGLAND"}]},
+  {"id": "rel-henryi-williamadelin-parent", "type": "parent_child", "from_person_id": "henry-i", "to_person_id": "william-adelin", "legitimacy": "legitimate", "line": "male", "source_ids": [{"source_id": "HUSCROFT-RULING-ENGLAND"}]},
+  {"id": "rel-matildaofscotland-williamadelin-parent", "type": "parent_child", "from_person_id": "matilda-of-scotland", "to_person_id": "william-adelin", "legitimacy": "legitimate", "line": "female", "source_ids": [{"source_id": "HUSCROFT-RULING-ENGLAND"}]},
+
+  {"id": "rel-stephen-matildaboulogne-marriage", "type": "marriage", "from_person_id": "stephen", "to_person_id": "matilda-of-boulogne", "source_ids": [{"source_id": "HUSCROFT-RULING-ENGLAND"}]},
+  {"id": "rel-stephen-eustace-parent", "type": "parent_child", "from_person_id": "stephen", "to_person_id": "eustace-iv-of-boulogne", "legitimacy": "legitimate", "line": "male", "source_ids": [{"source_id": "HUSCROFT-RULING-ENGLAND"}]},
+  {"id": "rel-matildaboulogne-eustace-parent", "type": "parent_child", "from_person_id": "matilda-of-boulogne", "to_person_id": "eustace-iv-of-boulogne", "legitimacy": "legitimate", "line": "female", "source_ids": [{"source_id": "HUSCROFT-RULING-ENGLAND"}]},
+  {"id": "rel-stephen-williamboulogne-parent", "type": "parent_child", "from_person_id": "stephen", "to_person_id": "william-of-boulogne", "legitimacy": "legitimate", "line": "male", "source_ids": [{"source_id": "HUSCROFT-RULING-ENGLAND"}]},
+  {"id": "rel-matildaboulogne-williamboulogne-parent", "type": "parent_child", "from_person_id": "matilda-of-boulogne", "to_person_id": "william-of-boulogne", "legitimacy": "legitimate", "line": "female", "source_ids": [{"source_id": "HUSCROFT-RULING-ENGLAND"}]},
+
+  {"id": "rel-henryii-youngking-parent", "type": "parent_child", "from_person_id": "henry-ii", "to_person_id": "henry-the-young-king", "legitimacy": "legitimate", "line": "male", "source_ids": [{"source_id": "WARREN-HENRY-II"}]},
+  {"id": "rel-eleanor-aquitaine-youngking-parent", "type": "parent_child", "from_person_id": "eleanor-of-aquitaine", "to_person_id": "henry-the-young-king", "legitimacy": "legitimate", "line": "female", "source_ids": [{"source_id": "WARREN-HENRY-II"}]},
+  {"id": "rel-henryii-eleanor-england-parent", "type": "parent_child", "from_person_id": "henry-ii", "to_person_id": "eleanor-of-england-plantagenet", "legitimacy": "legitimate", "line": "male", "source_ids": [{"source_id": "WARREN-HENRY-II"}]},
+  {"id": "rel-eleanor-aquitaine-eleanor-england-parent", "type": "parent_child", "from_person_id": "eleanor-of-aquitaine", "to_person_id": "eleanor-of-england-plantagenet", "legitimacy": "legitimate", "line": "female", "source_ids": [{"source_id": "WARREN-HENRY-II"}]},
+  {"id": "rel-henryii-joan-england-parent", "type": "parent_child", "from_person_id": "henry-ii", "to_person_id": "joan-of-england-plantagenet", "legitimacy": "legitimate", "line": "male", "source_ids": [{"source_id": "WARREN-HENRY-II"}]},
+  {"id": "rel-eleanor-aquitaine-joan-england-parent", "type": "parent_child", "from_person_id": "eleanor-of-aquitaine", "to_person_id": "joan-of-england-plantagenet", "legitimacy": "legitimate", "line": "female", "source_ids": [{"source_id": "WARREN-HENRY-II"}]},
+
+  {"id": "rel-edwardi-joanofacre-parent", "type": "parent_child", "from_person_id": "edward-i", "to_person_id": "joan-of-acre", "legitimacy": "legitimate", "line": "male", "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+  {"id": "rel-eleanor-castile-joanofacre-parent", "type": "parent_child", "from_person_id": "eleanor-of-castile", "to_person_id": "joan-of-acre", "legitimacy": "legitimate", "line": "female", "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+
+  {"id": "rel-richardii-annebohemia-marriage", "type": "marriage", "from_person_id": "richard-ii", "to_person_id": "anne-of-bohemia", "married": {"value": {"year": 1382}, "source_ids": [{"source_id": "MCKISACK-14C"}]}, "source_ids": [{"source_id": "MCKISACK-14C"}]},
+  {"id": "rel-richardii-isabellavaois-marriage", "type": "marriage", "from_person_id": "richard-ii", "to_person_id": "isabella-of-valois", "married": {"value": {"year": 1396}, "source_ids": [{"source_id": "MCKISACK-14C"}]}, "source_ids": [{"source_id": "MCKISACK-14C"}]},
+
+  {"id": "rel-henryiv-joannavarre-marriage", "type": "marriage", "from_person_id": "henry-iv", "to_person_id": "joan-of-navarre", "married": {"value": {"year": 1403}, "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]}, "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+
+  {"id": "rel-jamesi-henryfrederick-parent", "type": "parent_child", "from_person_id": "james-i", "to_person_id": "henry-frederick-stuart", "legitimacy": "legitimate", "line": "male", "source_ids": [{"source_id": "KENYON-STUARTS"}]},
+  {"id": "rel-anne-denmark-henryfrederick-parent", "type": "parent_child", "from_person_id": "anne-of-denmark", "to_person_id": "henry-frederick-stuart", "legitimacy": "legitimate", "line": "female", "source_ids": [{"source_id": "KENYON-STUARTS"}]},
+  {"id": "rel-jamesi-elizabeth-bohemia-parent", "type": "parent_child", "from_person_id": "james-i", "to_person_id": "elizabeth-of-bohemia", "legitimacy": "legitimate", "line": "male", "source_ids": [{"source_id": "KENYON-STUARTS"}]},
+  {"id": "rel-anne-denmark-elizabeth-bohemia-parent", "type": "parent_child", "from_person_id": "anne-of-denmark", "to_person_id": "elizabeth-of-bohemia", "legitimacy": "legitimate", "line": "female", "source_ids": [{"source_id": "KENYON-STUARTS"}]},
+  {"id": "rel-elizabeth-bohemia-frederickv-marriage", "type": "marriage", "from_person_id": "elizabeth-of-bohemia", "to_person_id": "frederick-v-palatine", "married": {"value": {"year": 1613}, "source_ids": [{"source_id": "KENYON-STUARTS"}]}, "source_ids": [{"source_id": "KENYON-STUARTS"}]},
+  {"id": "rel-frederickv-sophia-parent", "type": "parent_child", "from_person_id": "frederick-v-palatine", "to_person_id": "sophia-of-hanover", "legitimacy": "legitimate", "line": "male", "source_ids": [{"source_id": "KENYON-STUARTS"}]},
+  {"id": "rel-elizabeth-bohemia-sophia-parent", "type": "parent_child", "from_person_id": "elizabeth-of-bohemia", "to_person_id": "sophia-of-hanover", "legitimacy": "legitimate", "line": "female", "source_ids": [{"source_id": "KENYON-STUARTS"}]},
+
+  {"id": "rel-charlesi-mary-princess-parent", "type": "parent_child", "from_person_id": "charles-i", "to_person_id": "mary-princess-royal", "legitimacy": "legitimate", "line": "male", "source_ids": [{"source_id": "KENYON-STUARTS"}]},
+  {"id": "rel-henrietta-maria-mary-princess-parent", "type": "parent_child", "from_person_id": "henrietta-maria", "to_person_id": "mary-princess-royal", "legitimacy": "legitimate", "line": "female", "source_ids": [{"source_id": "KENYON-STUARTS"}]},
+  {"id": "rel-mary-princess-williamii-marriage", "type": "marriage", "from_person_id": "mary-princess-royal", "to_person_id": "william-ii-of-orange", "married": {"value": {"year": 1641}, "source_ids": [{"source_id": "KENYON-STUARTS"}]}, "source_ids": [{"source_id": "KENYON-STUARTS"}]},
+  {"id": "rel-williamii-orange-williamiii-parent", "type": "parent_child", "from_person_id": "william-ii-of-orange", "to_person_id": "william-iii", "legitimacy": "legitimate", "line": "male", "source_ids": [{"source_id": "KENYON-STUARTS"}]},
+  {"id": "rel-mary-princess-williamiii-parent", "type": "parent_child", "from_person_id": "mary-princess-royal", "to_person_id": "william-iii", "legitimacy": "legitimate", "line": "female", "source_ids": [{"source_id": "KENYON-STUARTS"}]},
+
+  {"id": "rel-charlesi-henrietta-anne-parent", "type": "parent_child", "from_person_id": "charles-i", "to_person_id": "henrietta-anne-stuart", "legitimacy": "legitimate", "line": "male", "source_ids": [{"source_id": "KENYON-STUARTS"}]},
+  {"id": "rel-henrietta-maria-henrietta-anne-parent", "type": "parent_child", "from_person_id": "henrietta-maria", "to_person_id": "henrietta-anne-stuart", "legitimacy": "legitimate", "line": "female", "source_ids": [{"source_id": "KENYON-STUARTS"}]},
+
+  {"id": "rel-egbert-aethelwulf-parent", "type": "parent_child", "from_person_id": "egbert-of-wessex", "to_person_id": "aethelwulf", "legitimacy": "legitimate", "line": "male", "source_ids": [{"source_id": "STENTON-ASE"}]},
+
+  {"id": "rel-haraldblue-sweyn-parent", "type": "parent_child", "from_person_id": "harald-bluetooth", "to_person_id": "sweyn-forkbeard", "legitimacy": "legitimate", "line": "male", "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+
+  {"id": "rel-godwin-gytha-marriage", "type": "marriage", "from_person_id": "godwin-earl-wessex", "to_person_id": "gytha-thorkelsdottir", "source_ids": [{"source_id": "WALKER-HAROLD-II"}]},
+  {"id": "rel-gytha-haroldii-parent", "type": "parent_child", "from_person_id": "gytha-thorkelsdottir", "to_person_id": "harold-ii", "legitimacy": "legitimate", "line": "female", "source_ids": [{"source_id": "WALKER-HAROLD-II"}]},
+  {"id": "rel-gytha-edithwessex-parent", "type": "parent_child", "from_person_id": "gytha-thorkelsdottir", "to_person_id": "edith-of-wessex", "legitimacy": "legitimate", "line": "female", "source_ids": [{"source_id": "STENTON-ASE"}]},
+
+  {"id": "rel-haroldii-ealdgyth-marriage", "type": "marriage", "from_person_id": "harold-ii", "to_person_id": "ealdgyth-of-mercia", "married": {"value": {"year": 1066, "approximate": true, "notes": "Married in early 1066 to cement the Mercian alliance."}, "source_ids": [{"source_id": "WALKER-HAROLD-II"}]}, "source_ids": [{"source_id": "WALKER-HAROLD-II"}]},
+
+  {"id": "rel-herleva-williami-parent", "type": "parent_child", "from_person_id": "herleva-of-falaise", "to_person_id": "william-i", "legitimacy": "illegitimate", "line": "female", "source_ids": [{"source_id": "BARLOW-WILLIAM-I"}, {"source_id": "DOUGLAS-WILLIAM-I"}]},
+
+  {"id": "rel-stephenblois-adela-marriage", "type": "marriage", "from_person_id": "stephen-count-of-blois", "to_person_id": "adela-of-normandy", "married": {"value": {"year": 1081, "approximate": true}, "source_ids": [{"source_id": "HUSCROFT-RULING-ENGLAND"}]}, "source_ids": [{"source_id": "HUSCROFT-RULING-ENGLAND"}]},
+  {"id": "rel-stephenblois-stephen-parent", "type": "parent_child", "from_person_id": "stephen-count-of-blois", "to_person_id": "stephen", "legitimacy": "legitimate", "line": "male", "source_ids": [{"source_id": "HUSCROFT-RULING-ENGLAND"}]},
+
+  {"id": "rel-henryvii-marytudor-parent", "type": "parent_child", "from_person_id": "henry-vii", "to_person_id": "mary-tudor-queen-of-france", "legitimacy": "legitimate", "line": "male", "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}, {"source_id": "CHRIMES-HENRY-VII"}]},
+  {"id": "rel-elizabethofyork-marytudor-parent", "type": "parent_child", "from_person_id": "elizabeth-of-york", "to_person_id": "mary-tudor-queen-of-france", "legitimacy": "legitimate", "line": "female", "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+  {"id": "rel-marytudor-francesbrandon-parent", "type": "parent_child", "from_person_id": "mary-tudor-queen-of-france", "to_person_id": "frances-brandon", "legitimacy": "legitimate", "line": "female", "source_ids": [{"source_id": "WEIR-BRITAIN-ROYAL-FAMILIES"}]},
+
+  {"id": "rel-henrygrey-francesbrandon-marriage", "type": "marriage", "from_person_id": "henry-grey-suffolk", "to_person_id": "frances-brandon", "married": {"value": {"year": 1533}, "source_ids": [{"source_id": "LOADES-TUDOR-MONARCHY"}]}, "source_ids": [{"source_id": "LOADES-TUDOR-MONARCHY"}]},
+  {"id": "rel-henrygrey-janegrey-parent", "type": "parent_child", "from_person_id": "henry-grey-suffolk", "to_person_id": "lady-jane-grey", "legitimacy": "legitimate", "line": "male", "source_ids": [{"source_id": "LOADES-TUDOR-MONARCHY"}]},
+  {"id": "rel-francesbrandon-janegrey-parent", "type": "parent_child", "from_person_id": "frances-brandon", "to_person_id": "lady-jane-grey", "legitimacy": "legitimate", "line": "female", "source_ids": [{"source_id": "LOADES-TUDOR-MONARCHY"}]},
+
+  {"id": "rel-henryvi-edwardwestminster-parent", "type": "parent_child", "from_person_id": "henry-vi", "to_person_id": "edward-of-westminster", "legitimacy": "legitimate", "line": "male", "source_ids": [{"source_id": "HICKS-WARS-ROSES"}]},
+  {"id": "rel-marganjou-edwardwestminster-parent", "type": "parent_child", "from_person_id": "margaret-of-anjou", "to_person_id": "edward-of-westminster", "legitimacy": "legitimate", "line": "female", "source_ids": [{"source_id": "HICKS-WARS-ROSES"}]},
+
+  {"id": "rel-richardiii-edwardmiddleham-parent", "type": "parent_child", "from_person_id": "richard-iii", "to_person_id": "edward-of-middleham", "legitimacy": "legitimate", "line": "male", "source_ids": [{"source_id": "HICKS-WARS-ROSES"}]},
+  {"id": "rel-anneneville-edwardmiddleham-parent", "type": "parent_child", "from_person_id": "anne-neville", "to_person_id": "edward-of-middleham", "legitimacy": "legitimate", "line": "female", "source_ids": [{"source_id": "HICKS-WARS-ROSES"}]},
+
+  {"id": "rel-charlesii-cathbraganza-marriage", "type": "marriage", "from_person_id": "charles-ii", "to_person_id": "catherine-of-braganza", "married": {"value": {"year": 1662, "month": 5, "day": 21, "notes": "Married at Portsmouth."}, "source_ids": [{"source_id": "KENYON-STUARTS"}]}, "source_ids": [{"source_id": "KENYON-STUARTS"}]}
+]
