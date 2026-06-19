@@ -99,7 +99,7 @@ export default function HomePage() {
       >
         {/* Painting */}
         <img
-          src="/britannia.png"
+          src="/britannia.jpg"
           alt=""
           aria-hidden="true"
           className="absolute inset-0 w-full h-full object-cover"
