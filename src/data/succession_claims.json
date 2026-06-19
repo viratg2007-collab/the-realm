@@ -3,16 +3,30 @@
     "id": "succession-1066",
     "title": "The Succession Crisis of 1066",
     "year": {
-      "value": { "year": 1066, "month": 1, "day": 5 },
-      "source_ids": [{ "source_id": "FRYDE-HANDBOOK-DATES" }]
+      "value": {
+        "year": 1066,
+        "month": 1,
+        "day": 5
+      },
+      "source_ids": [
+        {
+          "source_id": "FRYDE-HANDBOOK-DATES"
+        }
+      ]
     },
     "throne": "The English Crown",
     "description": {
       "value": "On 5 January 1066 Edward the Confessor died childless, leaving three powerful men with competing claims to the English throne. Within nine months the dispute had produced the Norman Conquest — the most transformative event in English history. Harold Godwinson was crowned within hours of Edward's death; he was dead by October, and William of Normandy had been crowned by Christmas.",
       "source_ids": [
-        { "source_id": "BARLOW-WILLIAM-I" },
-        { "source_id": "WALKER-HAROLD-II" },
-        { "source_id": "FRYDE-HANDBOOK-DATES" }
+        {
+          "source_id": "BARLOW-WILLIAM-I"
+        },
+        {
+          "source_id": "WALKER-HAROLD-II"
+        },
+        {
+          "source_id": "FRYDE-HANDBOOK-DATES"
+        }
       ]
     },
     "assumptions": [
@@ -54,16 +68,24 @@
           "description": {
             "value": "Harold Godwinson was the most powerful English magnate, earl of Wessex and de facto ruler of England in the Confessor's later years. He claimed that Edward designated him on his deathbed, and the Witan — assembled for the king's funeral — elected and crowned him within hours of Edward's death on 6 January 1066. Harold had no royal blood, but his supporters argued that election and the king's own choice were sufficient foundation.",
             "source_ids": [
-              { "source_id": "WALKER-HAROLD-II" },
-              { "source_id": "BARLOW-WILLIAM-I" }
+              {
+                "source_id": "WALKER-HAROLD-II"
+              },
+              {
+                "source_id": "BARLOW-WILLIAM-I"
+              }
             ]
           },
           "line_of_descent": "No direct royal descent; son of Godwin, Earl of Wessex, whose origins are obscure. Harold's sister Edith was Edward the Confessor's queen, giving the family proximity to the throne without blood right.",
           "contemporary_argument": {
             "value": "English sources (the Vita Ædwardi Regis and later the 'D' version of the Anglo-Saxon Chronicle) present Harold's election by the Witan as entirely legitimate: the dying Edward commended the kingdom and his queen to Harold's protection, and the assembled councillors confirmed the choice immediately.",
             "source_ids": [
-              { "source_id": "WALKER-HAROLD-II" },
-              { "source_id": "WHITELOCK-EHD" }
+              {
+                "source_id": "WALKER-HAROLD-II"
+              },
+              {
+                "source_id": "WHITELOCK-EHD"
+              }
             ]
           }
         },
@@ -82,16 +104,24 @@
           "description": {
             "value": "William, Duke of Normandy claimed that Edward the Confessor — his first cousin once removed — had promised him the English throne during Edward's Norman exile (c.1051) and again via an embassy in 1064. He further claimed that Harold Godwinson had sworn a solemn oath on holy relics to support this claim, and that Pope Alexander II had endorsed his invasion with a papal banner. William also had tenuous blood connection as a great-nephew by marriage of Emma of Normandy, but blood right was not his primary argument.",
             "source_ids": [
-              { "source_id": "BARLOW-WILLIAM-I" },
-              { "source_id": "DOUGLAS-WILLIAM-I" }
+              {
+                "source_id": "BARLOW-WILLIAM-I"
+              },
+              {
+                "source_id": "DOUGLAS-WILLIAM-I"
+              }
             ]
           },
           "line_of_descent": "Great-nephew of Emma of Normandy (who married both Æthelred II and Cnut); grandson of Richard II, Duke of Normandy. No direct patrilineal descent from any English king.",
           "contemporary_argument": {
             "value": "Norman sources — the Carmen de Hastingae Proelio, William of Poitiers, and the Bayeux Tapestry — present the campaign as a just war to punish an oath-breaker and enforce Edward's legitimate promise. Pope Alexander II's grant of a papal banner gave the invasion the character of a holy undertaking.",
             "source_ids": [
-              { "source_id": "BARLOW-WILLIAM-I" },
-              { "source_id": "DOUGLAS-WILLIAM-I" }
+              {
+                "source_id": "BARLOW-WILLIAM-I"
+              },
+              {
+                "source_id": "DOUGLAS-WILLIAM-I"
+              }
             ]
           }
         },
@@ -110,16 +140,24 @@
           "description": {
             "value": "Edgar was the sole surviving male of the ancient West Saxon royal house, grandson of Edmund Ironside and great-grandson of Æthelred II. By blood right he was unquestionably the strongest dynastic claimant. He was, however, a boy of around fourteen or fifteen in 1066, with no military following. After Hastings the surviving English magnates proclaimed him king in London, but he submitted to William within weeks, making him the last uncrowned Anglo-Saxon claimant.",
             "source_ids": [
-              { "source_id": "ODNB-edgar-aetheling" },
-              { "source_id": "STENTON-ASE" }
+              {
+                "source_id": "ODNB-edgar-aetheling"
+              },
+              {
+                "source_id": "STENTON-ASE"
+              }
             ]
           },
           "line_of_descent": "Son of Edward the Exile; grandson of Edmund Ironside; great-grandson of Æthelred II; great-great-grandson of Edgar the Peaceful — direct male-line Cerdician descent.",
           "contemporary_argument": {
             "value": "The Abingdon and Worcester versions of the Anglo-Saxon Chronicle record that after Hastings, 'the people of London and the best men of all England agreed unanimously to have Edgar the child as king, as was his right by birth.' His claim rested entirely on blood right and Cerdician legitimacy.",
             "source_ids": [
-              { "source_id": "WHITELOCK-EHD" },
-              { "source_id": "ODNB-edgar-aetheling" }
+              {
+                "source_id": "WHITELOCK-EHD"
+              },
+              {
+                "source_id": "ODNB-edgar-aetheling"
+              }
             ]
           }
         },
@@ -139,11 +177,25 @@
         "positions": [
           {
             "position": "The promise was genuine. Norman sources are consistent and detailed, and Edward had spent his formative years in Normandy; it is plausible he regarded William as his natural successor. No contemporaneous English source directly denies that an offer was made.",
-            "source_ids": [{ "source_id": "BARLOW-WILLIAM-I" }, { "source_id": "DOUGLAS-WILLIAM-I" }]
+            "source_ids": [
+              {
+                "source_id": "BARLOW-WILLIAM-I"
+              },
+              {
+                "source_id": "DOUGLAS-WILLIAM-I"
+              }
+            ]
           },
           {
             "position": "The promise is a Norman propaganda construct. Even if Edward expressed a preference in 1051, English constitutional practice gave the reigning king no power to bind the Witan's choice of successor; and his later deathbed designation of Harold superseded any earlier offer.",
-            "source_ids": [{ "source_id": "WALKER-HAROLD-II" }, { "source_id": "STENTON-ASE" }]
+            "source_ids": [
+              {
+                "source_id": "WALKER-HAROLD-II"
+              },
+              {
+                "source_id": "STENTON-ASE"
+              }
+            ]
           }
         ]
       },
@@ -152,31 +204,67 @@
         "positions": [
           {
             "position": "The oath was publicly sworn on holy relics and was witnessed by Norman magnates. Its violation was regarded by contemporaries as a grave sin; Pope Alexander II's endorsement of William's campaign reflected this view, and the Bayeux Tapestry stages the oath as the moral pivot of the narrative.",
-            "source_ids": [{ "source_id": "BARLOW-WILLIAM-I" }, { "source_id": "DOUGLAS-WILLIAM-I" }]
+            "source_ids": [
+              {
+                "source_id": "BARLOW-WILLIAM-I"
+              },
+              {
+                "source_id": "DOUGLAS-WILLIAM-I"
+              }
+            ]
           },
           {
             "position": "Harold was effectively William's prisoner when he swore. Medieval canon law allowed duress as a ground for nullifying oaths, and English writers gave the oath little weight — the Vita Ædwardi does not mention it. Harold may not have known what relics he was swearing upon, or what consequences William would claim it had.",
-            "source_ids": [{ "source_id": "WALKER-HAROLD-II" }, { "source_id": "WHITELOCK-EHD" }]
+            "source_ids": [
+              {
+                "source_id": "WALKER-HAROLD-II"
+              },
+              {
+                "source_id": "WHITELOCK-EHD"
+              }
+            ]
           }
         ]
       }
     ],
-    "source_ids": ["BARLOW-WILLIAM-I", "WALKER-HAROLD-II", "DOUGLAS-WILLIAM-I", "STENTON-ASE", "WHITELOCK-EHD", "FRYDE-HANDBOOK-DATES", "ODNB-edgar-aetheling"]
+    "source_ids": [
+      "BARLOW-WILLIAM-I",
+      "WALKER-HAROLD-II",
+      "DOUGLAS-WILLIAM-I",
+      "STENTON-ASE",
+      "WHITELOCK-EHD",
+      "FRYDE-HANDBOOK-DATES",
+      "ODNB-edgar-aetheling"
+    ]
   },
   {
     "id": "succession-1135",
     "title": "The Anarchy: Matilda versus Stephen, 1135",
     "year": {
-      "value": { "year": 1135, "month": 12, "day": 1 },
-      "source_ids": [{ "source_id": "FRYDE-HANDBOOK-DATES" }]
+      "value": {
+        "year": 1135,
+        "month": 12,
+        "day": 1
+      },
+      "source_ids": [
+        {
+          "source_id": "FRYDE-HANDBOOK-DATES"
+        }
+      ]
     },
     "throne": "The English Crown and Duchy of Normandy",
     "description": {
       "value": "When Henry I died on 1 December 1135, he left no legitimate sons — his only surviving legitimate child was Empress Matilda, whom he had made his barons swear to accept as queen on three separate occasions. Within weeks, however, her cousin Stephen of Blois had seized the treasury, been recognised by the Church, and been crowned. The resulting civil war — 'The Anarchy' — lasted until the Treaty of Wallingford in 1153.",
       "source_ids": [
-        { "source_id": "DAVIS-KING-STEPHEN" },
-        { "source_id": "HUSCROFT-RULING-ENGLAND" },
-        { "source_id": "FRYDE-HANDBOOK-DATES" }
+        {
+          "source_id": "DAVIS-KING-STEPHEN"
+        },
+        {
+          "source_id": "HUSCROFT-RULING-ENGLAND"
+        },
+        {
+          "source_id": "FRYDE-HANDBOOK-DATES"
+        }
       ]
     },
     "assumptions": [
@@ -212,16 +300,24 @@
           "description": {
             "value": "Matilda was the only surviving legitimate child of Henry I, daughter of a king and widow of the Holy Roman Emperor. Henry had made the English barons swear to accept her as queen in 1127, 1131, and 1133 — three separate oath-takings. Her claim rested on designation, direct descent, and the argument that female inheritance was not constitutionally prohibited.",
             "source_ids": [
-              { "source_id": "HUSCROFT-RULING-ENGLAND" },
-              { "source_id": "DAVIS-KING-STEPHEN" }
+              {
+                "source_id": "HUSCROFT-RULING-ENGLAND"
+              },
+              {
+                "source_id": "DAVIS-KING-STEPHEN"
+              }
             ]
           },
           "line_of_descent": "Daughter of Henry I; granddaughter of William the Conqueror and Matilda of Flanders; great-granddaughter of William I. Direct legitimate female-line descent from the Conqueror.",
           "contemporary_argument": {
             "value": "Matilda's supporters (notably Robert of Gloucester, her illegitimate half-brother) argued that the thrice-sworn oaths were solemn and binding, that her sex was irrelevant where direct descent existed, and that Stephen had usurped a throne that lawfully belonged to her and, after 1133, to her son Henry (the future Henry II).",
             "source_ids": [
-              { "source_id": "DAVIS-KING-STEPHEN" },
-              { "source_id": "HUSCROFT-RULING-ENGLAND" }
+              {
+                "source_id": "DAVIS-KING-STEPHEN"
+              },
+              {
+                "source_id": "HUSCROFT-RULING-ENGLAND"
+              }
             ]
           }
         },
@@ -239,16 +335,24 @@
           "description": {
             "value": "Stephen of Blois was a grandson of William the Conqueror through his mother Adela of Normandy, and a favourite nephew of Henry I. He acted with decisive speed on Henry's death: reaching England before anyone else, he secured the treasury at Winchester and was crowned at Westminster on 22 December 1135 — within three weeks of Henry's death. The Archbishop of Canterbury initially refused to crown him, but the Bishop of Winchester (Stephen's own brother) performed the ceremony.",
             "source_ids": [
-              { "source_id": "DAVIS-KING-STEPHEN" },
-              { "source_id": "ODNB-stephen" }
+              {
+                "source_id": "DAVIS-KING-STEPHEN"
+              },
+              {
+                "source_id": "ODNB-stephen"
+              }
             ]
           },
           "line_of_descent": "Son of Stephen, Count of Blois and Adela of Normandy (daughter of William I). Grandson of William the Conqueror through the female line; no male-line royal descent.",
           "contemporary_argument": {
             "value": "Stephen's supporters argued that a woman could not bear the burdens of medieval kingship; that Henry I's designation was invalid or had been revoked on his deathbed; that the baronial oaths had been extracted under duress and were therefore not binding; and that Stephen's prompt coronation and anointing by the Church gave him a title that could not be overturned without sacrilege.",
             "source_ids": [
-              { "source_id": "DAVIS-KING-STEPHEN" },
-              { "source_id": "HUSCROFT-RULING-ENGLAND" }
+              {
+                "source_id": "DAVIS-KING-STEPHEN"
+              },
+              {
+                "source_id": "HUSCROFT-RULING-ENGLAND"
+              }
             ]
           }
         },
@@ -267,11 +371,19 @@
         "positions": [
           {
             "position": "Some Norman chronicles record a deathbed change of intention — that Henry absolved his barons of their oaths and recommended Stephen. This story, convenient for Stephen's party, has some contemporary attestation.",
-            "source_ids": [{ "source_id": "DAVIS-KING-STEPHEN" }]
+            "source_ids": [
+              {
+                "source_id": "DAVIS-KING-STEPHEN"
+              }
+            ]
           },
           {
             "position": "English sources give no credence to any deathbed revocation. The story served Norman and Blesian interests, was contradicted by witnesses present at Henry's death, and is almost certainly a post-hoc justification for Stephen's usurpation.",
-            "source_ids": [{ "source_id": "HUSCROFT-RULING-ENGLAND" }]
+            "source_ids": [
+              {
+                "source_id": "HUSCROFT-RULING-ENGLAND"
+              }
+            ]
           }
         ]
       },
@@ -280,32 +392,64 @@
         "positions": [
           {
             "position": "The thrice-sworn oaths were unambiguous and were specifically designed to bind the barons to Matilda's succession. Stephen's repudiation of them was oath-breaking, and his subsequent troubles were widely attributed by contemporaries to divine punishment for this breach of faith.",
-            "source_ids": [{ "source_id": "HUSCROFT-RULING-ENGLAND" }, { "source_id": "DAVIS-KING-STEPHEN" }]
+            "source_ids": [
+              {
+                "source_id": "HUSCROFT-RULING-ENGLAND"
+              },
+              {
+                "source_id": "DAVIS-KING-STEPHEN"
+              }
+            ]
           },
           {
             "position": "Medieval oaths sworn to a living king did not automatically bind the baronage after his death, particularly where the designated successor was female and the practical difficulties of her rule were severe. Many barons who supported Stephen had in good conscience concluded the oaths were voided by changed circumstances.",
-            "source_ids": [{ "source_id": "DAVIS-KING-STEPHEN" }]
+            "source_ids": [
+              {
+                "source_id": "DAVIS-KING-STEPHEN"
+              }
+            ]
           }
         ]
       }
     ],
-    "source_ids": ["DAVIS-KING-STEPHEN", "HUSCROFT-RULING-ENGLAND", "ODNB-stephen", "FRYDE-HANDBOOK-DATES"]
+    "source_ids": [
+      "DAVIS-KING-STEPHEN",
+      "HUSCROFT-RULING-ENGLAND",
+      "ODNB-stephen",
+      "FRYDE-HANDBOOK-DATES"
+    ]
   },
   {
     "id": "succession-1399",
     "title": "The Lancastrian Usurpation, 1399",
     "year": {
-      "value": { "year": 1399, "month": 9, "day": 30 },
-      "source_ids": [{ "source_id": "FRYDE-HANDBOOK-DATES" }]
+      "value": {
+        "year": 1399,
+        "month": 9,
+        "day": 30
+      },
+      "source_ids": [
+        {
+          "source_id": "FRYDE-HANDBOOK-DATES"
+        }
+      ]
     },
     "throne": "The English Crown",
     "description": {
       "value": "In September 1399 Henry Bolingbroke, Duke of Lancaster — returned from exile in defiance of Richard II's sentence of banishment — deposed the anointed king before a parliament assembled in Westminster Hall. Richard's 'voluntary' abdication was read aloud; 33 articles of tyranny were presented; and Henry claimed the throne by a deliberately vague formula invoking 'right of blood', 'God's grace', and parliamentary recognition. The rival Mortimer claim — genealogically stronger — was quietly ignored.",
       "source_ids": [
-        { "source_id": "SAUL-RICHARD-II" },
-        { "source_id": "GIVEN-WILSON-HENRY-IV" },
-        { "source_id": "MCKISACK-14C" },
-        { "source_id": "FRYDE-HANDBOOK-DATES" }
+        {
+          "source_id": "SAUL-RICHARD-II"
+        },
+        {
+          "source_id": "GIVEN-WILSON-HENRY-IV"
+        },
+        {
+          "source_id": "MCKISACK-14C"
+        },
+        {
+          "source_id": "FRYDE-HANDBOOK-DATES"
+        }
       ]
     },
     "assumptions": [
@@ -341,14 +485,22 @@
           "description": {
             "value": "Richard II was the reigning anointed king of England, grandson of Edward III through the Black Prince (eldest surviving son). His right was unimpeachable by blood and by the divine sanction of anointing. He had ruled since 1377. Whatever his personal tyrannies, his deposition required the invention of constitutional fictions — a 'voluntary' abdication extracted from a prisoner in the Tower — to avoid the naked reality of usurpation.",
             "source_ids": [
-              { "source_id": "SAUL-RICHARD-II" },
-              { "source_id": "GIVEN-WILSON-HENRY-IV" }
+              {
+                "source_id": "SAUL-RICHARD-II"
+              },
+              {
+                "source_id": "GIVEN-WILSON-HENRY-IV"
+              }
             ]
           },
           "line_of_descent": "Son of Edward the Black Prince; grandson of Edward III (eldest surviving son). Male-line descent through the most senior surviving branch of the Plantagenet house.",
           "contemporary_argument": {
             "value": "Richard and his supporters argued that an anointed king could not be deposed by any earthly power; that his title derived from God, not from parliamentary consent; and that Bolingbroke's return from exile was itself an act of treason. Richard invoked the sacral nature of medieval kingship as an absolute bar to deposition.",
-            "source_ids": [{ "source_id": "SAUL-RICHARD-II" }]
+            "source_ids": [
+              {
+                "source_id": "SAUL-RICHARD-II"
+              }
+            ]
           }
         },
         "succeeded": false,
@@ -365,16 +517,24 @@
           "description": {
             "value": "Henry Bolingbroke was the son of John of Gaunt, Duke of Lancaster — Edward III's fourth surviving son and third to live to maturity. His genealogical claim was junior to the Mortimer line (descended from Lionel of Antwerp, Edward III's second son). Henry accordingly avoided making a strict blood-right argument; his claim speech invoked 'the right that God of his grace hath sent me, with the help of my kin and of my friends' — a calculated ambiguity that could be read as conquest, blood right, or parliamentary title as occasion demanded.",
             "source_ids": [
-              { "source_id": "GIVEN-WILSON-HENRY-IV" },
-              { "source_id": "SAUL-RICHARD-II" }
+              {
+                "source_id": "GIVEN-WILSON-HENRY-IV"
+              },
+              {
+                "source_id": "SAUL-RICHARD-II"
+              }
             ]
           },
           "line_of_descent": "Son of John of Gaunt (Edward III's fourth son); grandson of Edward III through the male line, but through a junior son. Lancaster was Edward III's third surviving son; Lionel of Antwerp was second.",
           "contemporary_argument": {
             "value": "Henry's claim speech on 30 September 1399 deliberately invoked three overlapping foundations: divine grace, kinship right, and the realm's need for rescue from tyranny. He avoided specifying which of these was primary precisely because each was vulnerable to challenge; the combination was designed to be unanswerable in practice if not in theory.",
             "source_ids": [
-              { "source_id": "GIVEN-WILSON-HENRY-IV" },
-              { "source_id": "MCKISACK-14C" }
+              {
+                "source_id": "GIVEN-WILSON-HENRY-IV"
+              },
+              {
+                "source_id": "MCKISACK-14C"
+              }
             ]
           }
         },
@@ -392,16 +552,24 @@
           "description": {
             "value": "Edmund Mortimer, 3rd Earl of March was the great-grandson of Lionel of Antwerp, Duke of Clarence — Edward III's second surviving son, senior to John of Gaunt (the third). The line passed through Lionel's daughter Philippa to the Mortimer earls of March. If female-line descent carried equal weight — as it did in English common law inheritance — Edmund had a genealogically superior claim to both Richard II (male-line from the Black Prince, Edward III's eldest) and Henry Bolingbroke (male-line from Gaunt, the third son). Edmund was a minor in 1399, which made him easily sidelined.",
             "source_ids": [
-              { "source_id": "GIVEN-WILSON-HENRY-IV" },
-              { "source_id": "HICKS-WARS-ROSES" }
+              {
+                "source_id": "GIVEN-WILSON-HENRY-IV"
+              },
+              {
+                "source_id": "HICKS-WARS-ROSES"
+              }
             ]
           },
           "line_of_descent": "Great-grandson of Lionel of Antwerp (Edward III's second surviving son) through his daughter Philippa of Clarence → Roger Mortimer, 4th Earl of March → Edmund Mortimer, 3rd Earl of March. Senior Plantagenet line if female-line transmission is valid.",
           "contemporary_argument": {
             "value": "The Mortimer claim was not publicly advanced in 1399 — Edmund was a child under royal wardship and his supporters were in no position to challenge Henry's military control. The claim re-surfaced under Richard, Duke of York in the 1450s and became the constitutional basis of the Yorkist case in the Wars of the Roses.",
             "source_ids": [
-              { "source_id": "HICKS-WARS-ROSES" },
-              { "source_id": "POLLARD-WARS-ROSES" }
+              {
+                "source_id": "HICKS-WARS-ROSES"
+              },
+              {
+                "source_id": "POLLARD-WARS-ROSES"
+              }
             ]
           }
         },
@@ -420,11 +588,22 @@
         "positions": [
           {
             "position": "Richard was a prisoner in the Tower of London; his 'resignation' was extracted under compulsion. Contemporary observers noted he signed the document without being shown the assembled parliament — it cannot be regarded as a free act, and the fiction of voluntariness was a constitutional necessity Henry could not abandon.",
-            "source_ids": [{ "source_id": "SAUL-RICHARD-II" }, { "source_id": "GIVEN-WILSON-HENRY-IV" }]
+            "source_ids": [
+              {
+                "source_id": "SAUL-RICHARD-II"
+              },
+              {
+                "source_id": "GIVEN-WILSON-HENRY-IV"
+              }
+            ]
           },
           {
             "position": "Richard may have genuinely concluded that resistance was futile and that formal abdication offered a better chance of survival. The Dieulacres Chronicle records him as cheerful at his first meeting with Henry, and some historians argue the resignation, once given, was accepted by Richard as binding.",
-            "source_ids": [{ "source_id": "GIVEN-WILSON-HENRY-IV" }]
+            "source_ids": [
+              {
+                "source_id": "GIVEN-WILSON-HENRY-IV"
+              }
+            ]
           }
         ]
       },
@@ -433,31 +612,65 @@
         "positions": [
           {
             "position": "Henry's claim speech was a deliberate obfuscation. He could not claim strict blood right (the Mortimer claim was genealogically superior) and could not openly claim conquest (that would invite the same logic to be used against him). Parliamentary title was the most defensible ground, but Parliament was assembled under duress.",
-            "source_ids": [{ "source_id": "SAUL-RICHARD-II" }, { "source_id": "MCKISACK-14C" }]
+            "source_ids": [
+              {
+                "source_id": "SAUL-RICHARD-II"
+              },
+              {
+                "source_id": "MCKISACK-14C"
+              }
+            ]
           },
           {
             "position": "The parliamentary recognition of Henry's title, whatever its basis, created a working constitutional settlement. Three Lancastrian kings and 62 years of rule gave the dynasty a de facto legitimacy that transcended the question of strict genealogical right.",
-            "source_ids": [{ "source_id": "GIVEN-WILSON-HENRY-IV" }, { "source_id": "MCKISACK-14C" }]
+            "source_ids": [
+              {
+                "source_id": "GIVEN-WILSON-HENRY-IV"
+              },
+              {
+                "source_id": "MCKISACK-14C"
+              }
+            ]
           }
         ]
       }
     ],
-    "source_ids": ["SAUL-RICHARD-II", "GIVEN-WILSON-HENRY-IV", "MCKISACK-14C", "HICKS-WARS-ROSES", "POLLARD-WARS-ROSES", "FRYDE-HANDBOOK-DATES"]
+    "source_ids": [
+      "SAUL-RICHARD-II",
+      "GIVEN-WILSON-HENRY-IV",
+      "MCKISACK-14C",
+      "HICKS-WARS-ROSES",
+      "POLLARD-WARS-ROSES",
+      "FRYDE-HANDBOOK-DATES"
+    ]
   },
   {
     "id": "succession-1460",
     "title": "The Act of Accord, 1460: York versus Lancaster",
     "year": {
-      "value": { "year": 1460, "month": 10 },
-      "source_ids": [{ "source_id": "FRYDE-HANDBOOK-DATES" }]
+      "value": {
+        "year": 1460,
+        "month": 10
+      },
+      "source_ids": [
+        {
+          "source_id": "FRYDE-HANDBOOK-DATES"
+        }
+      ]
     },
     "throne": "The English Crown",
     "description": {
       "value": "By October 1460 Richard, Duke of York — having routed the royal forces at Northampton and taken Henry VI prisoner — entered Parliament and placed his hand on the throne. He expected acclamation; he received silence. The resultant Act of Accord was a constitutional compromise: Henry VI would reign for life, but York and his heirs would succeed him, disinheriting the Lancastrian Prince of Wales. York was killed at Wakefield in December 1460, but his son won the throne as Edward IV in March 1461.",
       "source_ids": [
-        { "source_id": "HICKS-WARS-ROSES" },
-        { "source_id": "POLLARD-WARS-ROSES" },
-        { "source_id": "FRYDE-HANDBOOK-DATES" }
+        {
+          "source_id": "HICKS-WARS-ROSES"
+        },
+        {
+          "source_id": "POLLARD-WARS-ROSES"
+        },
+        {
+          "source_id": "FRYDE-HANDBOOK-DATES"
+        }
       ]
     },
     "assumptions": [
@@ -493,14 +706,22 @@
           "description": {
             "value": "Henry VI was the reigning king, third of the Lancastrian dynasty that had held the throne since 1399. His descent was through the male line from John of Gaunt, Edward III's fourth surviving son. The Lancastrian position rested on 61 years of continuous rule, three consecrated kings, and parliamentary recognition — and argued that the Yorkist genealogical claim, transmitted through women, was constitutionally inferior to male-line possession.",
             "source_ids": [
-              { "source_id": "HICKS-WARS-ROSES" },
-              { "source_id": "POLLARD-WARS-ROSES" }
+              {
+                "source_id": "HICKS-WARS-ROSES"
+              },
+              {
+                "source_id": "POLLARD-WARS-ROSES"
+              }
             ]
           },
           "line_of_descent": "Son of Henry V; grandson of Henry IV (John of Gaunt's son); great-grandson of John of Gaunt, Duke of Lancaster (Edward III's fourth son). Male-line Plantagenet descent through a junior branch.",
           "contemporary_argument": {
             "value": "Lancastrian writers argued that three generations of anointed kings created their own legitimacy; that female-line genealogical arguments were legally irrelevant to the English crown; and that York's resort to force was treason against an anointed sovereign, whatever the genealogy.",
-            "source_ids": [{ "source_id": "POLLARD-WARS-ROSES" }]
+            "source_ids": [
+              {
+                "source_id": "POLLARD-WARS-ROSES"
+              }
+            ]
           }
         },
         "succeeded": false,
@@ -517,16 +738,24 @@
           "description": {
             "value": "Richard, Duke of York held a genealogically complex but arguably superior claim: through his mother Anne Mortimer he descended from Lionel of Antwerp, Edward III's second surviving son — senior to Lancaster's John of Gaunt (the fourth). He was also descended in the male line from Edmund of Langley, Edward III's fifth son, as Duke of York. The combination gave him both a genealogically senior claim (via Lionel/Mortimer) and an unimpeachable male-line connection to Edward III. The Act of Accord recognised this by making him heir to Henry VI.",
             "source_ids": [
-              { "source_id": "HICKS-WARS-ROSES" },
-              { "source_id": "POLLARD-WARS-ROSES" }
+              {
+                "source_id": "HICKS-WARS-ROSES"
+              },
+              {
+                "source_id": "POLLARD-WARS-ROSES"
+              }
             ]
           },
           "line_of_descent": "Through mother Anne Mortimer: descended from Lionel of Antwerp (Edward III's 2nd son) → Philippa of Clarence → Roger Mortimer, 4th Earl → Anne Mortimer → Richard, Duke of York. Through father Richard, Earl of Cambridge: descended from Edmund of Langley (Edward III's 5th son).",
           "contemporary_argument": {
             "value": "Yorkist lawyers in 1460 submitted a formal genealogical case to Parliament demonstrating the priority of York's line through Lionel of Antwerp. They argued that English common law of inheritance — which did not discriminate against female transmission — entitled York to rank above Lancaster. Parliament's Act of Accord implicitly accepted this argument by making York, not Lancaster, the future king.",
             "source_ids": [
-              { "source_id": "HICKS-WARS-ROSES" },
-              { "source_id": "POLLARD-WARS-ROSES" }
+              {
+                "source_id": "HICKS-WARS-ROSES"
+              },
+              {
+                "source_id": "POLLARD-WARS-ROSES"
+              }
             ]
           }
         },
@@ -545,11 +774,19 @@
         "positions": [
           {
             "position": "English common law of inheritance did not distinguish between male-line and female-line descent for purposes of seniority; the elder line always took precedence. The Yorkist case through Lionel of Antwerp's descendants was the genealogically stronger claim, and Parliament's Act of Accord implicitly recognised this.",
-            "source_ids": [{ "source_id": "HICKS-WARS-ROSES" }]
+            "source_ids": [
+              {
+                "source_id": "HICKS-WARS-ROSES"
+              }
+            ]
           },
           {
             "position": "The principle that female-line descent from a senior branch overrides male-line descent from a junior branch was never settled constitutional law for the English crown. The Lancastrian counter-argument — that three anointed kings create their own legitimacy — had real political and theological force that the genealogical argument could not simply override.",
-            "source_ids": [{ "source_id": "POLLARD-WARS-ROSES" }]
+            "source_ids": [
+              {
+                "source_id": "POLLARD-WARS-ROSES"
+              }
+            ]
           }
         ]
       },
@@ -558,31 +795,59 @@
         "positions": [
           {
             "position": "The Act of Accord was a workable compromise that Parliament could in good conscience enact: it preserved Henry VI's dignity and reign while settling the succession on the genealogically stronger line. Had York not been killed at Wakefield weeks later, it might have held.",
-            "source_ids": [{ "source_id": "HICKS-WARS-ROSES" }]
+            "source_ids": [
+              {
+                "source_id": "HICKS-WARS-ROSES"
+              }
+            ]
           },
           {
             "position": "The Act was imposed by Yorkist military supremacy after the Lancastrian court party had fled north. The Queen Margaret and the Prince of Wales never accepted it; the Lancastrian nobility overwhelmingly rejected it. It represented not a constitutional consensus but a temporary military advantage, and renewed conflict was inevitable.",
-            "source_ids": [{ "source_id": "POLLARD-WARS-ROSES" }]
+            "source_ids": [
+              {
+                "source_id": "POLLARD-WARS-ROSES"
+              }
+            ]
           }
         ]
       }
     ],
-    "source_ids": ["HICKS-WARS-ROSES", "POLLARD-WARS-ROSES", "FRYDE-HANDBOOK-DATES", "GIVEN-WILSON-HENRY-IV", "MCKISACK-14C"]
+    "source_ids": [
+      "HICKS-WARS-ROSES",
+      "POLLARD-WARS-ROSES",
+      "FRYDE-HANDBOOK-DATES",
+      "GIVEN-WILSON-HENRY-IV",
+      "MCKISACK-14C"
+    ]
   },
   {
     "id": "succession-1483",
     "title": "Richard III and the Princes in the Tower, 1483",
     "year": {
-      "value": { "year": 1483, "month": 4, "day": 9 },
-      "source_ids": [{ "source_id": "FRYDE-HANDBOOK-DATES" }]
+      "value": {
+        "year": 1483,
+        "month": 4,
+        "day": 9
+      },
+      "source_ids": [
+        {
+          "source_id": "FRYDE-HANDBOOK-DATES"
+        }
+      ]
     },
     "throne": "The English Crown",
     "description": {
       "value": "When Edward IV died unexpectedly on 9 April 1483, he left two young sons — Edward, Prince of Wales (aged twelve) and Richard, Duke of York (aged nine) — and his brother Richard, Duke of Gloucester, as Lord Protector. Within ten weeks Gloucester had declared the princes illegitimate, had them confined in the Tower, and was himself crowned Richard III. The princes were never seen in public again. The crisis turned on two questions: whether Edward IV's marriage to Elizabeth Woodville was valid, and what became of the boys who stood between their uncle and the throne.",
       "source_ids": [
-        { "source_id": "ROSS-RICHARD-III" },
-        { "source_id": "HORROX-RICHARD-III" },
-        { "source_id": "FRYDE-HANDBOOK-DATES" }
+        {
+          "source_id": "ROSS-RICHARD-III"
+        },
+        {
+          "source_id": "HORROX-RICHARD-III"
+        },
+        {
+          "source_id": "FRYDE-HANDBOOK-DATES"
+        }
       ]
     },
     "assumptions": [
@@ -618,16 +883,24 @@
           "description": {
             "value": "Edward V was the elder son and designated heir of Edward IV, proclaimed king immediately on his father's death on 9 April 1483. He had the unambiguous dynastic right as the eldest legitimate son of a reigning king. He was escorted to London by his uncle Gloucester and lodged in the Tower — then a royal residence, not a prison — where he awaited his coronation, planned for 22 June. He was never crowned.",
             "source_ids": [
-              { "source_id": "ROSS-RICHARD-III" },
-              { "source_id": "HORROX-RICHARD-III" }
+              {
+                "source_id": "ROSS-RICHARD-III"
+              },
+              {
+                "source_id": "HORROX-RICHARD-III"
+              }
             ]
           },
           "line_of_descent": "Eldest son of Edward IV and Elizabeth Woodville; grandson of Richard, Duke of York. Direct male-line descent from Edward III through John of Gaunt and then through the Yorkist line.",
           "contemporary_argument": {
             "value": "The council, the nobility, and the city of London initially accepted Edward V as king without question. Letters were sent in his name, coins prepared, and his coronation scheduled. Only after Gloucester had arrested and executed the Woodville protectors (June 1483) and the French-sourced story of the Eleanor Butler pre-contract was circulated did political opinion begin to shift.",
             "source_ids": [
-              { "source_id": "ROSS-RICHARD-III" },
-              { "source_id": "HORROX-RICHARD-III" }
+              {
+                "source_id": "ROSS-RICHARD-III"
+              },
+              {
+                "source_id": "HORROX-RICHARD-III"
+              }
             ]
           }
         },
@@ -645,16 +918,24 @@
           "description": {
             "value": "Richard, Duke of Gloucester, was the youngest surviving brother of Edward IV and Lord Protector for the young Edward V. He built his claim on a petition from Parliament (Titulus Regius, June 1483) that declared Edward IV's marriage to Elizabeth Woodville invalid on the grounds of an alleged pre-contract with Eleanor Butler — thereby bastardising both the princes and their sister. Parliament invited Richard to assume the crown, and he was crowned on 6 July 1483. He also argued that Edward IV's other brother George, Duke of Clarence, had been attainted, disqualifying Clarence's children.",
             "source_ids": [
-              { "source_id": "ROSS-RICHARD-III" },
-              { "source_id": "HORROX-RICHARD-III" }
+              {
+                "source_id": "ROSS-RICHARD-III"
+              },
+              {
+                "source_id": "HORROX-RICHARD-III"
+              }
             ]
           },
           "line_of_descent": "Third son of Richard, Duke of York; younger brother of Edward IV and George, Duke of Clarence. Legitimate male-line Yorkist descent from Edward III.",
           "contemporary_argument": {
             "value": "Richard's party presented Titulus Regius as a parliamentary finding of fact, not a political manipulation — and argued that a king of illegitimate children would have been a constitutional disaster. They also appealed to Richard's proven loyalty and military competence against the chaos of a Woodville-dominated minority. Richard had Hastings, Rivers, Grey, and Vaughan executed without trial to neutralise opposition; the speed of events prevented coordinated resistance.",
             "source_ids": [
-              { "source_id": "HORROX-RICHARD-III" },
-              { "source_id": "ROSS-RICHARD-III" }
+              {
+                "source_id": "HORROX-RICHARD-III"
+              },
+              {
+                "source_id": "ROSS-RICHARD-III"
+              }
             ]
           }
         },
@@ -673,11 +954,19 @@
         "positions": [
           {
             "position": "The story derives from Robert Stillington, Bishop of Bath and Wells, who claimed to have solemnised the pre-contract. It cannot be entirely dismissed — Edward IV was known to make promises of marriage to women he desired, and the story may contain a kernel of truth. Titulus Regius was a parliamentary enactment, not a mere rumour.",
-            "source_ids": [{ "source_id": "ROSS-RICHARD-III" }]
+            "source_ids": [
+              {
+                "source_id": "ROSS-RICHARD-III"
+              }
+            ]
           },
           {
             "position": "The story is almost certainly a fabrication designed to provide legal cover for an usurpation that had already been decided on military and political grounds. Eleanor Butler had died in 1468; she could not rebut the claim. The evidence consists entirely of Stillington's word, and Stillington had reason to gratify Gloucester. Henry VII had Titulus Regius repealed and all copies destroyed — an unusual step if the document had any genuine merit.",
-            "source_ids": [{ "source_id": "HORROX-RICHARD-III" }]
+            "source_ids": [
+              {
+                "source_id": "HORROX-RICHARD-III"
+              }
+            ]
           }
         ]
       },
@@ -686,31 +975,61 @@
         "positions": [
           {
             "position": "The most widely accepted view among historians is that the princes were killed in the summer of 1483 on Richard III's orders or with his knowledge. Their disappearance coincided with Richard's need to eliminate the rival claim, and no credible evidence survives that they were alive after 1483.",
-            "source_ids": [{ "source_id": "ROSS-RICHARD-III" }, { "source_id": "HORROX-RICHARD-III" }]
+            "source_ids": [
+              {
+                "source_id": "ROSS-RICHARD-III"
+              },
+              {
+                "source_id": "HORROX-RICHARD-III"
+              }
+            ]
           },
           {
             "position": "No contemporary source directly states that Richard III murdered the princes, and no body was ever produced. Alternative candidates for the killing include the Duke of Buckingham (who briefly controlled the Tower in 1483) and Henry VII himself (who had every motive to eliminate the boys after Bosworth). The mystery remains genuinely unsolved.",
-            "source_ids": [{ "source_id": "ROSS-RICHARD-III" }]
+            "source_ids": [
+              {
+                "source_id": "ROSS-RICHARD-III"
+              }
+            ]
           }
         ]
       }
     ],
-    "source_ids": ["ROSS-RICHARD-III", "HORROX-RICHARD-III", "FRYDE-HANDBOOK-DATES", "OXFORD-COMPANION-BRITISH-HISTORY"]
+    "source_ids": [
+      "ROSS-RICHARD-III",
+      "HORROX-RICHARD-III",
+      "FRYDE-HANDBOOK-DATES",
+      "OXFORD-COMPANION-BRITISH-HISTORY"
+    ]
   },
   {
     "id": "succession-1553",
     "title": "Lady Jane Grey versus Mary I, 1553",
     "year": {
-      "value": { "year": 1553, "month": 7, "day": 6 },
-      "source_ids": [{ "source_id": "FRYDE-HANDBOOK-DATES" }]
+      "value": {
+        "year": 1553,
+        "month": 7,
+        "day": 6
+      },
+      "source_ids": [
+        {
+          "source_id": "FRYDE-HANDBOOK-DATES"
+        }
+      ]
     },
     "throne": "The English Crown",
     "description": {
       "value": "When the fifteen-year-old Edward VI died on 6 July 1553 of tuberculosis, he left a contested succession. His 'Device for the Succession' — drafted in his own hand and revised weeks before his death — set aside his half-sisters Mary and Elizabeth (both declared illegitimate under Henry VIII) and named Lady Jane Grey, granddaughter of Henry VIII's sister Mary, as his heir. Jane was proclaimed queen on 10 July 1553. Within nine days the Council had abandoned her for Mary Tudor, who entered London on 3 August as Mary I. Jane's reign of nine days is the shortest in English history.",
       "source_ids": [
-        { "source_id": "LOACH-EDWARD-VI" },
-        { "source_id": "LOADES-MARY-TUDOR" },
-        { "source_id": "FRYDE-HANDBOOK-DATES" }
+        {
+          "source_id": "LOACH-EDWARD-VI"
+        },
+        {
+          "source_id": "LOADES-MARY-TUDOR"
+        },
+        {
+          "source_id": "FRYDE-HANDBOOK-DATES"
+        }
       ]
     },
     "assumptions": [
@@ -746,16 +1065,24 @@
           "description": {
             "value": "Jane Grey was the great-granddaughter of Henry VII through his daughter Mary, Duchess of Suffolk. She was named heir in Edward VI's Device for the Succession, which he drafted and revised in his own hand and which was backed by letters patent signed by the entire Privy Council, the Archbishop of Canterbury, and the senior judiciary (under some duress). She was sixteen years old, highly educated, and a committed Protestant. She was proclaimed queen on 10 July 1553 and took up residence in the Tower. Her support collapsed within days as Mary raised her standard in East Anglia and the country sided overwhelmingly with the Tudor blood line.",
             "source_ids": [
-              { "source_id": "LOACH-EDWARD-VI" },
-              { "source_id": "LOADES-MARY-TUDOR" }
+              {
+                "source_id": "LOACH-EDWARD-VI"
+              },
+              {
+                "source_id": "LOADES-MARY-TUDOR"
+              }
             ]
           },
           "line_of_descent": "Daughter of Henry Grey, Duke of Suffolk, and Frances Brandon; granddaughter of Mary Tudor, Queen of France (Henry VIII's sister); great-granddaughter of Henry VII and Elizabeth of York.",
           "contemporary_argument": {
             "value": "Jane's supporters argued that Edward VI's Device was a valid exercise of royal prerogative, that his letters patent had the force of law, and that Mary and Elizabeth had been formally declared bastards and were therefore constitutionally disqualified. The Protestant establishment feared a Catholic succession and backed Jane as the Protestant alternative.",
             "source_ids": [
-              { "source_id": "LOACH-EDWARD-VI" },
-              { "source_id": "LOADES-MARY-TUDOR" }
+              {
+                "source_id": "LOACH-EDWARD-VI"
+              },
+              {
+                "source_id": "LOADES-MARY-TUDOR"
+              }
             ]
           }
         },
@@ -773,16 +1100,24 @@
           "description": {
             "value": "Mary was the elder daughter of Henry VIII by his first wife, Catherine of Aragon. She had been declared illegitimate when Henry annulled the Aragon marriage in 1533, but was restored to the succession — though not to legitimacy — by the Third Succession Act of 1544 and by Henry's will. She was thirty-seven in 1553, a devout Catholic, and had lived through decades of political humiliation. On hearing of Edward's death she fled to Norfolk, where Catholic gentry rallied to her. The country, whatever its religious divisions, refused to support the displacement of Henry VIII's daughter by a collateral claimant, and the Council switched sides within nine days.",
             "source_ids": [
-              { "source_id": "LOADES-MARY-TUDOR" },
-              { "source_id": "FRYDE-HANDBOOK-DATES" }
+              {
+                "source_id": "LOADES-MARY-TUDOR"
+              },
+              {
+                "source_id": "FRYDE-HANDBOOK-DATES"
+              }
             ]
           },
           "line_of_descent": "Elder daughter of Henry VIII and Catherine of Aragon; granddaughter of Ferdinand II of Aragon and Isabella I of Castile (through Catherine) and of Henry VII and Elizabeth of York (through Henry VIII).",
           "contemporary_argument": {
             "value": "Mary's proclamations stressed that she was the rightful heir under her father's will and the 1544 Act, that Jane's title rested on nothing more than the letters patent of a dying minor king extracted under pressure by the Duke of Northumberland, and that the people of England had always recognised Henry VIII's daughter as their queen. The popular response — even in Protestant areas — vindicated this argument decisively.",
             "source_ids": [
-              { "source_id": "LOADES-MARY-TUDOR" },
-              { "source_id": "LOACH-EDWARD-VI" }
+              {
+                "source_id": "LOADES-MARY-TUDOR"
+              },
+              {
+                "source_id": "LOACH-EDWARD-VI"
+              }
             ]
           }
         },
@@ -801,11 +1136,22 @@
         "positions": [
           {
             "position": "The letters patent were signed by the judges and the entire council. Chief Justice Edward Montague initially resisted but eventually signed. Some contemporaries argued that royal prerogative, exercised by a king in possession of his senses, could override a statutory succession — particularly where the statute itself had been enacted under a previous royal prerogative.",
-            "source_ids": [{ "source_id": "LOACH-EDWARD-VI" }]
+            "source_ids": [
+              {
+                "source_id": "LOACH-EDWARD-VI"
+              }
+            ]
           },
           {
             "position": "The near-universal legal opinion at the time was that the Device was void: only an Act of Parliament could override a previous Act of Parliament, and Edward had not summoned parliament. The judges who signed did so under duress from Northumberland, and several later pleaded compulsion. The rapid collapse of Jane's support reflected the country's intuitive sense that a dying boy-king could not override statute law.",
-            "source_ids": [{ "source_id": "LOADES-MARY-TUDOR" }, { "source_id": "LOACH-EDWARD-VI" }]
+            "source_ids": [
+              {
+                "source_id": "LOADES-MARY-TUDOR"
+              },
+              {
+                "source_id": "LOACH-EDWARD-VI"
+              }
+            ]
           }
         ]
       },
@@ -814,15 +1160,219 @@
         "positions": [
           {
             "position": "The Duke of Northumberland's dominance over the dying king and the council was the engine of Jane's proclamation, and his personal unpopularity fatally compromised her cause. A less self-interested promoter might have held the council together long enough for military suppression of Mary's rising.",
-            "source_ids": [{ "source_id": "LOACH-EDWARD-VI" }]
+            "source_ids": [
+              {
+                "source_id": "LOACH-EDWARD-VI"
+              }
+            ]
           },
           {
             "position": "The depth and speed of popular support for Mary — cutting across religious lines and regional interests — suggests that Jane's claim was doomed regardless of Northumberland. No amount of political management could have sustained a collateral claimant against the daughter of Henry VIII once the people had decided the matter.",
-            "source_ids": [{ "source_id": "LOADES-MARY-TUDOR" }]
+            "source_ids": [
+              {
+                "source_id": "LOADES-MARY-TUDOR"
+              }
+            ]
           }
         ]
       }
     ],
-    "source_ids": ["LOACH-EDWARD-VI", "LOADES-MARY-TUDOR", "FRYDE-HANDBOOK-DATES", "OXFORD-COMPANION-BRITISH-HISTORY"]
+    "source_ids": [
+      "LOACH-EDWARD-VI",
+      "LOADES-MARY-TUDOR",
+      "FRYDE-HANDBOOK-DATES",
+      "OXFORD-COMPANION-BRITISH-HISTORY"
+    ]
+  },
+  {
+    "id": "succession-1649",
+    "title": "The Trial of Charles I, 1649: Kingship versus Parliamentary Sovereignty",
+    "year": {
+      "value": {
+        "year": 1649,
+        "month": 1,
+        "day": 20
+      },
+      "source_ids": [
+        {
+          "source_id": "WEDGWOOD-TRIAL-CHARLES-I"
+        }
+      ]
+    },
+    "throne": "The English Crown",
+    "description": {
+      "value": "In January 1649 the Rump Parliament — a rump of the Long Parliament after Colonel Pride's purge of moderates — brought the reigning King of England to trial for high treason against his own people. It was an act without precedent in English history. Charles I refused throughout to recognise the court's jurisdiction, maintaining that no earthly authority could judge an anointed king. He was condemned by 59 commissioners and executed on 30 January 1649 outside the Banqueting House on Whitehall — the ceiling inside painted with his father's apotheosis. The central question was not merely who should rule England but whether sovereignty resided in the king by divine right or in the people through their representatives in Parliament. The constitutional answer given in 1649 was reversed by the Restoration in 1660, but the question itself would not go away.",
+      "source_ids": [
+        {
+          "source_id": "WEDGWOOD-TRIAL-CHARLES-I"
+        },
+        {
+          "source_id": "COWARD-STUART-AGE"
+        },
+        {
+          "source_id": "KENYON-STUARTS"
+        }
+      ]
+    },
+    "assumptions": [
+      {
+        "id": "divine-right-inviolable",
+        "label": "A king's divine appointment shields him from earthly judgement",
+        "description": "The doctrine of divine right held that the king derived his authority directly from God and was accountable to God alone. No parliament, court, or combination of subjects could sit in judgement over the Lord's Anointed without committing sacrilege. Charles I himself articulated this position throughout his trial.",
+        "default_value": false
+      },
+      {
+        "id": "commons-alone-sovereign",
+        "label": "The House of Commons alone, acting without Lords or King, is sovereign",
+        "description": "The Rump Parliament declared in January 1649 that the people, under God, were the original source of all just power, and that the House of Commons, as the representative of the people, was the supreme authority in England. On this basis it created the High Court of Justice by its own ordinance without the assent of the Lords or the King.",
+        "default_value": true
+      },
+      {
+        "id": "court-legally-constituted",
+        "label": "The High Court of Justice was a lawful tribunal",
+        "description": "The High Court of Justice was established by an ordinance of the Commons alone, which the Lords had rejected. Under English common law, a court could only have jurisdiction by royal commission, by Act of Parliament (requiring Lords and King), or by immemorial custom. Without these foundations, the court lacked jurisdiction — meaning everything that followed was void.",
+        "default_value": false
+      },
+      {
+        "id": "treason-possible-by-king",
+        "label": "A reigning king can commit treason against his own people",
+        "description": "Treason had always been defined as betrayal of the sovereign — but Charles I was himself the sovereign. Parliament's answer was that sovereignty resided not in the king's person but in the people, making it logically coherent for a king to betray the people he was sworn to protect. This argument, rooted in the political theory of the Parliamentarian side, was novel and contested.",
+        "default_value": true
+      }
+    ],
+    "claimants": [
+      {
+        "person_id": "charles-i",
+        "claim_basis": {
+          "description": {
+            "value": "Charles I's 'claim' was not to the throne — he was already king — but to the principle that no earthly court possessed authority to try him. Throughout the proceedings he refused to remove his hat in court and refused to enter a plea, consistently demanding: 'I would know by what authority, I mean lawful authority.' His position was constitutionally coherent within the framework of English common law: a court required royal commission to sit, and a king could not commission a court to try himself. By refusing to engage with the court's jurisdiction he denied it legitimacy — and in death transformed himself into a royal martyr. The Eikon Basilike, attributed to him and published the day of his execution, became an immediate best-seller and shaped Royalist sentiment for a generation.",
+            "source_ids": [
+              {
+                "source_id": "WEDGWOOD-TRIAL-CHARLES-I"
+              },
+              {
+                "source_id": "KENYON-STUARTS"
+              }
+            ]
+          },
+          "line_of_descent": "Son of James I and Anne of Denmark; direct male-line Stuart descent. Crowned King of England, Scotland, and Ireland. His hereditary title was uncontested; the dispute was entirely about the court's jurisdiction over his person.",
+          "contemporary_argument": {
+            "value": "Royalist writers — including Edward Hyde, later Earl of Clarendon, and the theorist Sir Robert Filmer — argued that a king could not be tried by his subjects under any circumstances. The entire proceedings were therefore void, and Charles's execution was simply murder. This position was vindicated practically in 1660 when Charles II was restored without conditions and the surviving regicides were executed.",
+            "source_ids": [
+              {
+                "source_id": "WEDGWOOD-TRIAL-CHARLES-I"
+              },
+              {
+                "source_id": "COWARD-STUART-AGE"
+              }
+            ]
+          }
+        },
+        "succeeded": false,
+        "assumption_effects": {
+          "divine-right-inviolable": "strengthens",
+          "commons-alone-sovereign": "weakens",
+          "court-legally-constituted": "weakens",
+          "treason-possible-by-king": "weakens"
+        }
+      },
+      {
+        "person_id": "charles-ii",
+        "claim_basis": {
+          "description": {
+            "value": "Charles II, nineteen years old when his father was executed, was proclaimed king by Scotland, Ireland, and virtually every European monarchy the moment news arrived. From exile in France and the Netherlands he maintained that the entire legal structure erected by the Rump Parliament — the High Court of Justice, the abolition of the monarchy, the Commonwealth — was void for lack of lawful authority, and that his own hereditary right had never been extinguished. When invited home under the Declaration of Breda in May 1660, Charles deliberately avoided any acknowledgement that Parliament had granted him his crown — insisting instead on the plain right of hereditary succession. Parliament's acts, in the Royalist reading, were simply the illegal acts of an armed faction that happened to hold power for eleven years.",
+            "source_ids": [
+              {
+                "source_id": "COWARD-STUART-AGE"
+              },
+              {
+                "source_id": "KENYON-STUARTS"
+              }
+            ]
+          },
+          "line_of_descent": "Eldest surviving son of Charles I and Henrietta Maria of France; grandson of James I; direct male-line Stuart descent. His accession was backdated to 30 January 1649 — the day of his father's death — by the Convention Parliament.",
+          "contemporary_argument": {
+            "value": "Royalist and Anglican theorists argued that hereditary right was indefeasible: no parliament, no court, no republic could extinguish or transfer it. Charles II's eleven years in exile represented not the absence of a lawful king but the usurpation of one. When the Restoration was accomplished, Acts of Parliament from the Interregnum were not formally repealed — they were treated as having never existed.",
+            "source_ids": [
+              {
+                "source_id": "COWARD-STUART-AGE"
+              },
+              {
+                "source_id": "KENYON-STUARTS"
+              }
+            ]
+          }
+        },
+        "succeeded": true,
+        "assumption_effects": {
+          "divine-right-inviolable": "strengthens",
+          "commons-alone-sovereign": "weakens",
+          "court-legally-constituted": "weakens",
+          "treason-possible-by-king": "weakens"
+        }
+      }
+    ],
+    "contested_questions": [
+      {
+        "question": "Did the High Court of Justice have jurisdiction to try a reigning king?",
+        "positions": [
+          {
+            "position": "The court was lawfully constituted by the sovereign authority of the people acting through the Commons. Parliament's argument, developed by John Cook (the prosecutor) and later theorists, was that sovereignty derived from the people, making the Commons the supreme judicial authority. On this basis the court was legitimate and the verdict valid.",
+            "source_ids": [
+              {
+                "source_id": "WEDGWOOD-TRIAL-CHARLES-I"
+              },
+              {
+                "source_id": "COWARD-STUART-AGE"
+              }
+            ]
+          },
+          {
+            "position": "The court lacked all jurisdiction. Under English common law a court required royal commission; an ordinance of the Commons alone, rejected by the Lords, had no legal force. Charles's refusal to plead was constitutionally correct: no subject could be compelled to answer without an established lawful court. The entire trial was void, as the Restoration implicitly confirmed when no subsequent parliament endorsed it.",
+            "source_ids": [
+              {
+                "source_id": "WEDGWOOD-TRIAL-CHARLES-I"
+              },
+              {
+                "source_id": "KENYON-STUARTS"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "question": "Did the Restoration of 1660 settle or merely defer the question of parliamentary sovereignty?",
+        "positions": [
+          {
+            "position": "The Restoration was a royalist vindication: hereditary right had triumphed, the republican experiment had failed, and the Convention Parliament's invitation to Charles II was a formal recognition of his unbroken title. The regicides were prosecuted precisely because the trial and execution had been illegal acts throughout.",
+            "source_ids": [
+              {
+                "source_id": "COWARD-STUART-AGE"
+              },
+              {
+                "source_id": "KENYON-STUARTS"
+              }
+            ]
+          },
+          {
+            "position": "The Restoration deferred the constitutional question without resolving it. Charles II's failure to govern within parliamentary expectations led inexorably to the crisis of James II's reign and the Glorious Revolution of 1688, which finally enshrined parliamentary supremacy in the Bill of Rights — completing the argument the regicides had begun in 1649.",
+            "source_ids": [
+              {
+                "source_id": "COWARD-STUART-AGE"
+              },
+              {
+                "source_id": "OXFORD-COMPANION-BRITISH-HISTORY"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "source_ids": [
+      "WEDGWOOD-TRIAL-CHARLES-I",
+      "COWARD-STUART-AGE",
+      "KENYON-STUARTS",
+      "OXFORD-COMPANION-BRITISH-HISTORY"
+    ]
   }
 ]

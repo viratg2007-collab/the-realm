@@ -37,7 +37,7 @@ const cards: NavCard[] = [
     title: 'Historical Map',
     to: '/map',
     category: 'Geography',
-    description: 'Battle sites, royal birthplaces, and palaces of power mapped across England, Wales, Ireland, France, and the Continent — 47 locations with their histories.',
+    description: 'Battle sites, royal birthplaces, and palaces of power mapped across England, Wales, Ireland, France, and the Continent — 66 locations with their histories.',
     accent: '#3e8b53',
   },
   {
@@ -263,8 +263,8 @@ export default function HomePage() {
         >
           {[
             '169 figures',
-            '40 events',
-            '64 places',
+            '56 events',
+            '66 places',
             '8 royal houses',
             '849 — 1714',
           ].map((stat, i) => (

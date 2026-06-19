@@ -2238,5 +2238,903 @@
         "source_id": "STENTON-ASE"
       }
     ]
+  },
+  {
+    "id": "battle-of-wakefield-1460",
+    "title": "Battle of Wakefield",
+    "type": "battle",
+    "themes": [
+      "conflict"
+    ],
+    "date": {
+      "value": {
+        "year": 1460,
+        "month": 12,
+        "day": 30
+      },
+      "source_ids": [
+        {
+          "source_id": "HICKS-WARS-ROSES"
+        },
+        {
+          "source_id": "POLLARD-WARS-ROSES"
+        }
+      ]
+    },
+    "place_id": "battle-wakefield",
+    "people_involved": [
+      {
+        "person_id": "henry-vi",
+        "role": "Lancastrian king in whose name the army fought",
+        "source_ids": [
+          {
+            "source_id": "HICKS-WARS-ROSES"
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "value": "At Sandal Castle near Wakefield, Richard Duke of York was lured out of his fortification by a Lancastrian force under the Duke of Somerset and the Earl of Wiltshire that heavily outnumbered his own. York was killed in the fighting and his son Edmund, Earl of Rutland, was cut down fleeing across a bridge. York's severed head was set above the gates of the city, wearing a paper crown in mockery of his royal pretensions. The defeat was catastrophic for the Yorkist cause but galvanised Edward, now Earl of March, to press his own claim to the throne with redoubled energy.",
+      "source_ids": [
+        {
+          "source_id": "HICKS-WARS-ROSES"
+        },
+        {
+          "source_id": "POLLARD-WARS-ROSES"
+        }
+      ]
+    },
+    "source_ids": [
+      {
+        "source_id": "HICKS-WARS-ROSES"
+      },
+      {
+        "source_id": "OXFORD-COMPANION-BRITISH-HISTORY"
+      }
+    ]
+  },
+  {
+    "id": "battle-of-mortimers-cross-1461",
+    "title": "Battle of Mortimer's Cross",
+    "type": "battle",
+    "themes": [
+      "conflict"
+    ],
+    "date": {
+      "value": {
+        "year": 1461,
+        "month": 2,
+        "day": 2
+      },
+      "source_ids": [
+        {
+          "source_id": "HICKS-WARS-ROSES"
+        },
+        {
+          "source_id": "POLLARD-WARS-ROSES"
+        }
+      ]
+    },
+    "place_id": "battle-mortimers-cross",
+    "people_involved": [
+      {
+        "person_id": "edward-iv",
+        "role": "Yorkist commander; shortly to be proclaimed King Edward IV",
+        "source_ids": [
+          {
+            "source_id": "ROSS-EDWARD-IV"
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "value": "Edward, the eighteen-year-old heir to the Yorkist cause after his father's death at Wakefield, routed a Lancastrian force under Jasper Tudor at Mortimer's Cross in the Welsh Marches. Before the battle a parhelion — three suns appearing in the sky — was interpreted by Edward as a divine omen of the Holy Trinity blessing his cause. He adopted the Sun in Splendour as his personal badge thereafter. Owen Tudor, stepfather of Henry VI and grandfather of the future Henry VII, was captured and beheaded at Hereford after the battle, refusing to believe until the axe was raised that he would actually be executed.",
+      "source_ids": [
+        {
+          "source_id": "ROSS-EDWARD-IV"
+        },
+        {
+          "source_id": "HICKS-WARS-ROSES"
+        }
+      ]
+    },
+    "source_ids": [
+      {
+        "source_id": "ROSS-EDWARD-IV"
+      },
+      {
+        "source_id": "OXFORD-COMPANION-BRITISH-HISTORY"
+      }
+    ]
+  },
+  {
+    "id": "battle-of-towton-1461",
+    "title": "Battle of Towton",
+    "type": "battle",
+    "themes": [
+      "conflict"
+    ],
+    "date": {
+      "value": {
+        "year": 1461,
+        "month": 3,
+        "day": 29,
+        "notes": "Palm Sunday."
+      },
+      "source_ids": [
+        {
+          "source_id": "HICKS-WARS-ROSES"
+        },
+        {
+          "source_id": "POLLARD-WARS-ROSES"
+        }
+      ]
+    },
+    "place_id": "battle-towton",
+    "people_involved": [
+      {
+        "person_id": "edward-iv",
+        "role": "Yorkist commander; won the crown decisively here",
+        "source_ids": [
+          {
+            "source_id": "ROSS-EDWARD-IV"
+          }
+        ]
+      },
+      {
+        "person_id": "henry-vi",
+        "role": "Lancastrian king; fled north to Scotland after the defeat",
+        "source_ids": [
+          {
+            "source_id": "HICKS-WARS-ROSES"
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "value": "Fought in a blizzard on Palm Sunday 1461, Towton was arguably the bloodiest single day of battle in English history, with estimates ranging from 20,000 to 28,000 dead. Edward IV had issued orders that no quarter was to be given. A snowstorm blowing from the south blinded the Lancastrian archers and carried their arrows short; the Yorkist arrows fell true. A Lancastrian cavalry force that arrived late struck the already-routing army from the rear, turning rout into annihilation. Henry VI fled to Scotland. Edward's victory was so comprehensive that it secured his crown for a decade and eliminated most of the senior Lancastrian leadership.",
+      "source_ids": [
+        {
+          "source_id": "ROSS-EDWARD-IV"
+        },
+        {
+          "source_id": "HICKS-WARS-ROSES"
+        }
+      ]
+    },
+    "source_ids": [
+      {
+        "source_id": "HICKS-WARS-ROSES"
+      },
+      {
+        "source_id": "OXFORD-COMPANION-BRITISH-HISTORY"
+      }
+    ]
+  },
+  {
+    "id": "battle-of-barnet-1471",
+    "title": "Battle of Barnet",
+    "type": "battle",
+    "themes": [
+      "conflict"
+    ],
+    "date": {
+      "value": {
+        "year": 1471,
+        "month": 4,
+        "day": 14,
+        "notes": "Easter Sunday."
+      },
+      "source_ids": [
+        {
+          "source_id": "ROSS-EDWARD-IV"
+        },
+        {
+          "source_id": "HICKS-WARS-ROSES"
+        }
+      ]
+    },
+    "place_id": "battle-barnet",
+    "people_involved": [
+      {
+        "person_id": "edward-iv",
+        "role": "Yorkist king; returned from Burgundian exile to reclaim his crown",
+        "source_ids": [
+          {
+            "source_id": "ROSS-EDWARD-IV"
+          }
+        ]
+      },
+      {
+        "person_id": "henry-vi",
+        "role": "Lancastrian king; briefly restored; returned to the Tower after Barnet",
+        "source_ids": [
+          {
+            "source_id": "HICKS-WARS-ROSES"
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "value": "Edward IV, returned from exile at the Burgundian court, met the army of Richard Neville, Earl of Warwick — the man who had made and then sought to unmake him — at Barnet on Easter Sunday 1471. A heavy pre-dawn fog caused fatal confusion: Lancastrian troops on the right mistook their Oxford allies for Yorkists and attacked them. The Oxford contingent fled the field raising cries of treason. In the rout that followed, Warwick himself was killed — the most powerful magnate of his age, who had crowned and deposed two kings. Henry VI, briefly restored, was taken back to the Tower.",
+      "source_ids": [
+        {
+          "source_id": "ROSS-EDWARD-IV"
+        },
+        {
+          "source_id": "HICKS-WARS-ROSES"
+        }
+      ]
+    },
+    "source_ids": [
+      {
+        "source_id": "ROSS-EDWARD-IV"
+      },
+      {
+        "source_id": "OXFORD-COMPANION-BRITISH-HISTORY"
+      }
+    ]
+  },
+  {
+    "id": "battle-of-tewkesbury-1471",
+    "title": "Battle of Tewkesbury",
+    "type": "battle",
+    "themes": [
+      "conflict"
+    ],
+    "date": {
+      "value": {
+        "year": 1471,
+        "month": 5,
+        "day": 4
+      },
+      "source_ids": [
+        {
+          "source_id": "ROSS-EDWARD-IV"
+        },
+        {
+          "source_id": "HICKS-WARS-ROSES"
+        }
+      ]
+    },
+    "place_id": "battle-tewkesbury",
+    "people_involved": [
+      {
+        "person_id": "edward-iv",
+        "role": "Yorkist king; delivered the killing blow to the Lancastrian cause",
+        "source_ids": [
+          {
+            "source_id": "ROSS-EDWARD-IV"
+          }
+        ]
+      },
+      {
+        "person_id": "henry-vi",
+        "role": "Lancastrian king; died in the Tower of London on 21 May 1471, almost certainly murdered",
+        "source_ids": [
+          {
+            "source_id": "HICKS-WARS-ROSES"
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "value": "Three weeks after Barnet, Edward IV destroyed the last Lancastrian army at Tewkesbury on 4 May 1471. Edward of Westminster, Prince of Wales — the only son of Henry VI and the last Lancastrian heir of the main line — was killed in or immediately after the battle, aged seventeen. Lancastrian commanders who fled into Tewkesbury Abbey were dragged out and executed on Edward's orders. Henry VI was found dead in the Tower of London on the night of 21 May — officially of 'pure displeasure and melancholy,' but almost certainly murdered. The House of Lancaster was extinct in the male line.",
+      "source_ids": [
+        {
+          "source_id": "ROSS-EDWARD-IV"
+        },
+        {
+          "source_id": "HICKS-WARS-ROSES"
+        }
+      ]
+    },
+    "source_ids": [
+      {
+        "source_id": "HICKS-WARS-ROSES"
+      },
+      {
+        "source_id": "OXFORD-COMPANION-BRITISH-HISTORY"
+      }
+    ]
+  },
+  {
+    "id": "henry-ii-dies-chinon-1189",
+    "title": "Death of Henry II at Chinon",
+    "type": "death",
+    "themes": [
+      "monarchy"
+    ],
+    "date": {
+      "value": {
+        "year": 1189,
+        "month": 7,
+        "day": 6
+      },
+      "source_ids": [
+        {
+          "source_id": "WARREN-HENRY-II"
+        },
+        {
+          "source_id": "FRYDE-HANDBOOK-DATES"
+        }
+      ]
+    },
+    "place_id": "chinon-castle",
+    "people_involved": [
+      {
+        "person_id": "henry-ii",
+        "role": "Angevin king; died broken by his sons' rebellion",
+        "source_ids": [
+          {
+            "source_id": "WARREN-HENRY-II"
+          }
+        ]
+      },
+      {
+        "person_id": "richard-i",
+        "role": "Eldest surviving son; led the rebellion against his father",
+        "source_ids": [
+          {
+            "source_id": "WARREN-HENRY-II"
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "value": "The greatest Plantagenet king died at Chinon Castle on 6 July 1189, defeated and humiliated by his eldest surviving son Richard, acting in alliance with Philip II of France. Henry had spent his final months trying to negotiate peace while his empire crumbled around him. When he learned that his youngest and most beloved son John — for whom he had sacrificed so much — had joined the rebellion, he turned his face to the wall and refused food. His reported last words were 'Shame, shame on a conquered king.' Richard reportedly wept when he gazed upon his father's body, laid out at Fontevraud.",
+      "source_ids": [
+        {
+          "source_id": "WARREN-HENRY-II"
+        },
+        {
+          "source_id": "OXFORD-COMPANION-BRITISH-HISTORY"
+        }
+      ]
+    },
+    "source_ids": [
+      {
+        "source_id": "WARREN-HENRY-II"
+      },
+      {
+        "source_id": "OXFORD-COMPANION-BRITISH-HISTORY"
+      }
+    ]
+  },
+  {
+    "id": "loss-of-normandy-1204",
+    "title": "Fall of Château Gaillard and the Loss of Normandy",
+    "type": "other",
+    "themes": [
+      "conflict",
+      "diplomacy"
+    ],
+    "date": {
+      "value": {
+        "year": 1204,
+        "month": 3,
+        "day": 6,
+        "notes": "Château Gaillard fell to Philip II after six months."
+      },
+      "source_ids": [
+        {
+          "source_id": "TURNER-KING-JOHN"
+        },
+        {
+          "source_id": "HUSCROFT-RULING-ENGLAND"
+        }
+      ]
+    },
+    "place_id": "chateau-gaillard",
+    "people_involved": [
+      {
+        "person_id": "john",
+        "role": "King of England; failed to relieve Château Gaillard or prevent the loss of Normandy",
+        "source_ids": [
+          {
+            "source_id": "TURNER-KING-JOHN"
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "value": "Philip II of France captured Château Gaillard — the supposedly impregnable castle Richard I had built in a single year — after a six-month siege on 6 March 1204. King John, distracted by personal quarrels and lacking Richard's military energy, made no serious effort to relieve it. The fall opened the way for Philip to conquer all of Normandy by the summer. The loss ended 138 years of Anglo-Norman lordship on the continent and was the defining catastrophe of John's reign. To recover the lost territories, John would raise oppressive taxes, provoking the baronial revolt that produced Magna Carta eleven years later.",
+      "source_ids": [
+        {
+          "source_id": "TURNER-KING-JOHN"
+        },
+        {
+          "source_id": "HUSCROFT-RULING-ENGLAND"
+        }
+      ]
+    },
+    "source_ids": [
+      {
+        "source_id": "TURNER-KING-JOHN"
+      },
+      {
+        "source_id": "OXFORD-COMPANION-BRITISH-HISTORY"
+      }
+    ]
+  },
+  {
+    "id": "siege-of-harfleur-1415",
+    "title": "Siege and Fall of Harfleur",
+    "type": "battle",
+    "themes": [
+      "conflict"
+    ],
+    "date": {
+      "value": {
+        "year": 1415,
+        "month": 9,
+        "day": 22,
+        "notes": "Harfleur surrendered on this date; Agincourt followed on 25 October."
+      },
+      "source_ids": [
+        {
+          "source_id": "HUSCROFT-RULING-ENGLAND"
+        },
+        {
+          "source_id": "OXFORD-COMPANION-BRITISH-HISTORY"
+        }
+      ]
+    },
+    "place_id": "harfleur",
+    "people_involved": [
+      {
+        "person_id": "henry-v",
+        "role": "English king; led the siege in person",
+        "source_ids": [
+          {
+            "source_id": "HUSCROFT-RULING-ENGLAND"
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "value": "Henry V's 1415 French campaign opened with a five-week siege of the fortified port of Harfleur at the mouth of the Seine. The town surrendered on 22 September, but dysentery — the medieval army's most lethal enemy — had decimated Henry's force during the siege, costing him perhaps a quarter of his men before he even marched to Agincourt. Henry expelled much of the French population and garrisoned the town as an English bridgehead. Shakespeare gave the assault its most famous expression in Henry V: 'Once more unto the breach, dear friends, once more, / Or close the wall up with our English dead.'",
+      "source_ids": [
+        {
+          "source_id": "HUSCROFT-RULING-ENGLAND"
+        },
+        {
+          "source_id": "OXFORD-COMPANION-BRITISH-HISTORY"
+        }
+      ]
+    },
+    "source_ids": [
+      {
+        "source_id": "HUSCROFT-RULING-ENGLAND"
+      },
+      {
+        "source_id": "OXFORD-COMPANION-BRITISH-HISTORY"
+      }
+    ]
+  },
+  {
+    "id": "battle-of-flodden-1513",
+    "title": "Battle of Flodden",
+    "type": "battle",
+    "themes": [
+      "conflict"
+    ],
+    "date": {
+      "value": {
+        "year": 1513,
+        "month": 9,
+        "day": 9
+      },
+      "source_ids": [
+        {
+          "source_id": "OXFORD-COMPANION-BRITISH-HISTORY"
+        },
+        {
+          "source_id": "ROBERTS-BATTLES-BRITAIN"
+        }
+      ]
+    },
+    "place_id": "battle-flodden",
+    "summary": {
+      "value": "Scotland's greatest military disaster. James IV of Scotland, honouring the Franco-Scottish Alliance while Henry VIII campaigned in France, invaded northern England with the largest Scottish army ever assembled. The English force under Thomas Howard, Earl of Surrey, met the Scots at Flodden Field in Northumberland on 9 September 1513. James's pike formations were devastatingly effective on flat ground but unsuited to the broken terrain of Flodden Edge; English bills — short-handled slashing weapons — cut through the Scottish pikes. James IV himself was killed, becoming the last British monarch to die in battle. Approximately 10,000 Scots died, including the king, three bishops, eleven earls, and fifteen lords.",
+      "source_ids": [
+        {
+          "source_id": "OXFORD-COMPANION-BRITISH-HISTORY"
+        },
+        {
+          "source_id": "ROBERTS-BATTLES-BRITAIN"
+        }
+      ]
+    },
+    "source_ids": [
+      {
+        "source_id": "OXFORD-COMPANION-BRITISH-HISTORY"
+      },
+      {
+        "source_id": "ROBERTS-BATTLES-BRITAIN"
+      }
+    ]
+  },
+  {
+    "id": "fall-of-calais-1558",
+    "title": "The Fall of Calais",
+    "type": "other",
+    "themes": [
+      "conflict",
+      "diplomacy"
+    ],
+    "date": {
+      "value": {
+        "year": 1558,
+        "month": 1,
+        "day": 7
+      },
+      "source_ids": [
+        {
+          "source_id": "LOADES-MARY-TUDOR"
+        },
+        {
+          "source_id": "OXFORD-COMPANION-BRITISH-HISTORY"
+        }
+      ]
+    },
+    "place_id": "calais",
+    "people_involved": [
+      {
+        "person_id": "mary-i",
+        "role": "Queen of England; her Spanish marriage had drawn England into the war",
+        "source_ids": [
+          {
+            "source_id": "LOADES-MARY-TUDOR"
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "value": "On 7 January 1558, the Duke of Guise's French army captured Calais after a siege of less than a week. Calais had been in English hands for 211 years — seized by Edward III after the Battle of Crécy in 1347 — and served as England's main wool staple port and its chief continental bridgehead. Queen Mary I's Spanish marriage had dragged England into the Habsburg-Valois war, and the garrison had been left undermanned and under-resourced. Mary was devastated by the loss and reportedly declared that when she died, 'Calais' would be found engraved upon her heart. It was England's last territorial possession in France, and its loss was not reversed.",
+      "source_ids": [
+        {
+          "source_id": "LOADES-MARY-TUDOR"
+        },
+        {
+          "source_id": "OXFORD-COMPANION-BRITISH-HISTORY"
+        }
+      ]
+    },
+    "source_ids": [
+      {
+        "source_id": "LOADES-MARY-TUDOR"
+      },
+      {
+        "source_id": "OXFORD-COMPANION-BRITISH-HISTORY"
+      }
+    ]
+  },
+  {
+    "id": "battle-of-marston-moor-1644",
+    "title": "Battle of Marston Moor",
+    "type": "battle",
+    "themes": [
+      "conflict"
+    ],
+    "date": {
+      "value": {
+        "year": 1644,
+        "month": 7,
+        "day": 2
+      },
+      "source_ids": [
+        {
+          "source_id": "COWARD-STUART-AGE"
+        },
+        {
+          "source_id": "KENYON-STUARTS"
+        }
+      ]
+    },
+    "place_id": "battle-marston-moor",
+    "people_involved": [
+      {
+        "person_id": "charles-i",
+        "role": "Royalist king; lost effective control of the North after this defeat",
+        "source_ids": [
+          {
+            "source_id": "COWARD-STUART-AGE"
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "value": "The largest battle of the English Civil War was fought on Marston Moor west of York on 2 July 1644. A combined Parliamentarian and Scottish Covenanting army routed the Royalist force of Prince Rupert and the Marquess of Newcastle. Oliver Cromwell's cavalry — already called the 'Ironsides' — proved decisive: unlike royalist horse, they maintained order after their charge and wheeled to strike the Royalist infantry from the flank. York surrendered days later. Cromwell declared it 'an absolute defeat of the enemy.' The North of England was effectively lost to the King, marking a turning point from which the Royalist cause never fully recovered.",
+      "source_ids": [
+        {
+          "source_id": "COWARD-STUART-AGE"
+        },
+        {
+          "source_id": "KENYON-STUARTS"
+        }
+      ]
+    },
+    "source_ids": [
+      {
+        "source_id": "COWARD-STUART-AGE"
+      },
+      {
+        "source_id": "OXFORD-COMPANION-BRITISH-HISTORY"
+      }
+    ]
+  },
+  {
+    "id": "battle-of-naseby-1645",
+    "title": "Battle of Naseby",
+    "type": "battle",
+    "themes": [
+      "conflict"
+    ],
+    "date": {
+      "value": {
+        "year": 1645,
+        "month": 6,
+        "day": 14
+      },
+      "source_ids": [
+        {
+          "source_id": "COWARD-STUART-AGE"
+        },
+        {
+          "source_id": "KENYON-STUARTS"
+        }
+      ]
+    },
+    "place_id": "battle-naseby",
+    "people_involved": [
+      {
+        "person_id": "charles-i",
+        "role": "Royalist king; his correspondence was captured after the battle",
+        "source_ids": [
+          {
+            "source_id": "COWARD-STUART-AGE"
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "value": "The decisive engagement of the First Civil War, fought near Naseby in Northamptonshire on 14 June 1645. The New Model Army under Sir Thomas Fairfax and Oliver Cromwell annihilated the last main Royalist field army. Prince Rupert's cavalry swept the Parliamentarian left but galloped on to plunder the baggage, leaving the Royalist infantry exposed to flanking attack. Among the captured baggage was the king's own correspondence — letters revealing that Charles had been secretly negotiating with Irish Catholics and soliciting foreign troops, fatally damaging his reputation as a man who could be trusted. Within a year the first war was over.",
+      "source_ids": [
+        {
+          "source_id": "COWARD-STUART-AGE"
+        },
+        {
+          "source_id": "KENYON-STUARTS"
+        }
+      ]
+    },
+    "source_ids": [
+      {
+        "source_id": "COWARD-STUART-AGE"
+      },
+      {
+        "source_id": "OXFORD-COMPANION-BRITISH-HISTORY"
+      }
+    ]
+  },
+  {
+    "id": "trial-of-charles-i-1649",
+    "title": "Trial of Charles I",
+    "type": "political",
+    "themes": [
+      "law",
+      "monarchy"
+    ],
+    "date": {
+      "value": {
+        "year": 1649,
+        "month": 1,
+        "day": 20,
+        "notes": "Trial opened 20 January; verdict delivered 27 January."
+      },
+      "source_ids": [
+        {
+          "source_id": "WEDGWOOD-TRIAL-CHARLES-I"
+        },
+        {
+          "source_id": "COWARD-STUART-AGE"
+        }
+      ]
+    },
+    "place_id": "westminster-hall",
+    "people_involved": [
+      {
+        "person_id": "charles-i",
+        "role": "Defendant; refused throughout to recognise the court's jurisdiction",
+        "source_ids": [
+          {
+            "source_id": "WEDGWOOD-TRIAL-CHARLES-I"
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "value": "On 20 January 1649, the Rump Parliament — purged of moderates by Colonel Pride in December 1648 — convened a High Court of Justice at Westminster Hall to try the King of England for high treason against his own people. Charles I refused to enter a plea or recognise the court's authority: 'I would know by what power I am called hither, I would know by what authority, I mean lawful authority.' He argued that no human court could possess jurisdiction over an anointed king, and that to concede the point would destroy the liberty of every subject. He was found guilty and condemned to death on 27 January by 59 of the 67 commissioners present.",
+      "source_ids": [
+        {
+          "source_id": "WEDGWOOD-TRIAL-CHARLES-I"
+        },
+        {
+          "source_id": "COWARD-STUART-AGE"
+        }
+      ]
+    },
+    "source_ids": [
+      {
+        "source_id": "WEDGWOOD-TRIAL-CHARLES-I"
+      },
+      {
+        "source_id": "OXFORD-COMPANION-BRITISH-HISTORY"
+      }
+    ]
+  },
+  {
+    "id": "execution-of-charles-i-1649",
+    "title": "Execution of Charles I",
+    "type": "death",
+    "themes": [
+      "monarchy"
+    ],
+    "date": {
+      "value": {
+        "year": 1649,
+        "month": 1,
+        "day": 30
+      },
+      "source_ids": [
+        {
+          "source_id": "WEDGWOOD-TRIAL-CHARLES-I"
+        },
+        {
+          "source_id": "FRYDE-HANDBOOK-DATES"
+        }
+      ]
+    },
+    "place_id": "banqueting-house",
+    "people_involved": [
+      {
+        "person_id": "charles-i",
+        "role": "King of England; executed by beheading",
+        "source_ids": [
+          {
+            "source_id": "WEDGWOOD-TRIAL-CHARLES-I"
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "value": "On 30 January 1649, King Charles I was led from St James's Palace through the park to the Banqueting House on Whitehall — its ceiling painted by Rubens with an apotheosis of his father James I. He stepped through a window onto a scaffold to be beheaded before a crowd of thousands. Charles wore two shirts so that he would not shiver from cold and be mistaken for trembling in fear. He made a brief speech asserting that he was an innocent man, a martyr to the people's liberty, and a Christian. His last reported word was 'Remember.' The crowd gave out a collective groan when the axe fell. It was the first and only public execution of a reigning English monarch.",
+      "source_ids": [
+        {
+          "source_id": "WEDGWOOD-TRIAL-CHARLES-I"
+        },
+        {
+          "source_id": "COWARD-STUART-AGE"
+        }
+      ]
+    },
+    "source_ids": [
+      {
+        "source_id": "WEDGWOOD-TRIAL-CHARLES-I"
+      },
+      {
+        "source_id": "OXFORD-COMPANION-BRITISH-HISTORY"
+      }
+    ]
+  },
+  {
+    "id": "battle-of-worcester-1651",
+    "title": "Battle of Worcester",
+    "type": "battle",
+    "themes": [
+      "conflict"
+    ],
+    "date": {
+      "value": {
+        "year": 1651,
+        "month": 9,
+        "day": 3
+      },
+      "source_ids": [
+        {
+          "source_id": "COWARD-STUART-AGE"
+        },
+        {
+          "source_id": "KENYON-STUARTS"
+        }
+      ]
+    },
+    "place_id": "battle-worcester",
+    "people_involved": [
+      {
+        "person_id": "charles-ii",
+        "role": "Charles II, crowned King of Scots at Scone; fled into exile after his defeat",
+        "source_ids": [
+          {
+            "source_id": "COWARD-STUART-AGE"
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "value": "Cromwell called Worcester his 'crowning mercy.' On 3 September 1651 his veteran army annihilated the force of Charles II — recently crowned King of Scots at Scone — at Worcester, ending the Civil Wars definitively. Few English Royalists had joined Charles's Scottish army, and the city's walls provided no protection against Cromwell's superior numbers. Charles spent six weeks as a hunted fugitive: hiding in a hollow oak at Boscobel House, disguised as a servant, sheltered at great personal risk by Catholic gentry. He eventually escaped from Shoreham to France, where he would remain in exile for nine years until the Restoration.",
+      "source_ids": [
+        {
+          "source_id": "COWARD-STUART-AGE"
+        },
+        {
+          "source_id": "KENYON-STUARTS"
+        }
+      ]
+    },
+    "source_ids": [
+      {
+        "source_id": "COWARD-STUART-AGE"
+      },
+      {
+        "source_id": "OXFORD-COMPANION-BRITISH-HISTORY"
+      }
+    ]
+  },
+  {
+    "id": "restoration-of-charles-ii-1660",
+    "title": "Restoration of Charles II",
+    "type": "other",
+    "themes": [
+      "monarchy"
+    ],
+    "date": {
+      "value": {
+        "year": 1660,
+        "month": 5,
+        "day": 29,
+        "notes": "Charles II's thirtieth birthday."
+      },
+      "source_ids": [
+        {
+          "source_id": "COWARD-STUART-AGE"
+        },
+        {
+          "source_id": "FRYDE-HANDBOOK-DATES"
+        }
+      ]
+    },
+    "place_id": "banqueting-house",
+    "people_involved": [
+      {
+        "person_id": "charles-ii",
+        "role": "King of England; restored to his throne after eleven years of exile",
+        "source_ids": [
+          {
+            "source_id": "COWARD-STUART-AGE"
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "value": "On 29 May 1660 — his thirtieth birthday — Charles II rode into London to tumultuous popular celebration, restoring the Stuart monarchy after eleven years of republic and military rule. The Protectorate had disintegrated after Oliver Cromwell's death in 1658 and his son Richard's resignation. General George Monck, commanding the army in Scotland, had marched south, reconstituted the Long Parliament, and organised the Convention Parliament. Charles entered through Whitehall and received the proclamations of the assembled council. Samuel Pepys recorded in his diary: 'The shouting and the joy expressed by all is past imagination.' The regicides would be hunted down; thirteen were executed.",
+      "source_ids": [
+        {
+          "source_id": "COWARD-STUART-AGE"
+        },
+        {
+          "source_id": "KENYON-STUARTS"
+        }
+      ]
+    },
+    "source_ids": [
+      {
+        "source_id": "COWARD-STUART-AGE"
+      },
+      {
+        "source_id": "OXFORD-COMPANION-BRITISH-HISTORY"
+      }
+    ]
   }
 ]
