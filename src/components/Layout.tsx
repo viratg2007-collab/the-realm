@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { NavLink, Outlet, useLocation } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import clsx from 'clsx';
@@ -15,6 +15,8 @@ const navLinks = [
 export default function Layout() {
   const location = useLocation();
   const [menuOpen, setMenuOpen] = useState(false);
+  const hamburgerRef = useRef<HTMLButtonElement>(null);
+  const drawerRef    = useRef<HTMLElement>(null);
 
   useEffect(() => { setMenuOpen(false); }, [location.pathname]);
 
@@ -23,6 +25,16 @@ export default function Layout() {
     function onKey(e: KeyboardEvent) { if (e.key === 'Escape') setMenuOpen(false); }
     window.addEventListener('keydown', onKey);
     return () => window.removeEventListener('keydown', onKey);
+  }, [menuOpen]);
+
+  // Focus first link when drawer opens; restore focus to hamburger when it closes.
+  useEffect(() => {
+    if (menuOpen) {
+      const first = drawerRef.current?.querySelector<HTMLElement>('a, button');
+      first?.focus();
+    } else {
+      hamburgerRef.current?.focus();
+    }
   }, [menuOpen]);
 
   return (
@@ -66,8 +78,11 @@ export default function Layout() {
 
         {/* Hamburger button — mobile only */}
         <button
-          className="sm:hidden flex flex-col justify-center gap-[5px] w-8 h-8 focus:outline-none"
+          ref={hamburgerRef}
+          className="sm:hidden flex flex-col justify-center gap-[5px] w-8 h-8 focus:outline-none focus-visible:ring-2 focus-visible:ring-gold/50 rounded"
           aria-label={menuOpen ? 'Close menu' : 'Open menu'}
+          aria-expanded={menuOpen}
+          aria-controls="mobile-drawer"
           onClick={() => setMenuOpen(o => !o)}
         >
           <motion.span
@@ -100,6 +115,11 @@ export default function Layout() {
             />
             <motion.nav
               key="drawer"
+              ref={drawerRef}
+              id="mobile-drawer"
+              role="dialog"
+              aria-modal="true"
+              aria-label="Navigation menu"
               initial={{ x: '100%' }}
               animate={{ x: 0 }}
               exit={{ x: '100%' }}

@@ -25,9 +25,11 @@ function placeColor(type: Place['type']): string {
   }
 }
 
-function pinSvg(color: string): string {
+function pinSvg(color: string, label: string): string {
+  const safeLabel = label.replace(/"/g, '&quot;');
   return (
-    `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="36" viewBox="0 0 24 36">` +
+    `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="36" viewBox="0 0 24 36" role="img" aria-label="${safeLabel}">` +
+    `<title>${safeLabel}</title>` +
     `<path d="M12 0C5.4 0 0 5.4 0 12c0 9 12 24 12 24S24 21 24 12C24 5.4 18.6 0 12 0z" ` +
     `fill="${color}" stroke="rgba(255,255,255,0.6)" stroke-width="1"/>` +
     `<circle cx="12" cy="12" r="5" fill="white" fill-opacity="0.85"/>` +
@@ -105,7 +107,7 @@ export default function HistoricalMap({
       if (!place.coordinates) continue;
 
       const icon = L.divIcon({
-        html: pinSvg(placeColor(place.type)),
+        html: pinSvg(placeColor(place.type), place.name),
         className: '',
         iconSize: [24, 36],
         iconAnchor: [12, 36],
@@ -115,10 +117,14 @@ export default function HistoricalMap({
       const placeEvents = events.filter(e => e.place_id === place.id);
       const marker = L.marker(
         [place.coordinates.lat, place.coordinates.lng],
-        { icon }
+        { icon, title: place.name, alt: place.name, keyboard: true }
       ).bindPopup(buildPopup(place, placeEvents), { maxWidth: 260 });
 
       marker.on('click', () => onSelectRef.current(place.id));
+      marker.on('keypress', (e) => {
+        const orig = (e as L.LeafletKeyboardEvent).originalEvent;
+        if (orig.key === 'Enter' || orig.key === ' ') onSelectRef.current(place.id);
+      });
       marker.addTo(map);
       markersRef.current.set(place.id, { marker, placeType: place.type });
     }
@@ -129,7 +135,8 @@ export default function HistoricalMap({
       mapRef.current = null;
       markersRef.current.clear();
     };
-  // eslint-disable-next-line react-hooks/exhaustive-deps
+    // Data files are imported statically — places/events never change after mount.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   // Show/hide markers when filter changes

@@ -159,7 +159,19 @@ export default function Timeline({ events, selectedId, onSelect }: TimelineProps
               onClick={() => onSelect(ev.id)}
               onMouseEnter={() => setHoveredId(ev.id)}
               onMouseLeave={() => setHoveredId(undefined)}
+              role="button"
+              tabIndex={0}
+              aria-label={`${ev.title} (${ev.date.value.year})`}
+              onKeyDown={e => {
+                if (e.key === 'Enter' || e.key === ' ') {
+                  e.preventDefault();
+                  onSelect(ev.id);
+                }
+              }}
             >
+              {/* Native browser tooltip on hover — shows the full untruncated title */}
+              <title>{ev.title} ({ev.date.value.year})</title>
+
               {/* Stem */}
               <line
                 x1={x} y1={AXIS_Y}
@@ -180,13 +192,20 @@ export default function Timeline({ events, selectedId, onSelect }: TimelineProps
                 />
               )}
 
-              {/* Dot */}
+              {/* Invisible larger hit target for easier hovering/clicking */}
               <circle
-                cx={x} cy={dotY} r={isActive ? DOT_R + 2 : DOT_R}
+                cx={x} cy={dotY} r={DOT_R + 8}
+                fill="transparent"
+              />
+
+              {/* Dot — grows from 8 → 14 on hover */}
+              <circle
+                cx={x} cy={dotY} r={isActive ? DOT_R + 4 : DOT_R}
                 fill={color}
                 stroke={isSelected ? '#d4a843' : '#0d0b1a'}
                 strokeWidth={isSelected ? 2.5 : 1.5}
                 fillOpacity={isActive ? 1 : 0.7}
+                style={{ transition: 'r 0.15s ease' }}
               />
 
               {/* Short label */}
@@ -200,6 +219,20 @@ export default function Timeline({ events, selectedId, onSelect }: TimelineProps
               >
                 {shortTitle(ev.title)}
               </text>
+
+              {/* Full title shown above the dot on hover/selection */}
+              {isActive && ev.title.length > 20 && (
+                <text
+                  x={x} y={dotY - DOT_R - 18}
+                  textAnchor="middle"
+                  fontSize={11}
+                  fontFamily="Cinzel, Georgia, serif"
+                  fill="#d4a843"
+                  fontWeight="600"
+                >
+                  {ev.title}
+                </text>
+              )}
             </g>
           );
         })}

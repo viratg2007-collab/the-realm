@@ -41,17 +41,26 @@ export default function HousesPage() {
                   {/* Colored header bar */}
                   <div className="h-1" style={{ backgroundColor: house.color }} />
                   <div
-                    className="h-14 flex items-center px-6"
+                    className="h-16 flex items-center px-6"
                     style={{
-                      background: `linear-gradient(135deg, ${house.color}22, ${house.color}08)`,
+                      background: `linear-gradient(135deg, ${house.color}26, ${house.color}08)`,
                       borderBottom: `1px solid ${house.color}30`,
                     }}
                   >
-                    <div className="flex items-baseline justify-between w-full">
-                      <h2 className="font-serif text-xl font-bold text-text-base">
-                        House of {house.name}
-                      </h2>
-                      <span className="font-body text-xs text-text-muted ml-4 flex-shrink-0">
+                    <div className="flex items-center justify-between w-full gap-4">
+                      <div className="flex items-center gap-3">
+                        <span
+                          className="font-serif text-xl leading-none select-none"
+                          style={{ color: house.color, textShadow: `0 0 12px ${house.color}66` }}
+                          aria-hidden="true"
+                        >
+                          ♚
+                        </span>
+                        <h2 className="font-serif text-xl font-bold text-text-base">
+                          House of {house.name}
+                        </h2>
+                      </div>
+                      <span className="font-sans text-xs text-text-muted/80 tracking-widest uppercase flex-shrink-0">
                         {periodStart} – {periodEnd}
                       </span>
                     </div>

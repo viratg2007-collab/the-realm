@@ -97,7 +97,23 @@ export default function PeopleIndexPage() {
 
         {/* Grid */}
         {filtered.length === 0 ? (
-          <p className="font-body text-text-muted text-sm mt-12 text-center">No figures match that search.</p>
+          <div className="mt-20 flex flex-col items-center text-center">
+            <span
+              className="font-serif text-4xl text-gold/40 select-none mb-4"
+              style={{ textShadow: '0 0 24px rgba(212,168,67,0.25)' }}
+              aria-hidden="true"
+            >
+              ✦
+            </span>
+            <p className="font-serif text-lg text-text-base mb-2">No figures match that search.</p>
+            <p className="font-body text-sm text-text-muted/70 max-w-xs">
+              Try <button onClick={() => { setQuery('Edward'); setHouse(null); }} className="text-gold/80 hover:text-gold underline-offset-2 hover:underline">Edward</button>
+              {' · '}
+              <button onClick={() => { setQuery('Henry'); setHouse(null); }} className="text-gold/80 hover:text-gold underline-offset-2 hover:underline">Henry</button>
+              {' · '}
+              <button onClick={() => { setQuery(''); setHouse(null); }} className="text-gold/80 hover:text-gold underline-offset-2 hover:underline">Clear filters</button>
+            </p>
+          </div>
         ) : (
           <motion.div
             key={`${query}-${houseFilter}`}

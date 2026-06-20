@@ -115,13 +115,18 @@ export default function ClaimPage() {
                         ? 'border-gold/50 bg-gold/5'
                         : 'border-gold/10 bg-surface hover:border-gold/25'
                     )}
+                    style={active ? { boxShadow: '0 0 12px rgba(212,168,67,0.15)' } : undefined}
+                    aria-pressed={active}
                   >
                     <div className="flex items-start gap-3">
                       {/* Toggle pill */}
-                      <div className={clsx(
-                        'mt-0.5 flex-shrink-0 w-8 h-4 rounded-full transition-colors relative',
-                        active ? 'bg-gold' : 'bg-gold/20'
-                      )}>
+                      <div
+                        className={clsx(
+                          'mt-0.5 flex-shrink-0 w-8 h-4 rounded-full transition-colors relative',
+                          active ? 'bg-gold' : 'bg-gold/10'
+                        )}
+                        style={active ? { boxShadow: '0 0 8px rgba(212,168,67,0.4)' } : undefined}
+                      >
                         <div className={clsx(
                           'absolute top-0.5 w-3 h-3 rounded-full bg-void transition-transform',
                           active ? 'translate-x-4' : 'translate-x-0.5'
@@ -211,7 +216,8 @@ export default function ClaimPage() {
                     {activeEffects.length > 0 && (
                       <div className="flex flex-wrap gap-1.5 mb-3">
                         {activeEffects.map(a => {
-                          const effect = claimant.assumption_effects![a.id];
+                          const effect = claimant.assumption_effects?.[a.id];
+                          if (!effect) return null;
                           return (
                             <span
                               key={a.id}

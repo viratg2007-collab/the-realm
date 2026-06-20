@@ -13,6 +13,7 @@ import HouseBadge from '../components/HouseBadge';
 import CitationList from '../components/CitationList';
 import NotFoundPage from './NotFoundPage';
 import { formatDate } from '../validation/schema';
+import { houses } from '../data/index';
 
 function collectAllSourceIds(refs: SourceRef[]): string[] {
   return refs.map(r => r.source_id);
@@ -63,6 +64,11 @@ export default function PersonPage() {
 
   const sexIcon = person.sex === 'M' ? '♂' : person.sex === 'F' ? '♀' : '';
 
+  // Resolve the house colour for the heraldic crest slot.
+  const house      = person.house_id ? houses.find(h => h.id === person.house_id) : undefined;
+  const houseColor = house?.color ?? '#d4a843';
+  const reigned    = !!person.reign;
+
   return (
     <div className="bg-void min-h-[calc(100vh-3.5rem)] p-8">
       <motion.div
@@ -89,10 +95,38 @@ export default function PersonPage() {
 
         {/* Header */}
         <div className="mb-8 border-b border-gold/15 pb-6">
-          <div className="flex flex-wrap items-center gap-3 mb-3">
-            <h1 className="font-serif text-4xl font-bold text-text-base">{person.name}</h1>
-            {person.house_id && <HouseBadge houseId={person.house_id} />}
-            {sexIcon && <span className="text-text-muted text-2xl">{sexIcon}</span>}
+          <div className="flex items-start gap-5 mb-3">
+            {/* Heraldic crest slot — coloured by house, crown if reigning */}
+            <div
+              className="flex-shrink-0 w-16 h-16 rounded border flex items-center justify-center mt-1 select-none"
+              style={{
+                background: `linear-gradient(135deg, ${houseColor}30, ${houseColor}08)`,
+                borderColor: `${houseColor}66`,
+                boxShadow: `0 0 18px ${houseColor}26, inset 0 0 12px ${houseColor}14`,
+              }}
+              aria-hidden="true"
+            >
+              <span
+                className="font-serif text-3xl leading-none"
+                style={{ color: houseColor, textShadow: `0 0 10px ${houseColor}80` }}
+              >
+                {reigned ? '♚' : person.sex === 'F' ? '♛' : '✦'}
+              </span>
+            </div>
+
+            <div className="flex-1 min-w-0">
+              <div className="flex flex-wrap items-center gap-3">
+                <h1 className="font-serif text-4xl font-bold text-text-base leading-tight">{person.name}</h1>
+                {person.house_id && <HouseBadge houseId={person.house_id} />}
+                {sexIcon && <span className="text-text-muted text-2xl">{sexIcon}</span>}
+              </div>
+              {person.reign && (
+                <p className="font-sans text-xs text-gold/70 tracking-widest uppercase mt-2">
+                  Reigned {formatDate(person.reign.start.value)}
+                  {person.reign.end ? ` – ${formatDate(person.reign.end.value)}` : ''}
+                </p>
+              )}
+            </div>
           </div>
 
           {person.born && (
