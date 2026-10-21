@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { motion, type Variants } from 'framer-motion';
+import IntroAnimation from '../components/IntroAnimation';
 
 // ── nav cards ────────────────────────────────────────────────────────────────
 
@@ -91,6 +92,7 @@ const cardItem: Variants = {
 export default function HomePage() {
   return (
     <div className="bg-void">
+      <IntroAnimation />
 
       {/* ═══ HERO ═══════════════════════════════════════════════════════════ */}
       <section
